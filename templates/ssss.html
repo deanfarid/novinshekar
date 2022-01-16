@@ -1,0 +1,11 @@
+{% load jalali_tags%}
+{% load static%}
+
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{profile_form.as_p}}
+    <input type="submit">
+</form>
+
+{{profile_form.media}}

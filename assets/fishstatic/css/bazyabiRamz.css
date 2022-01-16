@@ -1,0 +1,332 @@
+
+
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+       
+        align-items: center;
+        --def: #96b7c4;
+ 	      --inv: rgb(226, 225, 225);
+        display: block;
+        font-family: 'Open Sans', serif;
+        height: 100%;
+        width: 100%;
+        -webkit-font-smoothing: antialiased;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+      }
+
+      
+
+      .bazyabiRamz {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: auto;
+      overflow-y: auto;
+      background-color: rgba(255, 255, 255, 1);
+      width: 1366.00px;
+    height: 768.00px;
+
+}
+
+.bazyabiRamz .johnSekutowski3nalufmygSUnsplash {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("assets/johnSekutowski3nalufmygSUnsplash.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 1366.00px;
+    height: 768.00px;
+
+}
+
+.bazyabiRamz .rectangle1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 0.7599999904632568;
+      cursor: default;
+      background-color: rgba(193, 208, 221, 0.611764705882353);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 562.00px;
+    height: 768.00px;
+    left: 402.00px;
+    top: 0.00px;
+
+}
+
+.bazyabiRamz .mypdf2 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("assets/mypdf2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 263.00px;
+    height: 130.00px;
+    left: 552.00px;
+    top: 19.00px;
+
+}
+
+.bazyabiRamz .x0434d2cd {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      letter-spacing: 2.10px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_saeed, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 221.00px;
+    height: 55.00px;
+    left: 573.00px;
+    top: 272.00px;
+
+}
+
+.bazyabiRamz .rectangle8 {
+  text-align: right;
+  font-size: 24.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_arshia, Arial;
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      background-color: rgba(230, 255, 232, 0.8196078431372549);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 15.00px;
+      width: 508.00px;
+    height: 65.00px;
+    left: 429.00px;
+    top: 422.00px;
+
+}
+
+.bazyabiRamz .path4 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: transparent;
+      stroke: rgba(45, 45, 45, 1);
+          stroke-width: 3.00px;
+          stroke-linecap: butt;
+      width: 27.20px;
+    height: 70.04px;
+    left: 807.80px;
+    top: 563.04px;
+
+}
+
+.bazyabiRamz .path5 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(13, 13, 13, 0.2784313725490196);
+
+
+}
+.btn {
+	position: absolute;
+	padding: 1.4rem 4.2rem;
+	padding-right: 3.1rem;
+	font-size: 26px;
+	color: var(--inv);
+	text-transform: uppercase;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+	cursor: pointer;
+	user-select: none;
+  width: 298.00px;
+  height: 64.00px;
+  left: 534.00px;
+  top: 566.04px;
+  justify-content: center;
+	align-items: center;
+}
+.btn:before,
+.btn:after {
+	content: "";
+	position: absolute;
+	transition: inherit;
+	z-index: 10;
+}
+
+.btn:hover {
+	color: var(--def);
+	transition-delay: 0.5s;
+}
+
+.btn:hover:before {
+	transition-delay: 0s;
+}
+
+.btn:hover:after {
+	background: var(--inv);
+	transition-delay: 0.35s;
+}
+.from-center:before {
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;
+}
+
+.from-center:after {
+	bottom: 0;
+	left: 0;
+	height: 0;
+	width: 100%;
+	background: var(--inv);
+}
+
+.from-center:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.from-center:hover:after {
+	top: 0;
+	height: 100%;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.bazyabiRamz .path6 {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(180.00deg);
+    -webkit-transform: rotate(180.00deg);
+    transform: rotate(180.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: transparent;
+      stroke: rgba(45, 45, 45, 1);
+          stroke-width: 3.00px;
+          stroke-linecap: butt;
+      width: 27.20px;
+    height: 70.04px;
+    left: 531.00px;
+    top: 563.00px;
+
+}
+
+.bazyabiRamz .x {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      text-align: center;
+      letter-spacing: 1.68px;
+      color: rgb(75, 75, 75);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 24.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      width: 242.00px;
+    height: 38.00px;
+    left: 32.00px;
+    top: 13.04px;
+    z-index: 11;
+
+}
+.reset-password{
+ position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: pointer;
+      fill: rgba(161, 161, 161, 1);
+    width: 43.02px;
+    height: 41.78px;
+    left: 449.00px;
+    top: 433.61px;
+}
+.resetPassword path{
+  -webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50% 50%;
+-ms-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+  transition: ease-out 1s;
+}
+.resetPassword:hover path{
+  transform: rotate(360deg);
+  transition: ease-out 1s;
+}
+

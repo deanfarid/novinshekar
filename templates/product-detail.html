@@ -1,0 +1,43 @@
+sadsa
+{%for v in  valuelist%}
+    {%if v.container.Details == "چوب ماهی گیری"%}
+        {{v.key}} ,,,,, {{v.value}} " <br>"
+    {%endif%}
+
+{%endfor%}
+....." <br>"
+....." <br>"
+{%for v in  valuelist%}
+    {%if v.container.Details == "تور"%}
+        {{v.key}} ,,,,, {{v.value}} " <br>"
+    {%endif%}
+    
+{%endfor%}
+
+{% for cm in comments %}
+    {{cm.author}}" <br>"
+    {{cm.content}}" <br>"
+
+    {{cm.parent}}" <br>"
+    {{cm.reply_count}}" <br>"
+
+{% endfor %}
+
+
+<!-- <form action="{% url 'like_product' product.pk}" method="POST">
+    {%csrf_token%}
+    <button type="submit" , name="product_id" , value="{{product_id}}">لایک</button>
+</form> -->
+
+<form method="POST" action= "" >
+    {%csrf_token%}
+    <input type="hidden" name = 'next' value="{{request.path}}">
+    <button type="submit" >لایک</button>
+    <span>{{data.likes.all.count}}</span>
+</form>
+
+<form method="POST" action="" >
+    {%csrf_token%}
+    <input type="hidden" name = 'next' value="{{request.path}}">
+    <button type="submit" >دیس لایک</button>
+</form>

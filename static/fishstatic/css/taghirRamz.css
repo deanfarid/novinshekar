@@ -1,0 +1,562 @@
+
+
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        align-items: center;
+        --def: #96b7c4;
+        --inv: rgb(226, 225, 225);
+        display: block;
+        font-family: 'Open Sans', serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        -webkit-font-smoothing: antialiased;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+      }
+
+      
+
+      .taghirRamz {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: auto;
+      overflow-y: auto;
+      background-color: rgba(255, 255, 255, 1);
+      width: 100%;
+    height: 768.00px;
+
+}
+
+.taghirRamz .kk {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 100%;
+    height: 768.00px;
+
+}
+
+.taghirRamz .rectangle1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 0.7599999904632568;
+      cursor: default;
+      background-color: rgba(193, 208, 221, 0.611764705882353);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 562.00px;
+    height: 768.00px;
+    left: 402.00px;
+
+}
+
+.taghirRamz .mypdf2 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("assets/mypdf2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 263.00px;
+    height: 130.00px;
+    left: 552.00px;
+    top: 19.00px;
+
+}
+
+.taghirRamz .xc569c0a1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      letter-spacing: 2.10px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_saeed, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 262.00px;
+    height: 55.00px;
+    left: 552.00px;
+    top: 251.00px;
+
+}
+
+.btn {
+	position: absolute;
+	padding: 1.4rem 4.2rem;
+	padding-right: 3.1rem;
+	font-size: 26px;
+	color: var(--inv);
+	text-transform: uppercase;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+	cursor: pointer;
+	user-select: none;
+  width: 298.00px;
+  height: 64.00px;
+  left: 534.00px;
+  top: 569.04px;
+  justify-content: center;
+	align-items: center;
+}
+.btn:before,
+.btn:after {
+	content: "";
+	position: absolute;
+	transition: inherit;
+	z-index: 10;
+}
+
+.btn:hover {
+	color: var(--def);
+	transition-delay: 0.5s;
+}
+
+.btn:hover:before {
+	transition-delay: 0s;
+}
+
+.btn:hover:after {
+	background: var(--inv);
+	transition-delay: 0.35s;
+}
+.from-center:before {
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;
+}
+
+.from-center:after {
+	bottom: 0;
+	left: 0;
+	height: 0;
+	width: 100%;
+	background: var(--inv);
+}
+
+.from-center:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.from-center:hover:after {
+	top: 0;
+	height: 100%;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.taghirRamz .xaf8fd048 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      text-align: center;
+      letter-spacing: 1.68px;
+      color: rgb(75, 75, 75);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 24.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      width: 242.00px;
+    height: 38.00px;
+    left: 32.00px;
+    top: 13.04px;
+    z-index: 11;
+
+}
+
+.taghirRamz .rectangle11 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 12.00px;
+      width: 355.00px;
+    height: 84.00px;
+    left: 506.00px;
+    top: 349.00px;
+
+}
+
+.taghirRamz .x08c887e41 {
+  border: none;
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 33.00px;
+    height: 34.00px;
+    left: 547.00px;
+    top: 374.00px;
+
+}
+
+.taghirRamz .x0ad075c1a {
+  border: none;
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 33.00px;
+    height: 34.00px;
+    left: 607.00px;
+    top: 374.00px;
+
+}
+
+.taghirRamz .x01f696ab0 {
+  border: none;
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 33.00px;
+    height: 34.00px;
+    left: 667.00px;
+    top: 374.00px;
+
+}
+
+.taghirRamz .x0b7f93c39 {
+  border: none;
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 33.00px;
+    height: 34.00px;
+    left: 727.00px;
+    top: 374.00px;
+
+}
+
+.taghirRamz .x0 {
+  border: none;
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 33.00px;
+    height: 34.00px;
+    left: 787.00px;
+    top: 374.00px;
+
+}
+
+.taghirRamz .x5a9e9818 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(43, 43, 43, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 15.00px;
+    height: 34.00px;
+    left: 766.00px;
+    top: 372.00px;
+
+}
+
+.taghirRamz .xc0e1130c {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(43, 43, 43, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 15.00px;
+    height: 34.00px;
+    left: 706.00px;
+    top: 372.00px;
+
+}
+
+.taghirRamz .xb42b6f77 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(43, 43, 43, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 15.00px;
+    height: 34.00px;
+    left: 646.00px;
+    top: 374.00px;
+
+}
+
+.taghirRamz .x0a1b2931 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 2.10px;
+      color: rgba(43, 43, 43, 1);
+      -webkit-text-stroke: unset;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Franklin Gothic Book', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 15.00px;
+    height: 34.00px;
+    left: 586.00px;
+    top: 374.00px;
+
+}
+
+.taghirRamz .xdd1460e9 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 1.26px;
+      color: rgba(140, 154, 164, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 260.00px;
+    height: 35.00px;
+    left: 553.00px;
+    top: 451.00px;
+
+}
+
+.taghirRamz .x {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 1.26px;
+      color: rgba(140, 154, 164, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 132.00px;
+    height: 35.00px;
+    left: 617.00px;
+    top: 491.00px;
+
+}
+

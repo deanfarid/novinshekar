@@ -1,0 +1,933 @@
+{%load static%}
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+        <link rel="stylesheet" href="{% static 'fishstatic/css/mahsool1.css' %}">
+        <script src="{% static 'fishstatic/js/myjq.js' %}"></script>
+        <title>mahsool-1</title>
+
+</head>
+
+<body>
+        <div id="scrollerd" class="scrollerd conected-product-card01">
+                <div id="containerrd" class="containerrd">
+                        {% for product in products  %}
+                                {%if product.special_offer%}
+                                        <a href="{%url 'product_detail' product.id%}"><div data-layer="3b7906d8-e352-4102-98cb-31956a61f932" >
+                                                <img src="{{product.picture.url}}" data-layer="8060cd40-90a3-4d32-85a3-64b790bfd48a"
+                                                class="image-card"/>
+                                                <h6 data-layer="1cf376e9-e190-42e4-9e02-1be70aade0ac" class="name-product">{{product.name}}</h6>
+                                                <p data-layer="cd98052c-cd5c-4966-bfad-2a693ecdf373" class="old-price">قیمت {{product.price}}</p>
+                                                <p data-layer="842c1a1b-2aea-4ada-a6b3-e30b601a330c" class="special-price">قیمت در این هفته {{product.price_discounted}}</p>
+                                        </div>
+                                        </a>
+                                {%endif%}
+                        {% endfor %}
+                </div>
+        </div>
+            <button class="left-button-card01" id="leftddd"><i class="fas fa-chevron-right"></i></button>
+            <button class="right-button-card01" id="rightddd"><i class="fas fa-chevron-right"></i></button>
+            <input id="input-none" style="display: none;" type="text" value="1" />
+
+
+            <div id="scrollerd2" class="scrollerd conected-product-card02">
+                <div id="containerrd2" class="containerrd">
+                {% for product in products %}
+                    <div data-layer="3b7906d8-e352-4102-98cb-31956a61f932" class="group2">
+                        <img src="assets/x0604211617741623b03a24a9.png" data-layer="8060cd40-90a3-4d32-85a3-64b790bfd48a"
+                            class="image-card">
+                        <h6 data-layer="1cf376e9-e190-42e4-9e02-1be70aade0ac" class="name-product">{{product.name}}</h6>
+                        <p data-layer="cd98052c-cd5c-4966-bfad-2a693ecdf373" class="old-price">قیمت {{product.price}}</p>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+            <button class="left-button-card02" id="leftddd2"><i class="fas fa-chevron-right"></i></button>
+            <button class="right-button-card02" id="rightddd2"><i class="fas fa-chevron-right"></i></button>
+            <input id="input-none2" style="display: none;" type="text" value="1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="menu11">
+                <div class="title11">دسته بندی</div>
+                <ul class="nav11">
+                {%for pr in category  %}   
+                <li><a href="{% url 'category' pr.slug %}">{{pr.title}}</a></li>
+                {% endfor %}      
+                </ul>
+        </div>
+
+        <a>
+                <button data-layer="cc2f5232-8c1b-4edb-a7b1-f86c72121961" data-toggle="modal" class="x6764ea72"
+                        data-target="#myModal1">رضایت مشتری</button>
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal1">
+                        <div class="modal-dialog">
+                                <div class="modal-content">
+
+
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                                                        <!-- Indicators -->
+                                                        <ul class="carousel-indicators">
+                                                                <li data-target="#demo" data-slide-to="0" class="active"
+                                                                        style="background-color: rgb(58, 58, 58);"></li>
+                                                                <li data-target="#demo" data-slide-to="1"
+                                                                        style="background-color: rgb(58, 58, 58);"></li>
+                                                                <li data-target="#demo" data-slide-to="2"
+                                                                        style="background-color: rgb(58, 58, 58);"></li>
+                                                                <li data-target="#demo" data-slide-to="3"
+                                                                        style="background-color: rgb(58, 58, 58);"></li>
+                                                                <li data-target="#demo" data-slide-to="4"
+                                                                        style="background-color: rgb(58, 58, 58);"></li>
+                                                                <li data-target="#demo" data-slide-to="5"
+                                                                        style="background-color: rgb(58, 58, 58);"></li>
+                                                                <li data-target="#demo" data-slide-to="6"
+                                                                        style="background-color: rgb(58, 58, 58);"></li>
+                                                        </ul>
+
+                                                        <!-- The slideshow -->
+                                                        <!-- <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                        <img src="assets/Screenshot_20210202-102001.jpg" style="background-size:contain;"
+                                                                                alt="Los Angeles" width="400"
+                                                                                height="600">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                        <img src="assets/img2021091909170682422.png"
+                                                                                alt="Chicago"   width="400"
+                                                                                height="600">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                        <img src="assets/tonySebastianKm146o68w3iUnsplash1.png"
+                                                                                alt="New York"  width="400"
+                                                                                height="600">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                        <img src="assets/x12008639871775d51.png"
+                                                                                alt="New York" width="400"
+                                                                                height="600">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                        <img src="assets/x0604211617741623a796b30b.png"
+                                                                                alt="New York"  width="400"
+                                                                                height="600">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                        <img src="assets/x1000025187.png" alt="New York"
+                                                                        width="400"
+                                                                        height="600">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                        <img src="assets/x0604211617741623d6caadaf.png"
+                                                                                alt="New York"  width="400"
+                                                                                height="600">
+                                                                </div>
+                                                        </div> -->
+
+                                                        <!-- Left and right controls -->
+                                                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                                                <span class="carousel-control-prev-icon"
+                                                                        style="background-color: rgb(34, 34, 34);"></span>
+                                                        </a>
+                                                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                                                                <span class="carousel-control-next-icon"
+                                                                        style="background-color: rgb(34, 34, 34);"></span>
+                                                        </a>
+                                                </div>
+
+                                        </div>
+
+                                        <!-- Modal footer -->
+
+
+                                </div>
+                        </div>
+                </div>
+        </a>
+        {% if user.is_authenticated %}
+        <button class="dropdown rectangle3" data-toggle="dropdown">
+            {{user.username}}
+        </button>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="{%url 'accounts:profile' %}">پروفایل</a>
+            <a class="dropdown-item" href="{%url 'accounts:logout'%}">خروج</a>
+            </div>
+        {%else%}
+        <a href="/accounts/login/">
+            <div data-layer="171dcd3e-5878-4391-b2b4-d7e65d67b4c5" class="rectangle3"></div>
+            <div data-layer="78711836-5fdd-4523-b844-ccb70cf4ef0d" class="x4bbe581d">ورود به حساب کاربری</div>
+        </a>
+        {%endif%}
+        <a>
+                <button data-layer="80ff201c-5edd-4037-a3ba-5a816685d03f" class="xec516b58" data-toggle="modal"
+                        data-target="#myModal">کار با ما</button>
+        </a>
+        <!-- modalhafooter -->
+        <div class="modal fade" id="myModal4">
+                <div class="modal-dialog">
+                        <div class="modal-content">
+
+
+
+                                <!-- Modal body -->
+                                <div class="modal-body" style="align-self: right;">
+                                        <h4 class="modal-title"
+                                                style="
+                     font-family: 'Vazir FD', Arial;align-self:flex-end;font-size: 18px;text-align: right;padding: 20px;">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        style="position: absolute;top: 15px;left: 15px;">&times;</button>
+                                                کارشناسان برتر فروشگاه نوین شکار 24 ساعته اماده پاسخگویی به شما دوستان
+                                                عزیز هستند <p
+                                                        style="font-size: 14px;padding-top:20px;padding-bottom: 20px;">
+                                                        برای ارتباط با ادمین از طریق شماره تماس یا واتس اپ وارد لینک زیر
+                                                        شوید</p>
+                                                <button type="button" class="btn btn-primary " data-dismiss="modal"
+                                                        style="position: absolute;left: 25px;bottom: 5px;margin-bottom: 15px;">ارتباط</button>
+                                </div>
+
+
+
+                        </div>
+                </div>
+        </div>
+        <div class="modal fade" id="myModal5">
+                <div class="modal-dialog">
+                        <div class="modal-content">
+
+
+
+                                <!-- Modal body -->
+                                <div class="modal-body" style="align-self: right;">
+                                        <h4 class="modal-title"
+                                                style="
+                     font-family: 'Vazir FD', Arial;align-self:flex-end;font-size: 18px;text-align: right;padding: 20px;">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        style="position: absolute;top: 15px;left: 15px;">&times;</button>
+                                                تیم برنامه نویسی مانانیو پذیرای انتقادات پیشنهادات و یا حتی گزارش باگ و
+                                                خرابی سایت و سرور از شما عزیزان میباشد <p
+                                                        style="font-size: 14px;padding-top:20px;padding-bottom: 20px;">
+                                                        برای ارتباط با طراحان سایت وارد لینک زیر شوید</p>
+                                                <button type="button" class="btn btn-primary " data-dismiss="modal"
+                                                        style="position: absolute;left: 25px;bottom: 5px;margin-bottom: 15px;">ارتباط</button>
+                                </div>
+
+
+
+                        </div>
+                </div>
+        </div>
+        <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                        <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header"
+                                        style="background-color: #ebcfdca2 !important;align-self: right;">
+                                        <h4 class="modal-title" style="
+                           font-family: 'B Titr', Arial;align-self:flex-end;"> ارتباط با ادمین نوین شکار</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body" style="font-size: 18.00px;
+                    font-weight: 500;
+                  font-style: normal;
+                    font-family: 'Vazir FD', Arial;text-align: right;">
+                                        از طریق لینک زیر میتوانید با معرفی خود و ارسال رزومه در پیوی واتس اپ ادمین در
+                                        فروش لوازم ماهیگیری با ما همکاری کنید
+
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-success" data-dismiss="modal"
+                                                style="font-size: 18.00px;
+                      font-weight: 500;
+                    font-style: normal;
+                      font-family: 'Vazir FD', Arial;border-radius: 15px;width: 144px;text-align: right;justify-self: center;">تماس با ما</button>
+                                        <a href="#">
+                                        <img id="watapp2" src="{%static '/fishstatic/img/icons8-whatsapp-30.png' %}" alt="">
+                                        </a>
+
+
+
+                                </div>
+
+                        </div>
+                </div>
+        </div>
+        <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                        <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header"
+                                        style="background-color: #ebcfdca2 !important;align-self: right;">
+                                        <h4 class="modal-title" style="
+                           font-family: 'B Titr', Arial;align-self:flex-end;"> ارتباط با ادمین نوین شکار</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body" style="font-size: 18.00px;
+                    font-weight: 500;
+                  font-style: normal;
+                    font-family: 'Vazir FD', Arial;text-align: right;">
+                                        از طریق لینک زیر میتوانید با معرفی خود و ارسال رزومه در پیوی واتس اپ ادمین در
+                                        فروش لوازم ماهیگیری با ما همکاری کنید
+
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-success" data-dismiss="modal"
+                                                style="font-size: 18.00px;
+                      font-weight: 500;
+                    font-style: normal;
+                      font-family: 'Vazir FD', Arial;border-radius: 15px;width: 144px;text-align: right;justify-self: center;">تماس با ما</button>
+                                        <a href="#" id="watapp2"></a>
+
+
+
+                                </div>
+
+                        </div>
+                </div>
+        </div>
+        <!-- etmammodalfooter -->
+        <a href="{% url 'cart:usercart' %}">
+                <div data-layer="ba62386d-9c11-4a3c-a2de-9a738893f24e" class="shoppingBagSvgrepoCom"> <svg
+                                data-layer="5452d9f1-02f9-438d-99b0-1f5640789cae" preserveAspectRatio="none"
+                                viewBox="52.366947174072266 0 32 40.421119689941406" class="path3">
+                                <path
+                                        d="M 84.33551025390625 39.07304382324219 L 81.73237609863281 12.70344924926758 C 81.67754364013672 12.14680004119873 81.20909881591797 11.72290134429932 80.64971923828125 11.72290134429932 L 75.78155517578125 11.72290134429932 L 75.78155517578125 7.420556545257568 C 75.78155517578125 3.328311443328857 72.45276641845703 0 68.36164855957031 0 C 64.27004241943359 0 60.941650390625 3.328391790390015 60.941650390625 7.420556545257568 L 60.941650390625 11.72298240661621 L 56.07292938232422 11.72298240661621 C 55.51362609863281 11.72298240661621 55.0456657409668 12.14688110351563 54.99034881591797 12.70353031158447 L 52.37225723266602 39.22605514526367 C 52.34194564819336 39.53199768066406 52.4423713684082 39.83600997924805 52.64853286743164 40.06323623657227 C 52.85461044311523 40.29158782958984 53.14776992797852 40.42111968994141 53.45475769042969 40.42111968994141 L 83.26852416992188 40.42111968994141 C 83.27174377441406 40.42111968994141 83.27536010742188 40.42111968994141 83.27914428710938 40.42111968994141 C 83.88001251220703 40.42111968994141 84.366943359375 39.93370056152344 84.366943359375 39.33347320556641 C 84.36686706542969 39.24309921264648 84.35626220703125 39.15610122680664 84.33551025390625 39.07304382324219 Z M 63.11726760864258 7.420556545257568 C 63.11726760864258 4.528928279876709 65.46985626220703 2.175696134567261 68.36156463623047 2.175696134567261 C 71.25327301025391 2.175696134567261 73.60585784912109 4.529008388519287 73.60585784912109 7.420556545257568 L 73.60585784912109 11.72298240661621 L 63.11726760864258 11.72298240661621 L 63.11726760864258 7.420556545257568 Z M 57.05870056152344 13.89867782592773 L 60.94157028198242 13.89867782592773 L 60.94157028198242 16.09986305236816 C 60.94157028198242 16.70001220703125 61.42874908447266 17.18759155273438 62.02945709228516 17.18759155273438 C 62.6302490234375 17.18759155273438 63.11726760864258 16.70001220703125 63.11726760864258 16.09986305236816 L 63.11726760864258 13.89867782592773 L 73.60586547851563 13.89867782592773 L 73.60586547851563 16.09986305236816 C 73.60586547851563 16.70001220703125 74.09295654296875 17.18759155273438 74.69358825683594 17.18759155273438 C 75.29438018798828 17.18759155273438 75.78139495849609 16.70001220703125 75.78139495849609 16.09986305236816 L 75.78139495849609 13.89867782592773 L 79.66386413574219 13.89867782592773 L 81.64344787597656 33.94943237304688 L 55.0791130065918 33.94943237304688 L 57.05870056152344 13.89867782592773 Z M 54.65513610839844 38.24575042724609 L 54.86442947387695 36.12521362304688 L 81.85877990722656 36.12521362304688 L 82.06806945800781 38.24575042724609 L 54.65513610839844 38.24575042724609 Z" />
+                        </svg>
+                </div>
+        </a>
+        {% if user.is_authenticated %}
+        <div data-layer="c961d3f9-552e-4021-abaf-2d20f4746ec4" class="x2" style="z-index:20;">{{order.items.all.count}}</div>
+        <svg data-layer="6e1e6026-eca5-4466-818e-05f19461c55a" preserveAspectRatio="none" viewBox="0 0 21 21"
+        class="ellipse1">
+        <path
+            d="M 10.5 0 C 16.29899024963379 0 21 4.701010227203369 21 10.5 C 21 16.29899024963379 16.29899024963379 21 10.5 21 C 4.701010227203369 21 0 16.29899024963379 0 10.5 C 0 4.701010227203369 4.701010227203369 0 10.5 0 Z" />
+        </svg>
+        {%endif%}
+        <a href="{% url 'offers'%}">
+                <div data-layer="4c642345-707e-4dd5-8a1d-6c6384ffd2aa" class="x203425c5">تخفیفات و پیشنهادها </div>
+                
+        </a>
+        <div data-layer="1f2e6f14-bf62-4b8a-972d-3d73b0f725f3" class="rectangle48" id="myHeader">
+                <div class="dropdown" >
+                        <div data-layer="29e0aa7b-081f-43bb-b2ae-462444c06003" class="x59cb8c90" 
+                                data-toggle="dropdown">دسته بندی کالاها<svg data-layer="e91abbaf-f3bd-476e-b91f-e3a2e4b8509a" preserveAspectRatio="none"
+                                        viewBox="-0.00003273072434240021 -0.0000327378511428833 17.8603515625 14.878814697265625"
+                                        class="listView">
+                                        <path d="M 5.139262199401855 -2.796899934764951e-05 L 17.6351318359375 -2.796899934764951e-05 C 17.75918769836426 0.0007642511045560241 17.85955810546875 0.1011343151330948 17.86034965515137 0.2251883447170258 L 17.86034965515137 2.936501741409302 C 17.85725975036621 3.059343576431274 17.75799179077148 3.157971382141113 17.6351318359375 3.160265445709229 L 5.139261722564697 3.160265207290649 C 5.016335487365723 3.158699035644531 4.917064666748047 3.059427976608276 4.915498733520508 2.936501741409302 L 4.91549825668335 0.2251883000135422 C 4.915111541748047 0.1655911356210709 4.938515186309814 0.1083019599318504 4.980521202087402 0.06602337956428528 C 5.02252721786499 0.02374480105936527 5.07966423034668 -2.945862070191652e-05 5.139262199401855 -2.796899934764951e-05 Z M 5.139262199401855 11.71848487854004 L 17.6351318359375 11.71848487854004 C 17.75862693786621 11.71926498413086 17.8587703704834 11.81876182556152 17.86034965515137 11.94224834442139 L 17.86034965515137 14.65501499176025 C 17.85726165771484 14.77785682678223 17.75799179077148 14.87648391723633 17.6351318359375 14.87877941131592 L 5.139261722564697 14.87877750396729 C 5.016335010528564 14.87721347808838 4.917064189910889 14.77794075012207 4.915498733520508 14.65501499176025 L 4.91549825668335 11.94224834442139 C 4.91549825668335 11.8186674118042 5.01568078994751 11.71848487854004 5.139261722564697 11.71848487854004 Z M 0.2251881957054138 11.71848487854004 L 2.550001382827759 11.71848487854004 C 2.673495292663574 11.71926689147949 2.773637056350708 11.81876277923584 2.775217533111572 11.94224834442139 L 2.775217533111572 14.65501499176025 C 2.772128820419312 14.77785682678223 2.672860622406006 14.87648391723633 2.550001382827759 14.87877941131592 L 0.2251881957054138 14.87877750396729 C 0.1016942113637924 14.87799644470215 0.001552117755636573 14.77849960327148 -2.79576033790363e-05 14.65501403808594 L -2.797492379613686e-05 11.94224834442139 C -2.797492379613686e-05 11.88264465332031 0.02374763786792755 11.82550811767578 0.06602714955806732 11.78350448608398 C 0.108302041888237 11.74150085449219 0.1655911654233932 11.71809673309326 0.2251883000135422 11.71848392486572 Z M 5.139262199401855 9.020248413085938 L 17.6351318359375 9.020248413085938 C 17.75918769836426 9.01945686340332 17.85955810546875 8.919086456298828 17.86034965515137 8.795032501220703 L 17.86034965515137 6.083717823028564 C 17.85802841186523 5.96030855178833 17.75854301452637 5.860823154449463 17.63513374328613 5.85850191116333 L 5.139261722564697 5.858501434326172 C 5.016100406646729 5.860845565795898 4.917045593261719 5.960543632507324 4.91549825668335 6.083717346191406 L 4.91549825668335 8.795031547546387 C 4.91549825668335 8.918853759765625 5.015450000762939 9.019451141357422 5.139266490936279 9.020248413085938 Z M 0.2251881957054138 9.020248413085938 L 2.550001382827759 9.020248413085938 C 2.674055337905884 9.019455909729004 2.77442455291748 8.919085502624512 2.775217533111572 8.795032501220703 L 2.775217533111572 6.083717823028564 C 2.772895812988281 5.960309028625488 2.673410177230835 5.860824108123779 2.550001382827759 5.85850191116333 L 0.2251881957054138 5.858501434326172 C 0.1014592126011848 5.860067367553711 0.001538191572763026 5.959988117218018 -2.799224421323743e-05 6.083717823028564 L -2.797492379613686e-05 8.795031547546387 C -2.797492379613686e-05 8.919414520263672 0.1008047834038734 9.020248413085938 0.2251883149147034 9.020248413085938 Z M 0.2251883000135422 -2.796899934764951e-05 L 2.550001382827759 -2.796899934764951e-05 C 2.674055576324463 0.0007645801524631679 2.774425268173218 0.1011345461010933 2.77521800994873 0.2251883149147034 L 2.775217771530151 2.936501741409302 C 2.772128820419312 3.059343099594116 2.672860622406006 3.157971143722534 2.550001859664917 3.160265445709229 L 0.2251884788274765 3.160265207290649 C 0.1016948148608208 3.159483432769775 0.001552706700749695 3.059987783432007 -2.797492379613686e-05 2.936501741409302 L -2.797492379613686e-05 0.2251883000135422 C -0.0004179099923931062 0.1653386056423187 0.02318495884537697 0.1078271046280861 0.06550601869821548 0.06550603359937668 C 0.1078270822763443 0.02318497933447361 0.1653385758399963 
+                                -0.0004178694216534495 0.2251883149147034 -2.796899934764951e-05 Z" />
+                                </svg>
+                        </div>
+
+                        <div class="dropdown-menu">
+                                {% for cat in category %}   
+                                <a href="{% url 'category_search' cat.slug  %}"
+                                        style="text-decoration: none;">
+                                        <div class="link">
+                                                <div class="text">{{cat.title}}</div>
+                                        </div>
+                                </a>
+                                {% endfor %}
+                                <!-- <a href="file:///C:/Users/ALAEDIN/Desktop/Takmil/mahsool1/mahsool1.html#"
+                                        style="text-decoration: none;">
+                                        <div class="link">
+                                                <div class="text">چوب ماهیگیری</div>
+                                        </div>
+                                </a>
+                                <a href="file:///C:/Users/ALAEDIN/Desktop/Takmil/mahsool1/mahsool1.html#"
+                                        style="text-decoration: none;">
+                                        <div class="link">
+                                                <div class="text">طعمه ها</div>
+                                        </div>
+                                </a>
+                                <a href="file:///C:/Users/ALAEDIN/Desktop/Takmil/mahsool1/mahsool1.html#"
+                                        style="text-decoration: none;">
+                                        <div class="link">
+                                                <div class="text">قلاب ها</div>
+                                        </div>
+                                </a>
+                                <a href="file:///C:/Users/ALAEDIN/Desktop/Takmil/mahsool1/mahsool1.html#"
+                                        style="text-decoration: none;">
+                                        <div class="link">
+                                                <div class="text">ست های کامل</div>
+                                        </div>
+                                </a>
+                                <a href="file:///C:/Users/ALAEDIN/Desktop/Takmil/mahsool1/mahsool1.html#"
+                                        style="text-decoration: none;">
+                                        <div class="link">
+                                                <div class="text">لوازم جانبی ماهیگیری</div>
+                                        </div>
+                                </a>
+                                <a href="file:///C:/Users/ALAEDIN/Desktop/Takmil/mahsool1/mahsool1.html#"
+                                        style="text-decoration: none;">
+                                        <div class="link">
+                                                <div class="text">قطعات یدکی</div>
+                                        </div>
+                                </a> -->
+                        </div>
+
+                </div>
+                <a href="{% url 'offers'%}">
+                <div data-layer="10457391-df79-405b-98b9-ec74f53c0e92" class="xc44b908e" style="position: fixed;left: 67%;">تخفیفات و پیشنهاد ها<svg
+                                data-layer="acc8141a-1b1c-4fab-a6dc-a8047bbfcf6b" preserveAspectRatio="none"
+                                viewBox="-0.007028312422335148 -0.00637461245059967 18.1396484375 14.878814697265625"
+                                id="costTag">
+                                <path d="M 7.587177753448486 0.4373165965080261 L 7.690485954284668 0.4373165965080261 C 7.802698135375977 0.4388889968395233 7.909368515014648 0.4863573014736176 7.985652446746826 0.5686659216880798 L 14.2417163848877 7.363407611846924 C 14.52467632293701 7.666974067687988 14.67208671569824 8.072517395019531 14.6500997543335 8.486927032470703 C 14.62811183929443 8.901334762573242 14.43861675262451 9.289005279541016 14.12512683868408 9.560925483703613 L 8.639448165893555 14.45774555206299 L 8.627641677856445 14.4680757522583 C 8.479039192199707 14.60814380645752 8.303215026855469 14.71614837646484 8.111098289489746 14.78538036346436 C 7.515664577484131 14.99453067779541 6.852888584136963 14.81903839111328 6.43897819519043 14.34263038635254 L 0.5636810064315796 7.757455348968506 C 0.4915890395641327 7.676667213439941 0.4549068808555603 7.570342540740967 0.4618485271930695 7.462287902832031 L 0.473655104637146 7.298470497131348 L -0.005991050042212009 0.4284615516662598 C -0.01438028179109097 0.3112757205963135 0.02842309512197971 0.1962043642997742 0.1113564521074295 0.1129878982901573 C 0.1942898035049438 0.02977146580815315 0.3092147409915924 -0.01342371758073568 0.426428496837616 -0.005433817394077778 L 7.457304000854492 0.4373165965080261 L 7.483868598937988 0.4373165965080261 C 7.518059730529785 0.4319795668125153 7.552578926086426 0.429020881652832 7.587177753448486 0.4284616410732269 Z M 12.09585285186768 14.69092750549316 C 11.92794513702393 14.84090328216553 11.67025279998779 14.82636642456055 11.5202751159668 14.65845775604248 C 11.37030029296875 14.49055290222168 11.38483905792236 14.2328577041626 11.55274486541748 14.08288288116455 L 17.05908203125 9.166876792907715 L 17.05908203125 9.166876792907715 C 17.13396835327148 9.104560852050781 17.19482803344727 9.027103424072266 17.23765754699707 8.939598083496094 C 17.3165397644043 8.765024185180664 17.32862091064453 8.567569732666016 17.2716007232666 8.384684562683105 C 17.2396411895752 8.293365478515625 17.18942832946777 8.209508895874023 17.1240177154541 8.13822078704834 L 17.12401962280273 8.129364967346191 L 10.86795806884766 1.330196619033813 C 10.71553897857666 1.164327383041382 10.72644138336182 0.9063031673431396 10.89230823516846 0.7538831830024719 C 11.05817794799805 0.6014631390571594 11.31620407104492 0.6123656034469604 11.46862411499023 0.7782345414161682 L 17.72025299072266 7.57740306854248 L 17.73501205444336 7.593637943267822 C 18.0119686126709 7.897846698760986 18.15436172485352 8.300991058349609 18.12991333007813 8.71165943145752 C 18.10546112060547 9.122326850891113 17.91623306274414 9.50572681427002 17.60514068603516 9.774922370910645 L 17.60514068603516 9.774922370910645 L 12.09585285186768 14.69092750549316 Z M 3.37809681892395 1.913151144981384 C 4.54253101348877 1.944143891334534 4.853931427001953 3.241402149200439 4.541054725646973 3.732855319976807 C 4.324800491333008 4.204496383666992 3.851169347763062 4.504635810852051 3.332346439361572 4.498813152313232 C 1.912594199180603 4.498813152313232 1.56134557723999 2.506436824798584 2.889596462249756 1.989894866943359 C 3.04559326171875 1.931649565696716 3.211755752563477 1.905545592308044 3.378097057342529 1.913150906562805 Z M 5.116630077362061 4.647872924804688 C 5.274543762207031 4.4899582862854 5.487063884735107 4.795455455780029 5.743860244750977 5.058154582977295 C 6.577706336975098 4.525378704071045 7.475013732910156 4.65672779083252 8.168656349182129 5.353321552276611 C 8.198461532592773 5.381225109100342 8.215373992919922 5.420229911804199 8.215373992919922 5.461057186126709 C 8.215373992919922 5.501885414123535 8.198461532592773 5.540889263153076 8.168656349182129 5.568792819976807 L 7.18870210647583 6.547272205352783 C 6.970278739929199 6.767170906066895 6.688394069671631 6.011543273925781 6.303201675415039 6.399688243865967 C 6.067068099975586 6.635821342468262 6.27515983581543 7.1376051902771 6.877301216125488 6.964932918548584 C 7.81593132019043 6.705185413360596 8.815072059631348 6.045488357543945 9.809784889221191 7.03577184677124 C 10.49899959564209 7.7235107421875 10.45324802398682 8.576542854309082 9.911617279052734 9.345453262329102 C 10.57279300689697 10.00662803649902 10.57721900939941 9.813292503356934 9.911617279052734 10.47446727752686 C 9.764034271240234 10.62205028533936 9.321284294128418 10.09812831878662 9.234209060668945 10.01253223419189 C 8.333950042724609 10.66632461547852 7.373181343078613 10.62057399749756 6.571803092956543 9.811816215515137 C 6.541999340057373 9.783912658691406 6.525084972381592 9.744908332824707 6.525084972381592 9.704079627990723 C 6.525084972381592 9.663253784179688 6.541998863220215 9.624249458312988 6.571803092956543 9.596343994140625 L 7.551757335662842 8.616390228271484 C 7.768704891204834 8.397967338562012 8.040258407592773 9.149167060852051 8.536138534545898 8.789061546325684 C 8.999550819396973 8.452571868896484 8.536138534545898 8.017202377319336 8.183414459228516 8.073283195495605 C 7.460255146026611 8.189874649047852 6.25449800491333 9.197869300842285 5.122533798217773 8.065903663635254 C 4.436270713806152 7.379641532897949 4.507110595703125 6.44248628616333 5.056120872497559 5.704569339752197 C 4.465787410736084 5.114235877990723
+                 4.465787410736084 5.297239303588867 5.116630077362061 4.641969203948975 Z" />
+                        </svg>
+                </div>
+                </a>
+                <div data-layer="fce8b7c2-a9de-4bfa-b4a8-4a8615e36c98" class="x637c402d">سبد خرید من<svg data-layer="757c7402-f079-44f3-bc8d-8bb41dc335f9" preserveAspectRatio="none"
+                                viewBox="-2.384185791015625e-7 -0.0032357892487198114 22 19.246337890625"
+                                id="shoppingTrolley">
+                                <path d="M 0.7033268809318542 1.403997421264648 C 0.3148899674415588 1.403997421264648 -2.384185791015625e-07 1.089107155799866 -2.384185791015625e-07 0.7006703019142151 C -2.384185791015625e-07 0.3122334778308868 0.3148900270462036 -0.002656743163242936 0.7033268809318542 -0.002656743163242936 L 2.532335042953491 -0.002656700555235147 L 2.602130889892578 -0.002656700555235147 C 3.202518224716187 -0.01395320706069469 3.794432401657104 0.1402167528867722 4.313024044036865 0.442963033914566 C 4.894234657287598 0.8143215775489807 5.306229591369629 1.399212837219238 5.460180759429932 2.071531534194946 C 5.517448902130127 2.323870420455933 5.578296184539795 2.576209306716919 5.639143943786621 2.828547954559326 L 21.29667282104492 2.828547954559326 C 21.48304176330566 2.828072547912598 21.66194152832031 2.901774406433105 21.79389190673828 3.033389568328857 C 21.92584228515625 3.165005207061768 22 3.34371542930603 22 3.530085325241089 C 22.00003433227539 3.604185104370117 21.98856163024902 3.677840709686279 21.96599578857422 3.74842095375061 L 20.13698768615723 11.10740566253662 C 20.06110763549805 11.4217004776001 19.78024864196777 11.64342975616455 19.45692443847656 11.64429664611816 L 7.992515563964844 11.64429664611816 C 8.250223159790039 12.57669734954834 8.486454963684082 13.07600593566895 8.833644866943359 13.31581592559814 C 9.23989200592041 13.58784008026123 9.962905883789063 13.6075267791748 11.16017246246338 13.58784008026123 L 11.17269992828369 13.58784008026123 L 11.17269992828369 13.58784008026123 L 19.2564868927002 13.58784008026123 C 19.64492416381836 13.58783912658691 19.95981407165527 13.90272903442383 19.95981407165527 14.29116630554199 C 19.95981407165527 14.67960262298584 19.64492416381836 14.99449348449707 19.2564868927002 14.99449348449707 L 11.17806816101074 14.99449443817139 L 11.17806816101074 14.99449443817139 C 9.698039054870605 15.02133941650391 8.783535003662109 14.97838878631592 8.053363800048828 14.48623847961426 C 7.323192119598389 13.9940881729126 6.915154457092285 13.1350622177124 6.519645214080811 11.56913185119629 L 4.101846218109131 2.441987276077271 C 4.034084320068359 2.114554643630981 3.841525077819824 1.826358199119568 3.564955711364746 1.638440489768982 C 3.262794017791748 1.474586606025696 2.922402381896973 1.394276142120361 2.578865766525269 1.405787944793701 L 0.7033268809318542 1.405787706375122 Z M 17.18050765991211 15.8069896697998 C 18.12936210632324 15.8069896697998 18.8985595703125 16.57618713378906 18.8985595703125 17.52503967285156 C 18.8985595703125 18.4738941192627 18.12936210632324 19.24309158325195 17.18050765991211 19.24309158325195 C 16.23165512084961 19.24309158325195 15.46245765686035 18.4738941192627 15.46245765686035 17.52503967285156 C 15.46245765686035 16.57618713378906 16.23165512084961 15.8069896697998 17.18050765991211 15.8069896697998 Z M 9.646140098571777 15.8069896697998 C 10.59499359130859 15.8069896697998 11.36419200897217 16.57618713378906 11.36419200897217 17.52503967285156 C 11.36419200897217 18.4738941192627 10.59499359130859 19.24309158325195 9.646141052246094 19.24309158325195 C 8.697287559509277 19.24309158325195 7.928089618682861 18.4738941192627 7.928089618682861 17.52503967285156 C 7.928089618682861 16.57618713378906 8.697287559509277 15.8069896697998 9.646141052246094 15.8069896697998 Z M 13.95916366577148 4.233412265777588 L 13.95916366577148 6.797961235046387 L 19.76653289794922 6.797961235046387 L 20.39827346801758 4.242360591888428 L 13.95916366577148 4.233412265777588 Z M 13.95916366577148 8.195666313171387 L 13.95916366577148 10.23764228820801 L 18.9146671295166 10.23764228820801 L 19.41934394836426 8.195667266845703 L 13.95916366577148 8.195666313171387 Z M 12.54714012145996 10.23764228820801 L 12.54714012145996 8.195667266845703 L 7.092329025268555 8.195667266845703 C 7.279644012451172 8.875728607177734 7.45860767364502 9.556386947631836 7.629220008850098 10.23764228820801 L 12.54714012145996 10.23764228820801 Z M 12.54714012145996 6.789012908935547 L 12.54714012145996 4.233412265777588 L 6.002440452575684 4.233412265777588 C 6.22793436050415 5.085278987884521 6.464166641235352 5.937146663665771 6.702188014984131 6.789012908935547 L 12.54714012145996 6.789012908935547 Z" />
+                        </svg>
+                </div>
+                <form method="GET" action="{%url 'search' %}" >
+                <input class="searchbox01" placeholder="نام کالا مورد نظر را جستوجو کنید" name="search">
+                <button  type="submit" class="searchbox002">
+                        <img src="{% static 'fishstatic/img/icons8-search-64.png' %}" class="searchbox009"  >
+                </button>
+                </form>
+
+                <div class="dropdown">
+                        <input data-layer="78b68d9d-ae8c-426e-a0d0-7197ad6cfb1c" class="dropdown-toggle xe9235500"
+                                placeholder="لطفا شهر خود را انتخاب نمایید" data-toggle="dropdown">
+                        <div class="dropdown-menu" id="dropdownlocation1">
+                                <a class="dropdown-item" href="#">اصفهان</a>
+                                <a class="dropdown-item" href="#">گلپایگان</a>
+                                <a class="dropdown-item" href="#">خور وبیابانک</a>
+                                <a class="dropdown-item" href="#">کاشان</a>
+                                <a class="dropdown-item" href="#">سمیرم</a>
+                                <a class="dropdown-item" href="#">نایین</a>
+                                <a class="dropdown-item" href="#">شهررضا</a>
+                                <a class="dropdown-item" href="#">نجف اباد</a>
+                                <a class="dropdown-item" href="#">خمینی شهر</a>
+                        </div>
+                  
+                </div>
+
+
+
+
+                <div data-layer="10f3c611-83e6-4d06-8bdf-bb3493dcca00" class="rectangle50"></div>
+
+                <svg data-layer="5f99c700-2b68-4f9c-802a-153302c40473" preserveAspectRatio="none"
+                        viewBox="0.00047488510608673096 -0.0011903047561645508 10.45263671875 13.92352294921875"
+                        class="pinLocation">
+                        <path
+                                d="M 5.564023971557617 13.86149215698242 C 5.459949970245361 13.93826770782471 5.319268703460693 13.94277667999268 5.210492134094238 13.87282276153564 C 4.047427654266357 13.13835525512695 3.014339447021484 12.21592807769775 2.153344631195068 11.14314842224121 C 1.037222743034363 9.743746757507324 0.3403560817241669 8.19477653503418 0.09446975588798523 6.702461719512939 C -0.1502834558486938 5.187485218048096 0.07860612869262695 3.731430292129517 0.8321287035942078 2.54732346534729 C 1.138649940490723 2.065980434417725 1.523560047149658 1.639324188232422 1.970911741256714 1.285031676292419 C 3.033774614334106 0.4374606311321259 4.248475551605225 -0.01012032572180033 5.457510948181152 -0.001055394881404936 C 6.623487949371338 0.008009537123143673 7.772468090057373 0.4431262314319611 8.76621150970459 1.348486423492432 C 9.11036491394043 1.662861347198486 9.407628059387207 2.024994373321533 9.648908615112305 2.423813819885254 C 10.45908832550049 3.757491827011108 10.63358783721924 5.46056604385376 10.27779006958008 7.18290376663208 C 9.674392700195313 9.954380989074707 7.973743915557861 12.36308860778809 5.564026355743408 13.85922622680664 Z M 5.2240891456604 2.691228628158569 C 6.664314746856689 2.687472343444824 7.834545612335205 3.852624654769897 7.837051868438721 5.292853355407715 C 7.839557647705078 6.733081817626953 6.673389911651611 
+                                7.902299880981445 5.23315954208374 7.903555870056152 C 3.792929172515869 7.904810905456543 2.624724149703979 6.73762845993042 2.624719381332397 5.297397136688232 C 2.624719381332397 3.859375476837158 3.789471387863159 2.693104028701782 5.227490425109863 2.691229581832886 Z" />
+                </svg>
+        </div>
+
+        <div data-layer="2009aec8-8026-4c7b-b601-5e149a6df639" class="mahsool1">
+                
+                <svg data-layer="7f9c8b71-7bd4-421d-b4b2-a65f7852feae" preserveAspectRatio="none"
+                        viewBox="0 0 1366 2283" class="path16">
+                        <path d="M 0 0 L 1366 0 L 1366 2283 L 0 2283 L 0 0 Z" />
+                </svg>
+                <div data-layer="4b4cdeb1-2932-4e26-8a74-206dc309707b" class="rectangle54"></div>
+                <div data-layer="701fd893-4805-4bc9-9502-3cdb2c933b9a" class="rectangle76"></div>
+                <div data-layer="9c60b169-7a48-4d85-a615-a1143b364c7e" class="rectangle37"></div>
+                <a href="#">
+                        <img src="{% static 'fishstatic/img/picpic.png' %}"  class="pic01">
+                        {% for cats in pro %}
+                        {% if forloop.counter == 1 %}
+                        <h6 data-layer="1d8f377a-b16c-425b-8233-5ceab69f8a6b" class="x6689c7a8">{{cats.category.title}}</h6>
+                        {%endif%}
+                        {%endfor%}
+                </a>
+         
+                    
+                    
+                <div data-layer="b661adcf-78dc-4dc6-96f8-498f882d03d3" class="rectangle13"></div>
+                <h6 data-layer="6bc37963-57e2-44b7-abdc-aba54d38ce5a" class="xe283e873">/ فروشگاه اینترنتی نوین شکار
+                </h6>
+                {% for cats in pro %}
+                {% if forloop.counter == 1 %}
+                <h6 data-layer="9e8827a9-5def-4d01-b75c-dbbb1060325a" class="xebd0b4aa">{{cats.category.title}}</h6>
+                {%endif%}
+                {%endfor%}
+
+              
+                <svg data-layer="ccac57d7-0687-459f-998e-04023685a3d0" preserveAspectRatio="none"
+                        viewBox="0 0 320 408.999267578125" class="path8">
+                        <path
+                                d="M 0 0 L 320 0 C 320 0 320 162.6099243164063 320 264.8597412109375 C 320 367.1095581054688 320 408.999267578125 320 408.999267578125 L 0 408.999267578125 L 0 0 Z" />
+                </svg>
+                <svg data-layer="b3eafda2-1a2e-4b4c-9302-af8234e78dfc" preserveAspectRatio="none"
+                        viewBox="0 0 320 408.999267578125" class="path9">
+                        <path
+                                d="M 0 0 L 320 0 C 320 0 320 162.6099243164063 320 264.8597412109375 C 320 367.1095581054688 320 408.999267578125 320 408.999267578125 L 0 408.999267578125 L 0 0 Z" />
+                </svg>
+                <svg data-layer="a268d64c-f8d4-4ac2-9e0c-b89a99875c72" preserveAspectRatio="none"
+                        viewBox="0 0 320 408.999267578125" class="path10">
+                        <path
+                                d="M 0 0 L 320 0 C 320 0 320 162.6099243164063 320 264.8597412109375 C 320 367.1095581054688 320 408.999267578125 320 408.999267578125 L 0 408.999267578125 L 0 0 Z" />
+                </svg>
+                <!--Carousel Wrapper-->
+                <h2 data-layer="3ff59619-3bb9-4bd9-ba36-4b2e36be27c0" class="x2c648847">پیشنهاد های
+شگفت انگیز</h2>
+                <img src="{% static 'fishstatic/img/gift.png' %}"  class="gift">
+                <div data-layer="485f5791-40ff-4140-89cb-fe8124264153" class="ascendingFilter"> <svg
+                                data-layer="09c3c363-f18d-4b10-99e7-5ac7d7d7d851" preserveAspectRatio="none"
+                                viewBox="0 0 30.914794921875 32.5240478515625" class="path7">
+                                <path
+                                        d="M 15.40445995330811 26.9445743560791 C 22.59056091308594 26.9445743560791 12.42944049835205 26.9445743560791 19.61554527282715 26.9445743560791 L 19.61554527282715 22.82083702087402 C 12.42944049835205 22.82083702087402 22.59056091308594 22.82083702087402 15.40181636810303 22.82083702087402 L 15.40445995330811 26.9445743560791 L 15.40445995330811 26.9445743560791 L 15.40445995330811 26.9445743560791 Z M 3.671131610870361 23.73927879333496 L 3.671131610870361 0 L 10.19817638397217 0 L 10.19817638397217 23.73927879333496 L 13.86930847167969 23.73927879333496 L 6.934654235839844 32.52405548095703 L 0 23.73927879333496 L 3.671131610870361 23.73927879333496 L 3.671131610870361 23.73927879333496 Z M 22.39999198913574 20.04697418212891 C 16.24614906311035 20.04697418212891 21.55830383300781 20.04697418212891 15.40445995330811 20.04697418212891 L 15.40445995330811 15.92323684692383 L 22.39999198913574 15.92323684692383 L 22.39999198913574 20.04697418212891 L 22.39999198913574 20.04697418212891 Z M 15.40445995330811 6.249129295349121 C 26.99750709533691 6.249129295349121 19.3190975189209 6.249129295349121 30.91214561462402 6.249129295349121 L 30.914794921875 2.125392436981201 C 19.32174682617188 2.125392436981201 27.00015449523926 2.122745275497437 15.40710735321045 2.122745275497437 L 15.40445995330811 6.249129295349121 L 15.40445995330811 6.249129295349121 L 15.40445995330811 6.249129295349121 Z M 15.40445995330811 13.14672756195068 C 20.27459907531738 13.14672756195068 21.10305404663086 13.14672756195068 25.97319221496582 13.14672756195068 L 25.97319221496582 9.020343780517578 L 15.40445995330811 9.020343780517578 L 15.40445995330811 13.14672756195068 L 15.40445995330811 13.14672756195068 L 15.40445995330811 13.14672756195068 Z" />
+                        </svg>
+                </div>
+                <div data-layer="17a779d5-312a-470b-be96-26a22f9251f2" class="x7fc4f5a0">مرتب سازی بر اساس</div>
+
+
+
+
+                <button data-layer="0b224c1e-1e66-4115-9350-b72ec6c349fc" class="rectangle26">
+                        <div data-layer="44136a1c-c1fb-41dc-9712-f391093551f9" class="xdca5b896">گران ترین</div>
+                </button>
+                <button data-layer="1d65c285-8c1a-413f-8a9a-ae014880a076" class="rectangle27">
+                        <div data-layer="294f2d06-8700-41e5-825c-58bb182f9e03" class="xfdf035c1">ارزان ترین</div>
+                </button>
+                <button data-layer="d527c311-0787-4e16-9efb-757a28708b18" class="rectangle28">
+                        <div data-layer="d676dc57-704c-48a4-b4e6-b2a1b0a993ff" class="xdc513416"> پربازدید ترین</div>
+                </button>
+                <button data-layer="d16ae7de-00a7-4bd3-b298-fc4e5d48b429" class="rectangle29">
+                        <div data-layer="85913f92-25ef-448e-81af-82461a71af59" class="x72b63841">پرفروش ترین</div>
+                </button>
+                <button data-layer="b8e54a36-65c3-446e-b619-ad31708d9f4d" class="rectangle30">
+                        <div data-layer="2e52ef6a-fecc-483c-ad01-923b95f1ef9d" class="x74208968">محبوب ترین</div>
+                </button>
+                <button data-layer="aa3fa420-d9b3-4b89-a951-881d896901bd" class="rectangle31">
+                        <div data-layer="66a0fad0-fd62-4537-acc2-b1147ec6487d" class="x72de76d9"> جدیدترین</div>
+                </button>
+                <button data-layer="aa3fa420-d9b3-4b89-a951-881d896901bd" class="rectangle332">
+                        <div data-layer="66a0fad0-fd62-4537-acc2-b1147ec6487d" class="x72de76ddd">فروش ویژه</div>
+                </button>
+                <button data-layer="fd5ddd2d-a0d1-4f2c-b400-38a89294d48d" class="rectangle38">
+                        <div data-layer="bbde2aa4-4add-4d34-b2ef-cb3660fbc4c6" class="x1a0144ae">اعمال فیلتر</div>
+                        <div data-layer="58a8f994-92f6-4171-a781-571f80e23bfc" class="filterRemove">
+                                <svg data-layer="f93b1491-9434-40b9-91b0-6ccd89208dce" preserveAspectRatio="none"
+                                        viewBox="0.0004999488592147827 0 18.120712280273438 16.3199462890625"
+                                        class="path17">
+                                        <path
+                                                d="M 13.43824195861816 2.307126998901367 C 15.34470081329346 2.307126998901367 16.88986396789551 3.852437734603882 16.88986396789551 5.758748531341553 C 16.88986396789551 7.665059089660645 15.3445520401001 9.210369110107422 13.43824195861816 9.210369110107422 C 11.53193092346191 9.210369110107422 9.986620903015137 7.665058612823486 9.986620903015137 5.758748531341553 C 9.986620903015137 3.852585077285767 11.53193092346191 2.307126998901367 13.43824195861816 2.307126998901367 L 13.43824195861816 2.307126998901367 Z M 0.4068463146686554 0 L 17.7080135345459 0 C 17.93629264831543 0 18.1212158203125 0.1849240660667419 18.1212158203125 0.4132035672664642 C 18.1212158203125 0.5382559299468994 18.06694984436035 0.6523955464363098 17.97433853149414 0.7286362648010254 L 16.40130424499512 2.727703809738159 C 16.19411277770996 2.524936199188232 15.96627616882324 2.34325647354126 15.7208890914917 2.186203718185425 L 16.69830322265625 0.8265544772148132 L 1.391043543815613 0.8265544772148132 L 6.991117000579834 7.635270595550537 C 7.078122615814209 7.711363315582275 7.13239049911499 7.820194721221924 7.13239049911499 7.945247173309326 L 7.13239049911499 15.19297313690186 L 10.23746299743652 13.77389430999756 L 10.23746299743652 8.53777027130127 C 10.48093223571777 8.817958831787109 10.76067733764648 9.065999031066895 11.06947326660156 9.274517059326172 L 11.06947326660156 14.01308536529541 C 11.06947326660156 14.17603778839111 10.97701168060303 14.317458152771 10.83559036254883 14.38263893127441 L 6.93124532699585 16.2640266418457 C 6.735556125640869 16.37801933288574 6.485451698303223 16.31298637390137 6.371164321899414 16.1116943359375 C 6.333117961883545 16.04666137695313 6.316895961761475 15.97602367401123 6.316895961761475 15.90524005889893 L 6.316895961761475 8.113654136657715 L 0.1188425198197365 0.7013548016548157 C -0.03894756734371185 0.5382559299468994 -0.03894756734371185 0.282694935798645 0.1188425198197365 0.1195960491895676 C 0.2002445012331009 0.03804657980799675 0.3036191463470459 0 0.4068463146686554 0 L 0.4068463146686554 0 Z M 14.29443740844727 4.170671939849854 C 14.49027442932129 3.971738338470459 14.80895137786865 3.970853805541992 15.00596809387207 4.168755054473877 C 15.20283603668213 4.366656303405762 15.20372200012207 4.688429832458496 15.00788497924805 4.887215614318848 L 14.14829635620117 5.759337902069092 L 15.0089168548584 6.632197380065918 C 15.2031307220459 6.829508781433105 15.20047760009766 7.149218082427979 15.00301742553711 7.346381664276123 C 14.80541133880615 7.543397426605225 14.48791313171387 7.54295539855957 14.29370021820068 7.34549617767334 L 13.43883228302002 6.478683471679688 L 12.58248901367188 7.347119331359863 C 12.38650417327881 7.5460524559021 12.06797504425049 7.546936988830566 11.87081146240234 7.34903621673584 C 11.67394161224365 7.151134967803955 11.67305660247803 6.829508781433105 11.86889362335205 6.630574703216553 L 12.72862911224365 5.758600234985352 L 11.86800956726074 4.885740756988525 C 11.67379474639893 4.688429355621338 11.67630195617676 4.36857271194458 11.87390899658203 4.17155647277832 C 12.07136631011963 3.974539756774902 12.3888635635376 3.974982261657715 12.58322620391846 4.172441482543945 L 13.43794631958008 5.039254188537598 L 14.29443740844727 4.170671939849854 L 14.29443740844727 4.170671939849854 Z" />
+                                </svg>
+                        </div>
+                </button>
+
+
+
+                <!-- the big cards in the middle of page -->
+                <div id="middlefirstcard" class="middle-bigcard">
+                        <div id="scrollerd" class="scrollerd-middle conected-product-middle">
+                                <div id="containerrd" class="containerrd-middle">
+                                        {% for pr in pro_compelete_list  %}
+                                                <!-- {%if product.minicategory.title == aaa.title%} -->
+                                                        <a href="{%url 'product_detail' pr.id%}"><div data-layer="3b7906d8-e352-4102-98cb-31956a61f932" >
+                                                                <img src="{{pr.picture.url}}" data-layer="8060cd40-90a3-4d32-85a3-64b790bfd48a"
+                                                                class="image-card"/>
+                                                                <h6 data-layer="1cf376e9-e190-42e4-9e02-1be70aade0ac" class="name-product">{{pr.name}}</h6>
+                                                                <p data-layer="cd98052c-cd5c-4966-bfad-2a693ecdf373" class="old-price">قیمت {{pr.price}}</p>
+                                                                <p data-layer="842c1a1b-2aea-4ada-a6b3-e30b601a330c" class="special-price">قیمت در این هفته {{pr.price_discounted}}</p>
+                                                        </div>
+                                                        </a>
+                                                <!-- {%endif%} -->
+                                        {% endfor %}
+                                        {% for search in product_compelete_list  %}
+                                                <!-- {%if product.minicategory.title == aaa.title%} -->
+                                                        <a href="{%url 'product_detail' search.id%}"><div data-layer="3b7906d8-e352-4102-98cb-31956a61f932" >
+                                                                <img src="{{search.picture.url}}" data-layer="8060cd40-90a3-4d32-85a3-64b790bfd48a"
+                                                                class="image-card"/>
+                                                                <h6 data-layer="1cf376e9-e190-42e4-9e02-1be70aade0ac" class="name-product">{{search.name}}</h6>
+                                                                <p data-layer="cd98052c-cd5c-4966-bfad-2a693ecdf373" class="old-price">قیمت {{search.price}}</p>
+                                                                <p data-layer="842c1a1b-2aea-4ada-a6b3-e30b601a330c" class="special-price">قیمت در این هفته {{search.price_discounted}}</p>
+                                                        </div>
+                                                        </a>
+                                                <!-- {%endif%} -->
+                                        {% endfor %}
+                                </div>
+                        </div>
+                        <!-- <buttons of middle card -->
+                                {%if product_compelete_list.has_other_pages %}
+                                <nav aria-label="Page navigation example" class="buttons-of-middlecard">
+                                        <ul class="pagination">
+
+                                                {%if product_compelete_list.has_pervious %}
+                                                <li class="page-item">
+                                                <a class="page-link" href="&page={{page}}{{product_compelete_list.pervious_page_number}}" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                </li>
+                                                {%endif%}
+
+                                                {%for page in product_compelete_list.paginator.page_range %}
+                                                        {%if product_compelete_list.number == page %}
+                                                        <li class="page-item active"><a class="page-link" href="&page={{page}}">{{page}}</a></li>
+                                                        {%else%}
+                                                        <li class="page-item"><a class="page-link" href="&page={{page}}">{{page}}</a></li>
+                                                        {%endif%}
+
+                                                {%endfor%}
+
+                                                {%if product_compelete_list.has_next %}
+                                                <li class="page-item">
+                                                <a class="page-link" href="&page={{product_compelete_list.next_page_number}}" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                                </li>
+                                                {%endif%}
+                                        </ul>
+                                </nav>
+                                {%endif%}
+                                <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+                                {%if pro_compelete_list.has_other_pages %}
+                                        <nav aria-label="Page navigation example" class="buttons-of-middlecard">
+                                                <ul class="pagination">
+
+                                                        {%if pro_compelete_list.has_previous %}
+                                                        <li class="page-item">
+                                                        <a class="page-link" href="?page={{pro_compelete_list.pervious_page_number}}" aria-label="Previous">
+                                                        <span aria-hidden="true">&laquo;</span>
+                                                        <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        </li>
+                                                        {%endif%}
+
+                                                        {%for page in pro_compelete_list.paginator.page_range %}
+                                                                {%if pro_compelete_list.number == page %}
+                                                                        <li class="page-item active"><a class="page-link disabled" href="?page={{page}}">{{page}}</a></li>
+                                                                {%else%}
+                                                                        <li class="page-item"><a class="page-link" href="?page={{page}}">{{page}}</a></li>
+                                                                {%endif%}
+
+                                                        {%endfor%}
+
+                                                        {%if pro_compelete_list.has_next %}
+                                                        <li class="page-item">
+                                                        <a class="page-link" href="?page={{pro_compelete_list.next_page_number}}" aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                        <span class="sr-only">Next</span>
+                                                        </a>
+                                                        </li>
+                                                        {%endif%}
+                                                </ul>
+                                        </nav>
+                                {%endif%}
+                        
+                </div>
+
+               
+                <!-- eeennnnddd the big cards in the middle of page -->
+
+           
+                       <img src="{% static 'fishstatic/img/maskGroup1.png' %}"  class="maskGroup1">
+                        <div data-layer="cb009ff5-c2de-47d8-9fab-3e2e0b0ced08" class="x909178e4">ارتباط با ما</div>
+                        <div data-layer="f626bf87-6c5c-41f8-aa30-378f08cf1a68" class="x24" data-toggle="modal"
+                                data-target="#myModal4">پشتیبانی 24 ساعته انلاین</div>
+                        <a data-layer="53e2200e-601b-40a6-99c9-527191c489e7" class="x247" data-toggle="popover" data-trigger="hover"
+                                data-placement="left" title="09386801868" data-content="شماره تماس اقای روستایی">تماس باما 24/7</a>
+                        <a data-layer="b7182279-16e9-4eea-a4c6-94435b506fec" class="x8d618601" data-trigger="hover"
+                                title="alirezarostaey99@gmail.com" data-toggle="popover" data-placement="left"
+                                data-content="ایمیل اقای روستایی">ایمیل ما</a>
+                        <svg data-layer="e621f235-0794-4c3a-bed0-24b8d60fb5c5" preserveAspectRatio="none"
+                                viewBox="-0.365013062953949 -0.37500429153442383 37.05908203125 38.599365234375"
+                                class="emailSymbol">
+                                <path
+                                        d="M 31.52289962768555 9.506237983703613 L 24.03435134887695 1.76816999912262 L 24.03435134887695 1.691159009933472 L 3.83897876739502 1.691159009933472 L 3.83897876739502 14.17002582550049 L 3.83897876739502 14.17002582550049 L 14.38024806976318 23.59617614746094 L 14.42645645141602 23.63929748535156 L 17.9843635559082 26.81831359863281 L 32.35154342651367 14.28092098236084 L 32.35154342651367 11.20047950744629 L 31.53830337524414 9.509318351745605 Z M 19.74329566955566 8.760770797729492 L 19.77101898193359 8.634471893310547 L 19.94352340698242 7.873603820800781 L 22.04746627807617 7.873603820800781 L 20.83685493469238 13.58473968505859 C 20.8152904510498 13.68639469146729 20.79372978210449 13.77880668640137 20.7783260345459 13.86198139190674 L 20.7783260345459 13.86198139190674 C 20.74868011474609 14.00615406036377 20.73014450073242 14.15238952636719 20.72287940979004 14.29940128326416 C 20.71747207641602 14.40344905853271 20.74912261962891 14.50604438781738 20.81220817565918 14.58896160125732 C 20.86899757385254 14.65192985534668 20.94922828674316 14.6887035369873 21.03400230407715 14.69061756134033 C 21.32048606872559 14.69061946868896 21.69321632385254 14.50271224975586 22.14604377746582 14.12997817993164 C 22.63939476013184 13.70011234283447 23.04250526428223 13.17658615112305 23.33201026916504 12.58975887298584 C 23.95062446594238 11.36867713928223 24.0035285949707 9.93795108795166 23.47679138183594 8.674519538879395 C 23.2359619140625 8.11681079864502 22.87889671325684 7.616914749145508 22.42943954467773 7.208228588104248 C 21.93504905700684 6.775041580200195 21.35899925231934 6.445122241973877 20.73519706726074 6.237889289855957 C 19.99935340881348 5.993886947631836 19.22775268554688 5.875179290771484 18.45259284973145 5.88671875 C 17.6461353302002 5.8795485496521 16.84326553344727 5.994837760925293 16.07141304016113 6.228647232055664 C 15.386305809021 6.44043493270874 14.7446813583374 6.77324390411377 14.17694187164307 7.211307525634766 C 13.62252140045166 7.63874626159668 13.15687942504883 8.170310020446777 12.80614471435547 8.776172637939453 C 12.4750280380249 9.337432861328125 12.22605991363525 9.943252563476563 12.06683540344238 10.57515239715576 C 11.89554500579834 11.23294067382813 11.80961322784424 11.91003799438477 11.81115913391113 12.58976078033447 C 11.79693603515625 13.45480346679688 11.98135948181152 14.31157779693604 12.3502368927002 15.09415817260742 C 12.71082592010498 15.85095405578613 13.25515937805176 16.50542259216309 13.93358421325684 16.99786949157715 C 14.68372535705566 17.53776931762695 15.54084491729736 17.91065788269043 16.44722557067871 18.0914249420166 C 17.54251670837402 18.30891609191895 18.66522598266602 18.35257720947266 19.77409934997559 18.22080612182617 C 20.63663673400879 18.13904190063477 21.4797191619873 17.91526222229004 22.26926040649414 17.55850791931152 C 22.94709014892578 17.23728179931641 23.54084968566895 16.76269340515137 24.00354385375977 16.17230987548828 L 25.70086860656738 16.17230987548828 C 25.43104934692383 16.7429256439209 25.06650733947754 17.26370239257813 24.62271118164063 17.71253395080566 C 24.16437721252441 18.16645622253418 23.63859748840332 18.5467643737793 23.06401443481445 18.83997344970703 C 22.43100166320801 19.15864181518555 21.75884056091309 19.39270401000977 21.0648078918457 19.53615188598633 C 20.27055740356445 19.7011890411377 19.46092224121094 19.78070640563965 18.64974212646484 19.77334594726563 C 17.45516014099121 19.79070091247559 16.26548194885254 19.61703300476074 15.12571716308594 19.25890922546387 C 14.14971733093262 18.95776176452637 13.24882793426514 18.45271873474121 12.48269653320313 17.77721786499023 C 11.77266216278076 17.14080429077148 11.21740436553955 16.3505916595459 10.85930442810059 15.46688842773438 C 10.48606300354004 14.52409934997559 10.30084037780762 13.51740455627441 10.31406593322754 12.50350570678711 C 10.3015251159668 11.41262149810791 10.49378490447998 10.32906913757324 10.88086414337158 9.309089660644531 C 11.60702323913574 7.346614360809326 13.14554309844971 5.793496131896973 15.10107421875 5.048840045928955 C 16.18049240112305 4.627662181854248 17.33097267150879 4.418484210968018 18.48955917358398 4.432750701904297 C 19.43215179443359 4.42243480682373 20.36963653564453 4.572432518005371 21.26195526123047 4.876333713531494 C 22.06151580810547 5.151453018188477 22.79562377929688 5.588772296905518 23.41826248168945 6.160879135131836 C 24.01430702209473 6.708408832550049 24.4841480255127 7.379010677337646 24.79521942138672 8.126199722290039 C 25.11482620239258 8.916695594787598 25.27499771118164 9.762578010559082 25.26652526855469 10.61519718170166 C 25.26670265197754 11.32876014709473 25.13727760314941 12.03642272949219 24.88455200195313 12.70373249053955 C 24.63388442993164 13.38111686706543 24.26231384277344 14.00736236572266 23.78791809082031 14.55199909210205 C 23.32147026062012 15.09018611907959 22.75159454345703 15.52911472320557 22.11215782165527 15.84270477294922 C 21.46514511108398 16.1638298034668 20.75208854675293 16.32943534851074 20.02977561950684 16.32633399963379 C 19.68204498291016 16.34552192687988 19.33572578430176 16.26879692077637 19.02863121032715 16.10454177856445 C 18.78190994262695 15.94492149353027 18.61152458190918 15.69101619720459 18.55732917785645 15.40220165252686 C 18.4389476776123 15.513014793396 18.31340599060059 15.61591911315918 18.18151473999023 15.71024608612061 C 18.0769157409668 15.78647232055664 17.96788024902344 15.85642051696777 17.8549861907959 15.91971588134766 C 17.57817840576172 16.07735252380371 17.27746391296387 16.18868827819824 16.9647388458252 16.24931907653809 C 16.37875175476074 16.3698902130127 15.77001857757568 16.31084251403809 15.21813011169434 16.07989692687988 C 14.65781688690186 15.84524250030518 14.18570804595947 15.43996238708496 13.868896484375 14.92165088653564 C 13.50489521026611 14.31204032897949 13.32415962219238 13.61049175262451 13.34829998016357 12.90088272094727 C 13.35103607177734 12.05080795288086 13.53370571136475 11.2109432220459 13.88429737091064 10.43652820587158 C 14.22469425201416 9.657435417175293 14.75408840179443 8.975577354431152 15.42452144622803 8.452725410461426 C 16.06253242492676 7.945611476898193 16.85519218444824 7.672694206237793 17.67016220092773 7.679535865783691 C 18.48736763000488 7.630664825439453 19.26886367797852 8.020241737365723 19.72173118591309 8.702242851257324 L 19.75869941711426 8.760770797729492 Z M 15.38755321502686 12.8854808807373 C 15.35381126403809 13.40478134155273 15.49359321594238 13.92057037353516 15.78493022918701 14.35177326202393 C 16.028564453125 14.68094825744629 16.41667938232422 14.87156295776367 16.82612037658691 14.86312580108643 C 17.33356285095215 14.85612201690674 17.81362533569336 14.63179302215576 18.14454650878906 14.24703693389893 C 18.25709342956543 14.12908840179443 18.36009979248047 14.00239276885986 18.45259284973145 13.86813926696777 C 18.5191478729248 13.77592754364014 18.58083724975586 13.68030261993408 18.63742256164551 13.58166122436523 C 18.79113960266113 13.31468391418457 18.91510009765625 13.03164100646973 19.0070743560791 12.73762035369873 C 19.19894027709961 12.17577838897705 19.30284690856934 11.58766555786133 19.31511688232422 10.99409103393555 L 19.31511688232422 10.9725284576416 C 19.31534576416016 10.85317420959473 19.30917739868164 10.7338924407959 19.296630859375 10.61519813537598 C 19.28184127807617 10.47960376739502 19.25503921508789 10.3455924987793 19.21653938293457 10.21474075317383 C 19.15143585205078 9.999252319335938 19.0469970703125 9.797679901123047 18.90849494934082 9.62021541595459 C 18.78457069396973 9.458676338195801 18.62410736083984 9.328824043273926 18.44027137756348 9.241320610046387 C 18.24669647216797 9.154097557067871 18.03648948669434 9.109953880310059 17.82418251037598 9.111940383911133 C 17.34639358520508 9.116559028625488 16.89081573486328 9.314349174499512 16.56120300292969 9.660259246826172 C 16.16881942749023 10.05187702178955 15.87527751922607 10.53125858306885 15.70483875274658 11.05877876281738 L 15.70483875274658 11.05878067016602 L 15.70483875274658 11.05878067016602 C 15.50237274169922 11.63914680480957 15.39825916290283 12.24925327301025 15.39679527282715 12.86391925811768 Z M 34.02730178833008 12.80538940429688 C 34.23221588134766 12.61965370178223 34.49929046630859 12.51744270324707 34.77584838867188 12.51890754699707 C 35.00025939941406 12.52157878875732 35.21967315673828 12.58548641204834 35.41041946411133 12.70373439788818 C 35.55689239501953 12.79172325134277 35.6879997253418 12.90305805206299 35.79855728149414 13.03334331512451 C 36.11317825317383 13.40070533752441 36.29636383056641 13.86246585845947 36.31914901733398 14.34560871124268 L 36.31915283203125 36.10585021972656 C 36.31711578369141 36.56778717041016 36.13343048095703 37.01037979125977 35.80779647827148 37.3380241394043 L 35.80779647827148 37.3380241394043 C 35.48090744018555 37.66479110717773 35.03782272338867 37.84867477416992 34.57561874389648 37.84937286376953 L 1.753520727157593 37.8493766784668 C 1.291582942008972 37.84733581542969 0.8489875793457031 37.66366195678711 0.5213447213172913 37.3380241394043 L 0.5213442444801331 37.3380241394043 C 0.1931305080652237 37.01210403442383 0.008990338072180748 36.56839370727539 0.00999107863754034 36.10585021972656 L 0.00999104231595993 14.34560871124268 C 0.03308992087841034 13.8547534942627 0.2208169400691986 13.38597774505615 0.5429072976112366 13.01485919952393 C 0.6564897894859314 12.89370918273926 0.787266731262207 12.78991794586182 0.9310430884361267 12.70681476593018 C 1.117029786109924 12.59391117095947 1.329596042633057 12.53226566314697 1.547131061553955 12.52814769744873 C 1.76531982421875 12.52461051940918 1.979678153991699 12.58570289611816 2.163219690322876 12.70373439788818 L 2.163218975067139 0.8440378308296204 C 2.163219690322876 0.3825669586658478 2.533695220947266 0.00668221851810813 2.995028018951416 -4.291534423828125e-06 L 24.31159400939941 -2.969552497233963e-06 C 24.56256675720215 0.0002177279675379395 24.80012130737305 0.1133397221565247 24.95848274230957 0.3080408573150635 L 33.7839469909668 9.423065185546875 C 33.9377326965332 9.579078674316406 34.02402496337891 9.789287567138672 34.02422332763672 10.00835037231445 L 34.02422332763672 10.00835037231445 L 34.02422332763672 10.25170516967773 C 34.02422332763672 10.28558921813965 34.02422332763672 10.3194751739502 34.02422332763672 10.35644054412842 C 34.02422332763672 10.39340496063232 34.02422332763672 10.4242115020752 34.02422332763672 10.45809555053711 L 34.02422332763672 12.8084716796875 Z M 17.41756439208984 28.56800651550293 L 13.83809185028076 25.37050819396973 L 1.698072671890259 36.01036071777344 L 1.698072671890259 36.10585021972656 C 1.692768096923828 36.11866760253906 1.692768096923828 36.13307189941406 1.69807231426239 36.1458854675293 L 1.698072671890259 36.14589691162109 C 1.711116433143616 36.14992141723633 1.725074410438538 36.14992141723633 1.738117933273315 36.1458854675293 L 34.57254028320313 36.14589691162109 C 34.58557891845703 36.14992141723633 34.59954071044922 36.14992141723633 34.61258697509766 36.1458854675293 L 34.61258697509766 36.14589691162109 C 34.61788940429688 36.13307189941406 34.61788940429688 36.11866760253906 34.61258697509766 36.10585021972656 L 34.61258697509766 36.04116058349609 L 22.32470703125 25.25961303710938 L 18.53576469421387 28.57416725158691 L 18.53576469421387 28.57416725158691 C 18.21749687194824 28.85604095458984 17.73891258239746 28.85604095458984 17.42064666748047 28.57417106628418 Z M 12.57202911376953 24.2553882598877 L 1.698072671890259 14.52427673339844 L 1.698072671890259 33.7708740234375 L 12.57202911376953 24.23998832702637 Z M 34.62798309326172 33.82323837280273 L 34.62798309326172 14.51503467559814 L 23.60309219360352 24.1475715637207 L 34.62798309326172 33.80783462524414 Z" />
+                        </svg>
+                        <svg data-layer="5f8a5d28-8565-4987-b211-c78ded1f5aa7" preserveAspectRatio="none"
+                                viewBox="0.003632068634033203 0.000003814695674009272 40.9049072265625 37.849609375"
+                                class="x24HoursPhoneSupport">
+                                <path
+                                        d="M 15.09561252593994 1.966186285018921 C 14.52888298034668 2.303484439849854 14.3086519241333 2.991874694824219 14.58017253875732 3.577332496643066 C 14.85169410705566 4.162789821624756 15.53133583068848 4.464990139007568 16.17084503173828 4.28461742401123 C 16.94809532165527 3.909576177597046 17.74725341796875 3.578120946884155 18.56431770324707 3.291918516159058 C 20.07563591003418 2.808378219604492 19.56298637390137 0.5700032711029053 17.89853858947754 0.8357903361320496 C 16.92890739440918 1.120108366012573 15.99196338653564 1.498868584632874 15.10227203369141 1.966184735298157 Z M 17.53902053833008 18.85807228088379 L 17.53902053833008 16.86947250366211 L 20.64154434204102 13.82092761993408 C 20.81757926940918 13.65437507629395 20.98320388793945 13.47794246673584 21.13755035400391 13.292555809021 C 21.26751518249512 13.14657115936279 21.37924194335938 12.9864330291748 21.4704418182373 12.81541919708252 C 21.54515647888184 12.66550350189209 21.58383560180664 12.50133419036865 21.5836238861084 12.33508110046387 C 21.59073257446289 12.1801643371582 21.55390930175781 12.02630138397217 21.47709846496582 11.88996982574463 C 21.40154266357422 11.77042007446289 21.28314399719238 11.68158054351807 21.14420890808105 11.64019298553467 C 20.96039772033691 11.58357334136963 20.76788139343262 11.55758380889893 20.57497024536133 11.5633373260498 L 17.69880867004395 11.56333827972412 L 17.69880867004395 9.574740409851074 C 18.13822174072266 9.478672981262207 18.62756729125977 9.3922119140625 19.1701774597168 9.308953285217285 C 19.79413795471191 9.222725868225098 20.42398834228516 9.182047843933105 21.05432891845703 9.18726921081543 C 21.69038581848145 9.162208557128906 22.32442665100098 9.271512031555176 22.9118480682373 9.50749397277832 C 23.34010124206543 9.688847541809082 23.68463516235352 10.01458072662354 23.88055992126465 10.42333698272705 C 24.08552360534668 10.89205169677734 24.18316459655762 11.39772796630859 24.16683959960938 11.90598011016846 C 24.17255592346191 12.29556846618652 24.11413764953613 12.68357372283936 23.99374198913574 13.055588722229 C 23.87687301635742 13.39811420440674 23.70744705200195 13.72191619873047 23.49108123779297 14.01626682281494 C 23.25232696533203 14.33886909484863 22.98501777648926 14.64100551605225 22.69214248657227 14.91930294036865 L 20.97443580627441 16.6100902557373 L 24.43648147583008 16.6100902557373 L 24.43648147583008 18.8516674041748 L 17.53902053833008 18.85807228088379 Z M 29.52302551269531 18.85807228088379 L 29.52302551269531 17.08722686767578 L 25.38188552856445 17.08722686767578 L 24.92582702636719 15.98885250091553 L 27.81197547912598 9.264122009277344 L 30.47508811950684 9.264122009277344 L 28.02835655212402 14.97053623199463 L 29.52968215942383 14.97053623199463 L 29.52968215942383 13.54873657226563 L 30.02568626403809 12.3094654083252 L 32.13287734985352 12.3094654083252 L 32.13287734985352 14.97053718566895 L 32.93846893310547 14.97053718566895 L 32.93846893310547 16.69975471496582 L 32.13287734985352 17.08722877502441 L 32.13287734985352 18.85807418823242 L 29.52302551269531 18.85807228088379 Z M 9.959135055541992 17.47469902038574 C 11.16660499572754 19.64100074768066 12.65668296813965 21.65011405944824 14.39322376251221 23.45330429077148 C 16.41827392578125 25.4959545135498 18.79727363586426 27.18416023254395 21.42383766174316 28.44241905212402 C 21.61110877990723 28.53883361816406 21.83345031738281 28.54940986633301 22.02969360351563 28.47123336791992 C 22.3505916595459 28.33129501342773 22.63833427429199 28.12969017028809 22.87523078918457 27.87881851196289 C 23.14935302734375 27.59171295166016 23.40398216247559 27.28794097900391 23.63755226135254 26.96937942504883 C 24.76604270935059 25.54117584228516 26.1641731262207 23.76712608337402 28.13821029663086 24.65414810180664 L 28.2580509185791 24.71499252319336 L 34.83926773071289 28.35595703125 L 34.90584564208984 28.39758491516113 C 35.72574234008789 28.96469497680664 36.19074630737305 29.89307022094727 36.14086151123047 30.86331748962402 C 36.09584808349609 31.96997451782227 35.76522827148438 33.04845428466797 35.17881774902344 34.00152587890625 C 34.4519157409668 35.20442581176758 33.34029388427734 36.14908218383789 32.00971221923828 36.69461822509766 C 30.76430892944336 37.20945358276367 29.44985198974609 37.55332946777344 28.10492706298828 37.71614074707031 C 26.10445785522461 37.99728012084961 24.0635986328125 37.83294677734375 22.13955116271973 37.23579788208008 C 20.02779579162598 36.55460357666016 18.0143928527832 35.61848068237305 16.14755058288574 34.4498405456543 L 15.99774932861328 34.35697555541992 C 15.01905345916748 33.77416610717773 13.96712493896484 33.14652633666992 12.93849754333496 32.40680313110352 C 9.150218963623047 29.66247367858887 5.302021980285645 25.68207359313965 2.795367956161499 21.33661460876465 C 0.6948323249816895 17.67323875427246 -0.4536349773406982 13.71845626831055 0.1755253374576569 9.952606201171875 C 0.5084144473075867 7.887153148651123 1.443832635879517 6.007430076599121 3.048357725143433 4.764955520629883 C 4.446491718292236 3.679391145706177 6.333973407745361 3.086974620819092 8.777378082275391 3.29512095451355 C 9.05701732635498 3.312186002731323 9.308174133300781 3.46560263633728 9.443156242370605 3.701807260513306 L 13.65087413787842 10.56743907928467 C 14.22694301605225 11.19956493377686 14.36617755889893 12.09708118438721 14.00706577301025 12.86345481872559 C 13.63702774047852 13.57028961181641 13.08023071289063 14.17106151580811 12.39255619049072 14.60548114776611 C 12.16286087036133 14.79441261291504 11.89322090148926 14.98014259338379 11.61026573181152 15.17868328094482 C 10.66819000244141 15.83514404296875 9.592958450317383 16.59728050231934 9.962465286254883 17.49711418151855 L 9.962465286254883 17.47469902038574 Z M 36.18080520629883 24.4075756072998 C 35.88426208496094 24.96369171142578 36.04823684692383 25.64448547363281 36.56881332397461 26.01847839355469 C 37.08938217163086 26.39246940612793 37.81453323364258 26.35044479370117 38.28466796875 25.91904067993164 C 38.34971237182617 25.8498363494873 38.40767669677734 25.77477264404297 38.45776748657227 25.69488143920898 C 38.93687057495117 24.88486862182617 39.33373260498047 24.0323314666748 39.64284896850586 23.14909553527832 C 39.83211898803711 22.54723739624023 39.53926467895508 21.9022159576416 38.95165634155273 21.62675476074219 C 38.36405563354492 21.35129547119141 37.65549468994141 21.52685928344727 37.27933883666992 22.04111289978027 C 37.22499465942383 22.12589073181152 37.18035507202148 22.21607780456543 37.14618301391602 22.31009864807129 C 36.89208984375 23.03682899475098 36.56777191162109 23.73905944824219 36.17747497558594 24.40757942199707 Z M 38.22807312011719 17.66043090820313 C 38.20129776000977 18.29398155212402 38.660400390625 18.85103797912598 39.30775451660156 18.9704532623291 C 39.95510864257813 19.08986854553223 40.59587097167969 18.7357063293457 40.81462097167969 18.1375675201416 C 40.83955764770508 18.05495262145996 40.85627746582031 17.97024536132813 40.86455535888672 17.88458633422852 C 40.93437957763672 16.95655250549316 40.9210205078125 16.02445602416992 40.82460403442383 15.09862804412842 C 40.7419319152832 14.49723243713379 40.23205184936523 14.03409290313721 39.60315322875977 13.98916625976563 C 38.97426605224609 13.94423866271973 38.39885711669922 14.32984447479248 38.22474670410156 14.91289710998535 C 38.18853759765625 15.06070899963379 38.17729949951172 15.21316432952881 38.19145584106445 15.36441421508789 C 38.27345275878906 16.12724876403809 38.28570556640625 16.89553451538086 38.22807312011719 17.66043090820313 Z M 36.92314910888672 10.86524772644043 C 37.27066040039063 11.42408084869385 37.99873352050781 11.64316177368164 38.6153450012207 11.37443923950195 C 39.23195648193359 11.10571670532227 39.54084014892578 10.43472480773926 39.3332633972168 9.814908981323242 C 38.93716812133789 8.976829528808594 38.46835708618164 8.172350883483887 37.93180465698242 7.41001558303833 C 37.69424057006836 6.97404670715332 37.21797561645508 6.707601070404053 36.70658111572266 6.724557876586914 C 36.19518661499023 6.741514682769775 35.73913192749023 7.038875579833984 35.53333282470703 7.489545822143555 C 35.32753753662109 7.940217971801758 35.40841293334961 8.464463233947754 35.74139404296875 8.838222503662109 C 36.19314956665039 9.481154441833496 36.58843612670898 10.15917491912842 36.92314529418945 10.86524772644043 Z M 32.41250228881836 5.466248989105225 C 33.80065155029297 6.442935466766357 35.40850448608398 4.50557279586792 34.00371170043945 3.432817935943604 C 33.23898315429688 2.881665468215942 32.42971420288086 2.390157222747803 31.5836124420166 1.962984323501587 C 30.22542190551758 1.280904054641724 28.90385055541992 3.064558744430542 30.12555694580078 4.070066452026367 C 30.19877815246582 4.127880573272705 30.27797508239746 4.178313255310059 30.36190414428711 4.220572948455811 C 31.07908821105957 4.582178115844727 31.76483726501465 4.998749732971191 32.41250610351563 5.466249942779541 Z M 25.75472259521484 2.737928628921509 C 26.40388870239258 2.829576015472412 27.02570152282715 2.452669858932495 27.21994018554688 1.849801778793335 C 27.41418075561523 1.246933698654175 27.1229419708252 0.5978081822395325 26.53368186950684 0.3202275335788727 C 26.4276123046875 0.2735225558280945 26.31572723388672 0.2401581406593323 26.2007942199707 0.2209577709436417 C 25.25478553771973 0.07800059020519257 24.29887962341309 0.004138804506510496 23.34127998352051 3.814696128756623e-06 C 22.60588073730469 3.203914957339293e-06 22.00971984863281 0.5734830498695374 22.00971984863281 1.280905961990356 C 22.00971984863281 1.988327622413635 22.60588073730469 2.561806440353394 23.34127998352051 2.561805725097656 C 24.15181732177734 2.56812047958374 24.96073913574219 2.632340669631958 25.76138114929199 2.753940105438232 Z" />
+                        </svg>
+                        <div data-layer="3f4f396a-327c-4e22-a2fc-e458fe42028f" class="x7ae6d724">سوالات متداول</div>
+                        <div data-layer="645ce688-9711-4a4b-a5fa-eb07042133dd" class="questionMarkRoundLine"> <svg
+                                        data-layer="5a70221a-0640-4a93-9377-d3d9f9202de4" preserveAspectRatio="none"
+                                        viewBox="0 0 38.996826171875 39" class="path15">
+                                        <path
+                                                d="M 34.82040405273438 19.49840927124023 L 34.82040405273438 19.4952392578125 L 34.82675170898438 19.4952392578125 C 34.82675170898438 15.27121543884277 33.1066780090332 11.44071960449219 30.32980537414551 8.663845062255859 C 27.55293273925781 5.890144824981689 23.72560882568359 4.170070648193359 19.50793647766113 4.170070648193359 L 19.50793647766113 4.176417827606201 L 19.4984130859375 4.176417827606201 L 19.4952392578125 4.176417827606201 L 19.4952392578125 4.170070648193359 C 15.27439212799072 4.170070648193359 11.44071960449219 5.890144824981689 8.663846015930176 8.667016983032227 C 5.890146255493164 11.44389152526855 4.170071125030518 15.27121543884277 4.170071125030518 19.49206352233887 L 4.176419258117676 19.49206352233887 L 4.176419258117676 19.50158309936523 L 4.176419258117676 19.50475883483887 L 4.170071125030518 19.50475883483887 C 4.170071125030518 22.3228874206543 4.934901237487793 24.96964454650879 6.261453628540039 27.23557472229004 C 8.920906066894531 31.77694702148438 13.85263156890869 34.82675170898438 19.4888916015625 34.82992553710938 L 19.4888916015625 34.82358169555664 L 19.4984130859375 34.82358169555664 L 19.50158309936523 34.82358169555664 L 19.50158309936523 34.82992553710938 C 23.72560882568359 34.82992553710938 27.55610656738281 33.10984802246094 30.33297920227051 30.33297538757324 C 30.78997230529785 29.87598419189453 31.21523094177246 29.39677429199219 31.6024055480957 28.89852523803711 C 33.61762619018555 26.30254173278809 34.82040405273438 23.04011535644531 34.82040405273438 19.49840927124023 L 34.82040405273438 19.49840927124023 Z M 21.70086860656738 23.43998527526855 L 16.45813179016113 23.43998527526855 L 16.45813179016113 22.91634559631348 C 16.45813179016113 22.02774620056152 16.5533390045166 21.30099678039551 16.75644874572754 20.74245071411133 C 16.95955657958984 20.18072891235352 17.26104354858398 19.67930603027344 17.66091346740723 19.21596336364746 C 18.0639591217041 18.75579643249512 18.96525192260742 17.94653511047363 20.36162185668945 16.78500938415527 C 21.10423278808594 16.17568397521973 21.47871780395508 15.62031078338623 21.47871780395508 15.1188850402832 C 21.47871780395508 14.60794067382813 21.32638549804688 14.2175931930542 21.0312442779541 13.93514347076416 C 20.73292541503906 13.65586948394775 20.27910804748535 13.51305866241455 19.66660690307617 13.51305866241455 C 19.00967979431152 13.51305866241455 18.47334861755371 13.73203372955322 18.04808616638184 14.16046714782715 C 17.61965370178223 14.59207248687744 17.34672927856445 15.35055446624756 17.22930908203125 16.42639541625977 L 11.86914730072021 15.75994777679443 C 12.05321598052979 13.79233264923096 12.77044200897217 12.20554828643799 14.01448249816895 11.00593852996826 C 15.26486873626709 9.803156852722168 17.17535781860352 9.203351974487305 19.75230026245117 9.203351974487305 C 21.75799560546875 9.203351974487305 23.37968444824219 9.625435829162598 24.61420631408691 10.45691204071045 C 26.29302406311035 11.58987522125244 27.12767028808594 13.10049533843994 27.12767028808594 14.982421875 C 27.12767028808594 15.76946640014648 26.90869522094727 16.52477645874023 26.48026275634766 17.25152397155762 C 26.04865837097168 17.9814453125 25.16323280334473 18.86687088012695 23.8271598815918 19.91415214538574 C 22.90047454833984 20.65676116943359 22.31336784362793 21.24387359619141 22.06900024414063 21.69134712219238 C 21.82463455200195 22.13882064819336 21.70086860656738 22.72275733947754 21.70086860656738 23.43998527526855 L 21.70086860656738 23.43998527526855 Z M 16.2708911895752 24.83635711669922 L 21.89445495605469 24.83635711669922 L 21.89445495605469 29.79029846191406 L 16.2708911895752 29.79029846191406 L 16.2708911895752 24.83635711669922 L 16.2708911895752 24.83635711669922 Z M 38.9873046875 19.4952392578125 L 38.99681854248047 19.4952392578125 L 38.99681854248047 19.49840927124023 C 38.99681854248047 24.00170707702637 37.46715927124023 28.15273475646973 34.89657211303711 31.45641899108887 C 34.39197540283203 32.10382843017578 33.85247039794922 32.71632766723633 33.28439712524414 33.28439712524414 C 29.7617359161377 36.80706024169922 24.89030456542969 38.9873046875 19.50158309936523 38.990478515625 L 19.50158309936523 39 L 19.49840927124023 39 L 19.48888969421387 39 L 19.48888969421387 38.990478515625 C 12.31979751586914 38.9873046875 6.051997661590576 35.11237716674805 2.672145128250122 29.34282112121582 C 0.980632483959198 26.45487594604492 0.009520018473267555 23.09088897705078 0.009520018473267555 19.50475883483887 L 0 19.50475883483887 L 0 19.50158309936523 L 0 19.49206352233887 L 0.009520707651972771 19.49206352233887 C 0.009520707651972771 14.10334300994873 2.189763069152832 9.231914520263672 5.712424755096436 5.712424755096436 C 9.231914520263672 2.189763069152832 14.10651588439941 0.009520707651972771 19.4952392578125 0.009520707651972771 L 19.4952392578125 0 L 19.49840927124023 0 L 19.50793266296387 0 L 19.50793266296387 0.009520707651972771 C 24.89347839355469 0.0126942778006196 29.76490783691406 2.189763069152832 33.28439712524414 5.712424755096436 C 36.80706024169922 9.231914520263672 38.9873046875 14.10651588439941 38.9873046875 19.4952392578125 L 38.9873046875 19.4952392578125 Z" />
+                                </svg>
+                        </div>
+                        <svg data-layer="7408e499-06e9-4f92-9fba-17ac50b7201e" preserveAspectRatio="none"
+                                viewBox="149.1046600341797 4375.28076171875 1224.6241455078125 2.875" class="path16">
+                                <path d="M 1372.978759765625 4377.40576171875 L 149.8546600341797 4376.03076171875" />
+                        </svg>
+                        <div data-layer="7026f32d-c249-40e5-bf65-57bd5d6207e2" class="x5a460618">راهنما</div>
+                        <div data-layer="2a73e144-2286-4df3-860f-7b9537813a9e" class="xa4db5308"> درباره ما </div>
+                        <a data-layer="bd564bff-79df-4bde-8e6f-e4aa52dbd446" class="x1d24f97d" data-toggle="popover" data-trigger="hover"
+                                data-content="شما به 3 روش سفارش از ایسنتاگرام یا تماس تلفنی با فروشگاه یا خرید اینترنتی میتوانید محصولات مورد نظر خود را خریداری نمایید">
+                                <p>طریقه سفارش از نوین شکار</p>
+                        </a>
+                        <div data-layer="72d021f1-9d77-49b9-bc34-d199df09482b" class="x2e280756" data-toggle="popover" data-trigger="hover"
+                                data-placement="bottom" data-content="توضیحات سایت">
+                                <p>توضیحات نوین شکار</p>
+                        </div>
+                    
+                        <div data-layer="72a71013-170b-473e-9127-3a302424a0f2" class="x3582cb82" data-toggle="modal"
+                                data-target="#myModal">
+                                <p>گرفتن نمایندگی</p>
+                        </div>
+                        <div data-layer="f7978a7c-3938-44a0-ad9e-fb694bf3a9dd" class="xabe58fbc"data-toggle="popover" data-trigger="hover" title="" data-content="Some content  the popover">
+                                <p>رویه ارسال سفارش</p>
+                        </div>
+                        <div data-layer="f9b4b878-ee30-45f3-8dca-55c8672d0d60" class="xecd04de6" data-toggle="popover" data-trigger="hover"
+                                data-content="3 روش کارت به کارت حضوری اینترنتی ">
+                                <p>شیوه های پرداخت</p>
+                        </div>
+                        <div data-layer="717f446e-fb6e-49dd-ab9d-552f0bca5139" class="xab329060">
+                                <p>پاسخ به پرسش ها متداول
+                                </p>
+                        </div>
+                        <div data-layer="122844aa-5fdf-4f88-ad29-dd96d216c2bf" class="x26426755" data-toggle="popover" data-trigger="hover"
+                                data-placement="left" 
+                                data-content="کالا خریداری شده به هیچ عنوان پس گرفته نمیشود">
+                                <p>رویه بازگردادن کالا</p>
+                        </div>
+                        <div data-layer="6daf50d6-c9eb-42ac-9913-69fa3e41894d" class="xbe842b18" data-toggle="popover" data-trigger="hover"
+                                data-placement="bottom"  data-content="باهاش ماهی میگیرن!!!">
+                                <p>شرایط استفاده</p>
+                        </div>
+                        <!-- aksjdklas -->
+                        <div data-layer="384d13a1-a100-4975-bbc4-5e9efa6269f5" class="xc7831847" data-toggle="modal"
+                                data-target="#myModal5">
+                                <p>گزارش باگ و خرابی</p>
+                        </div>
+                        <div data-layer="7f0528b6-d279-44fe-a702-c589b1700915" class="xc6e165a7" data-toggle="popover" data-trigger="hover"
+                                data-placement="bottom"  data-content="رعایت میشه">
+                                <p>حریم خصوصی</p>
+                        </div>
+                        <svg data-layer="e13c86af-7ab9-4875-826e-df046a837566" preserveAspectRatio="none"
+                                viewBox="629.25 4377.25 1.5 324.30029296875" class="path17">
+                                <path d="M 630 4378 L 630 4700.80029296875" />
+                        </svg>
+
+                        <img src="{% static 'fishstatic/img/rectangle32.png' %}"  class="pic32">
+                        <div data-layer="5ec5a0d4-8d09-4952-89ee-0ccf07d47447" class="x68cc9e65">با ما همراه باشید</div>
+                        <a href="#" data-layer="21dcf9f0-fa8e-497c-a63a-826268ffd846" >
+                        <img src="{% static 'fishstatic/img/rectangle33.png' %}"  class="pic33">
+                        </a>
+
+                        <svg data-layer="ba1826f8-f3a4-4f88-9cdf-b3a1de96dde4" preserveAspectRatio="none"
+                                viewBox="-5.938374414427017e-8 -3.958916039437099e-8 25.5081787109375 25.5"
+                                class="blackInstagram">
+                                <path
+                                        d="M 12.75203990936279 -3.958916039437099e-08 C 9.288548469543457 -3.958916039437099e-08 8.85275936126709 0.01452628802508116 7.493509769439697 0.07678196579217911 C 6.436005592346191 0.09827428311109543 5.389803409576416 0.2989552021026611 4.399403095245361 0.6702853441238403 C 3.548168420791626 0.9885391592979431 2.777354001998901 1.490134596824646 2.141596794128418 2.139519929885864 C 1.492795586585999 2.776572942733765 0.9900824427604675 3.546927213668823 0.6682112812995911 4.397325992584229 C 0.2967362701892853 5.388327598571777 0.09673456102609634 6.435356140136719 0.0767817348241806 7.493508815765381 C 0.01660145819187164 8.85275936126709 -5.938374414427017e-08 9.286472320556641 -5.938374414427017e-08 12.74996376037598 C -5.938374414427017e-08 16.21345520019531 0.01452626846730709 16.64509582519531 0.07678195089101791 18.00641822814941 C 0.09827427566051483 19.06392478942871 0.2989551723003387 20.1101245880127 0.6702861189842224 21.10052299499512 C 0.9901077151298523 21.95096969604492 1.49149489402771 22.72146224975586 2.139520645141602 23.35833358764648 C 2.77602481842041 24.0078067779541 3.546536207199097 24.5106201171875 4.397327423095703 24.83171844482422 C 5.388604640960693 25.20222282409668 6.435463905334473 25.40219116210938 7.493510246276855 25.42314529418945 C 8.85275936126709 25.48539924621582 9.286472320556641 25.49992561340332 12.74996471405029 25.49992561340332 C 16.21345710754395 25.49992561340332 16.64509582519531 25.48539924621582 18.00642013549805 25.42314529418945 C 19.06446838378906 25.40218734741211 20.11132621765137 25.20222091674805 21.10260391235352 24.83171272277832 C 22.81720161437988 24.16667366027832 24.17290496826172 22.81097030639648 24.83794593811035 21.09637641906738 C 25.20728302001953 20.10541534423828 25.40789413452148 19.0595531463623 25.43144607543945 18.00226402282715 C 25.49163055419922 16.64301681518555 25.50823020935059 16.20930099487305 25.50823020935059 12.74580955505371 C 25.50823020935059 9.282318115234375 25.49163055419922 8.848605155944824 25.43144798278809 7.489355087280273 C 25.40789413452148 6.431393146514893 25.20728492736816 5.384850025177002 24.83794403076172 4.393172740936279 C 24.51763153076172 3.542479991912842 24.01551055908203 2.771946907043457 23.36663055419922 2.135366678237915 C 22.73126792907715 1.485506772994995 21.9603443145752 0.9838373064994812 21.10883140563965 0.6661325097084045 C 20.11484336853027 0.2952995300292969 19.06508255004883 0.09601420164108276 18.00434494018555 0.07678095251321793 C 16.64301872253418 0.01452628802508116 16.21138191223145 -3.958916039437099e-08 12.74788951873779 -3.958916039437099e-08 Z M 11.60653591156006 2.297234773635864 L 12.75203990936279 2.297234773635864 C 16.15535163879395 2.297234773635864 16.55793762207031 2.309685945510864 17.90266036987305 2.371941566467285 C 18.71118354797363 2.38114333152771 19.51210975646973 2.529255151748657 20.27045249938965 2.809806108474731 C 20.82410621643066 3.014334678649902 21.32477951049805 3.340552091598511 21.73553466796875 3.764394521713257 C 22.15850639343262 4.175868511199951 22.48458671569824 4.676331043243408 22.69012069702148 5.229477882385254 C 22.97067451477051 5.987821102142334 23.1187858581543 6.788745880126953 23.12799072265625 7.597269058227539 C 23.19024467468262 8.939916610717773 23.20269584655762 9.344578742980957 23.20269584655762 12.74788951873779 C 23.20269584655762 16.15119934082031 23.19024467468262 16.55378723144531 23.12798690795898 17.89850997924805 C 23.11899948120117 18.70637893676758 22.97087669372559 19.50665855407715 22.69012069702148 20.26422500610352 C 22.26062393188477 21.37528038024902 21.38187408447266 22.25327491760254 20.27044868469238 22.68181800842285 C 19.51263427734375 22.96452522277832 18.71145057678223 23.11338806152344 17.90266418457031 23.12176132202148 C 16.56001281738281 23.18401718139648 16.15535163879395 23.19647026062012 12.75204086303711 23.19647026062012 C 9.348729133605957 23.19647026062012 8.94406795501709 23.18401718139648 7.599344253540039 23.12176132202148 C 6.790701389312744 23.11189460754395 5.989772796630859 22.96308135986328 5.231554985046387 22.68182373046875 C 4.677351474761963 22.47817611694336 4.175960063934326 22.15266227722168 3.764393329620361 21.72931098937988 C 3.341303586959839 21.31834602355957 3.015805959701538 20.81768989562988 2.811883211135864 20.26422882080078 C 2.530622959136963 19.50601005554199 2.381808519363403 18.70508003234863 2.371941566467285 17.89643669128418 C 2.311761856079102 16.55171203613281 2.299310684204102 16.14912605285645 2.299310684204102 12.74373912811279 C 2.299310684204102 9.338353157043457 2.311761856079102 8.937841415405273 2.371942281723022 7.593118667602539 C 2.38056468963623 6.784351348876953 2.529418230056763 5.983211994171143 2.811883211135864 5.225327014923096 C 3.015805959701538 4.671867847442627 3.341303586959839 4.171211719512939 3.764395475387573 3.760244131088257 C 4.176290035247803 3.336797952651978 4.677538871765137 3.01066780090332 5.231554985046387 2.805656909942627 C 5.990014553070068 2.525270462036133 6.79079008102417 2.376484155654907 7.599344253540039 2.365717172622681 C 8.775976181030273 2.313836097717285 9.230443000793457 2.297234773635864 11.60653591156006 2.295159339904785 Z M 19.55658721923828 4.413928508758545 C 18.71049690246582 4.413928508758545 18.02471351623535 5.100021839141846 18.02509498596191 5.946110248565674 C 18.02547836303711 6.792198181152344 18.71187973022461 7.477671146392822 19.55797004699707 7.476907253265381 C 20.40405654907227 7.476143360137939 21.0892219543457 6.789430141448975 21.08807182312012 5.943343162536621 C 21.08807182312012 5.537356853485107 20.92665100097656 5.148029804229736 20.63938522338867 4.86115026473999 C 20.35211563110352 4.574270725250244 19.96257019042969 4.413379192352295 19.55658721923828 4.413928508758545 Z M 12.75203990936279 6.202741622924805 C 9.136111259460449 6.202742099761963 6.204819679260254 9.134033203125 6.204819679260254 12.74996471405029 C 6.204819679260254 16.36589622497559 9.136111259460449 19.29718971252441 12.75204181671143 19.29718971252441 C 16.36797332763672 19.29718971252441 19.29926490783691 16.36589622497559 19.29926490783691 12.74996471405029 C 19.29812240600586 9.134507179260254 16.36749839782715 6.203884124755859 12.75203990936279 6.202741622924805 Z M 12.75203990936279 8.49997615814209 C 15.10004901885986 8.496537208557129 17.00595855712891 10.39779663085938 17.00825119018555 12.74580860137939 C 17.01054382324219 15.09382152557373 15.10835552215576 16.99880027770996 12.76034355163574 16.99994659423828 C 10.41232967376709 17.00109672546387 8.508279800415039 15.09797763824463 8.50827693939209 12.74996376037598 C 8.512848854064941 10.40843105316162 10.4105052947998 8.511702537536621 12.75204086303711 8.508277893066406 Z" />
+                        </svg>
+                        <a href="#" data-layer="e32b2508-3d58-44fd-bd66-275e0b162c27" class="x066d7809">نوین شکار را در
+                                ایسنتاگرام
+                                دنبال
+                                کنید</a>
+                        <a href="#" data-layer="fe08db46-6857-4dfe-8271-7482b8954601" >
+                                <img src="{% static 'fishstatic/img/telegram.png' %}"  class="telegram">
+                        </a>
+                        <a href="#" data-layer="83a29add-f9f1-4a0f-aec0-2d9cc418f8de" >
+                        <img src="{% static 'fishstatic/img/linkedinSquareColor.png' %}"  class="icon02">
+
+                        </a>
+                        <a href="#" data-layer="f84955bf-0b0b-43fc-b85d-37ec9b9803f8" >
+                        <img src="{% static 'fishstatic/img/twitterApp.png' %}" class="twitterApp">
+                        </a>
+                <h2 data-layer="3ff59619-3bb9-4bd9-ba36-4b2e36be27c0" class="x7cdfe02d">محصولات       
+مرتبط</h2>
+
+                <img src="{% static 'fishstatic/img/pngtreehappyBirthdayBallonsWithBirthday5316014.png' %}"  class="pic03">
+                <a href="/"><div data-layer="aa83305b-c9ed-40f6-b911-1e0b68211af9" class="x12ae3559">صفحه اصلی</div></a>
+                <svg data-layer="c56ba81b-5cd0-441f-9f42-cf2f3d1a8e60" preserveAspectRatio="none"
+                        viewBox="1020.4800415039062 211.68722534179688 3 46.95611572265625" class="path1">
+                        <path d="M 1021.980041503906 213.1872253417969 L 1021.980041503906 257.1433410644531" />
+                </svg>
+                <img src="{% static 'fishstatic/img/img2021091909170682422.png' %}"  class="icon01">
+                <svg data-layer="d67647bc-072b-4816-a98b-f38e9b1ac6a8" preserveAspectRatio="none"
+                        viewBox="249.74365234375 44.23939514160156 4.5 61.55516052246094" class="path58">
+                        <path
+                                d="M 251.99365234375 46.48939514160156 L 251.99365234375 64.31913757324219 L 251.99365234375 103.5445556640625" />
+                </svg>
+          
+
+
+
+        </div>
+
+
+
+
+
+        <script>
+                window.onscroll = function () { myFunction() };
+
+                var header = document.getElementById("myHeader");
+                var sticky = header.offsetTop;
+
+                function myFunction() {
+                        if (window.pageYOffset > sticky) {
+                                header.classList.add("sticky");
+                        } else {
+                                header.classList.remove("sticky");
+                        }
+                }
+                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+
+   
+        </script>
+        <script>
+                var $scroller = $('#scrollerd');
+                var dic = 1;
+        
+                function sc() {
+                    // get the partial id of the div to scroll to
+                    var divIdx = $('#input-none').val();
+                    divIdx = parseInt(divIdx);
+                    if (dic == 1)
+                        divIdx = parseInt(divIdx) + 1;
+                    else
+                        divIdx = parseInt(divIdx) - 1;
+                    var count = $("#scrollerd #containerrd div").length;
+                    //console.log(count)
+                    cWidth = $('#containerrd').width()
+                    sWidth = $('#scrollerd').width()
+        
+                    if (divIdx != 0 && divIdx <= count) {
+        
+                        var scrollTo = $($('#scrollerd #containerrd div')[divIdx - 1])
+                            // change its bg
+                            .css('background', 'white')
+                            .position().left;
+                        if ((cWidth - scrollTo) > sWidth) {
+                            console.log('ok', cWidth, sWidth, scrollTo)
+        
+                            $scroller
+                                .animate({
+                                    'scrollLeft': scrollTo
+                                }, 700);
+        
+                            $('#input-none').val(divIdx);
+                        }
+                    }
+                } //func
+        
+                // assign click handler
+                $('#leftddd').on('click', function () {
+                    dic = 0;
+                    sc();
+                });
+                $('#rightddd').on('click', function () {
+                    dic = 1;
+                    sc();
+                });
+
+
+
+
+                var $scroller2 = $('#scrollerd2');
+                var dic2 = 1;
+        
+                function sc2() {
+                    // get the partial id of the div to scroll to
+                    var divIdx2 = $('#input-none2').val();
+                    divIdx2 = parseInt(divIdx2);
+                    if (dic2 == 1)
+                        divIdx2 = parseInt(divIdx2) + 1;
+                    else
+                        divIdx2 = parseInt(divIdx2) - 1;
+                    var count2 = $("#scrollerd2 #containerrd2 div").length;
+                    //console.log(count)
+                    cWidth2 = $('#containerrd2').width()
+                    sWidth2 = $('#scrollerd2').width()
+        
+                    if (divIdx2 != 0 && divIdx2 <= count2) {
+        
+                        var scrollTo2 = $($('#scrollerd2 #containerrd2 div')[divIdx2 - 1])
+                            // change its bg
+                            .css('background', 'white')
+                            .position().left;
+                        if ((cWidth2 - scrollTo2) > sWidth2) {
+                            console.log('ok', cWidth2, sWidth2, scrollTo2)
+        
+                            $scroller2
+                                .animate({
+                                    'scrollLeft': scrollTo2
+                                }, 700);
+        
+                            $('#input-none2').val(divIdx2);
+                        }
+                    }
+                } //func
+        
+                // assign click handler
+                $('#leftddd2').on('click', function () {
+                    dic2 = 0;
+                    sc2();
+                });
+                $('#rightddd2').on('click', function () {
+                    dic2 = 1;
+                    sc2();
+                });
+            </script>
+
+
+   
+
+</body>
+
+</html>

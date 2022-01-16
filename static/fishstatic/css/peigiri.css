@@ -1,0 +1,2330 @@
+
+
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        font-family: 'Open Sans', serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        -webkit-font-smoothing: antialiased;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+      }
+
+      
+
+      .peigiri {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: 0.00px;
+      padding: 0.00px;
+      overflow-x: none;
+      overflow-y: none;
+      background-color: rgba(255, 255, 255, 1);
+      width: 1366.00px;
+    height: 1850.00px;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+.rectangle3 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 0.9700000286102295;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(171, 196, 255, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 13.00px;
+    border-top-right-radius: 13.00px;
+    border-bottom-left-radius: 13.00px;
+    border-bottom-right-radius: 13.00px;
+    color: white;
+    box-shadow: none;
+    width: 177.00px;
+  height: 52.00px;
+  left: 54.97px;
+  top: 30px;
+
+}
+
+.rectangle3:focus {
+  outline: none;
+}
+
+.rectangle3:hover {
+  background-color: #7ea5ff;
+  box-shadow: 9px 6px 33px -5px #ABABAB;
+transition: box-shadow 0s ease-in 0s;
+transform: scale(1.02);
+}
+
+      /* header site qesmate aval */
+      .img2021091909170682422 {
+        position: absolute;
+          box-sizing: content-box;
+        -ms-transform-origin: center;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+          background-image: url("assets/img2021091909170682422.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+          opacity: 1;
+          cursor: default;
+          background-color: rgba(255, 255, 255, 0);
+          border-color: rgba(112, 112, 112, 1);
+          border-style: none;
+          border-width: 1.00px;
+          width: 203.00px;
+        height: 104.00px;
+        right: 3%;
+        top: -1.00px;
+        z-index:20;
+    
+    }
+.x12ae3559 {
+      position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: pointer;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.00px;
+      color: rgba(112, 112, 112, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 22.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: none;
+    
+      white-space: pre;
+      width: 125.00px;
+    height: 34.00px;
+    left: 971.00px;
+    top: 35.00px;
+    z-index: 10;
+    
+    }
+    .x12ae3559:hover{
+      color: #7ea5ff;
+      font-weight: 700;
+      top: 33.00px;
+      }
+      .x203425c5 {
+        position: absolute;
+          box-sizing: content-box;
+          -ms-transform: rotate(0.00deg);
+        -webkit-transform: rotate(0.00deg);
+        transform: rotate(0.00deg);
+        -ms-transform-origin: center;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+          opacity: 1;
+          cursor: pointer;
+          margin-top: 0.00px;
+          margin-right: 0.00px;
+          margin-bottom: 0.00px;
+          margin-left: 0.00px;
+          padding-top: 0.00px;
+          padding-right: 0.00px;
+          padding-bottom: 0.00px;
+          padding-left: 0.00px;
+          background-color: rgba(255, 255, 255, 0);
+          text-align: right;
+          letter-spacing: 0.00px;
+          color: rgba(112, 112, 112, 1);
+          -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+          font-size: 22.00px;
+          font-weight: 400;
+        font-style: normal;
+          font-family: 'Samim FD-WOL', Arial;
+          text-decoration: none;
+          box-shadow: none;
+          overflow-x: none;
+        
+          white-space: pre;
+          width: 192.00px;
+        height: 34.00px;
+        left: 718.96px;
+        top: 35.00px;
+      z-index: 10;
+      }
+      .x203425c5:hover{
+      color: #7ea5ff;
+      font-weight: 700;
+      top: 33.00px;
+      }
+      .xec516b58 {
+        position: absolute;
+          box-sizing: content-box;
+          -ms-transform: rotate(0.00deg);
+        -webkit-transform: rotate(0.00deg);
+        transform: rotate(0.00deg);
+        -ms-transform-origin: center;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+          opacity: 1;
+          cursor: pointer;
+          margin-top: 0.00px;
+          margin-right: 0.00px;
+          margin-bottom: 0.00px;
+          margin-left: 0.00px;
+          padding-top: 0.00px;
+          padding-right: 0.00px;
+          padding-bottom: 0.00px;
+          padding-left: 0.00px;
+          background-color: rgba(255, 255, 255, 0);
+          text-align: center;
+          letter-spacing: 0.00px;
+          color: rgba(112, 112, 112, 1);
+          -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+          font-size: 22.00px;
+          font-weight: 400;
+        font-style: normal;
+          font-family: 'Samim FD-WOL', Arial;
+          text-decoration: none;
+          box-shadow: none;
+          overflow-x: none;
+        border: none;
+        outline: none;
+          white-space: pre;
+          width: 82.00px;
+        height: 34.00px;
+        left: 613.94px;
+        top: 35.00px;
+      z-index: 10;
+      }
+      .xec516b58:focus{
+        outline: #7ea5ff;
+      }
+      .xec516b58:hover {
+        color: #7ea5ff;
+        font-weight: 700;
+        top: 33.00px;
+        }
+
+        .x6764ea72 {
+          position: absolute;
+            box-sizing: content-box;
+            -ms-transform: rotate(0.00deg);
+          -webkit-transform: rotate(0.00deg);
+          transform: rotate(0.00deg);
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 1;
+            cursor: pointer;
+            margin-top: 0.00px;
+            margin-right: 0.00px;
+            margin-bottom: 0.00px;
+            margin-left: 0.00px;
+            padding-top: 0.00px;
+            padding-right: 0.00px;
+            padding-bottom: 0.00px;
+            padding-left: 0.00px;
+            background-color: rgba(255, 255, 255, 0);
+            text-align: center;
+            letter-spacing: 0.00px;
+            color: rgba(112, 112, 112, 1);
+            -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+            font-size: 22.00px;
+            font-weight: 400;
+          font-style: normal;
+            font-family: 'Samim FD-WOL', Arial;
+            text-decoration: none;
+            box-shadow: none;
+            overflow-x: none;
+          
+            white-space: pre;
+            width: 156.00px;
+          height: 34.00px;
+          left: 434.92px;
+          top: 33.46px;
+          z-index: 10;
+          border: none;
+          outline: none;
+        }
+        .x6764ea72:hover{
+        color: #7ea5ff;
+        font-weight: 700;
+        top: 31.46px;
+        }
+        .x6764ea72:focus{
+          border: none;
+          outline: none;
+        }
+        .shoppingBagSvgrepoCom {
+
+          display: block;
+          position: absolute;
+          box-sizing: content-box;
+          -ms-transform: rotate(0.00deg);
+        -webkit-transform: rotate(0.00deg);
+        transform: rotate(0.00deg);
+        -ms-transform-origin: center;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+          opacity: 1;
+          cursor: pointer;
+          margin-top: 0.00px;
+          margin-right: 0.00px;
+          margin-bottom: 0.00px;
+          margin-left: 0.00px;
+          padding-top: 0.00px;
+          padding-right: 0.00px;
+          padding-bottom: 0.00px;
+          padding-left: 0.00px;
+          overflow-x: none;
+        
+          background-color: transparent;
+          width: 32.00px;
+        height: 40.42px;
+        left: 274.99px;
+        top: 34.78px;
+        z-index: 10;
+        }
+        
+        .shoppingBagSvgrepoCom .path3 {
+          position: absolute;
+            box-sizing: content-box;
+            -ms-transform: rotate(0.00deg);
+          -webkit-transform: rotate(0.00deg);
+          transform: rotate(0.00deg);
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 1;
+            cursor: pointer;
+            margin-top: 0.00px;
+            margin-right: 0.00px;
+            margin-bottom: 0.00px;
+            margin-left: 0.00px;
+            padding-top: 0.00px;
+            padding-right: 0.00px;
+            padding-bottom: 0.00px;
+            padding-left: 0.00px;
+            fill: rgba(112, 112, 112, 1);
+            box-shadow: none;
+            width: 32.00px;
+          height: 40.42px;
+          left: 0.00px;
+          top: 0.00px;
+          transition: 0.3s ease-in-out 0s;
+          z-index: 10;
+        }
+        .path3:hover{
+          transform: rotate(10.00deg);
+          transform: scale(1.1)  rotate(10.00deg);
+        fill: #7ea5ff;
+        transition: 0.3s ease-in-out 0s;
+        }
+        .ellipse1 {
+          position: absolute;
+            box-sizing: content-box;
+            -ms-transform: rotate(0.00deg);
+          -webkit-transform: rotate(0.00deg);
+          transform: rotate(0.00deg);
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 1;
+            cursor: default;
+            margin-top: 0.00px;
+            margin-right: 0.00px;
+            margin-bottom: 0.00px;
+            margin-left: 0.00px;
+            padding-top: 0.00px;
+            padding-right: 0.00px;
+            padding-bottom: 0.00px;
+            padding-left: 0.00px;
+            fill: rgba(248, 58, 58, 1);
+            box-shadow: none;
+            width: 21.00px;
+          height: 21.00px;
+          left: 301.00px;
+          top: 21.49px;
+        z-index: 10;
+        }
+        .x2 {
+        position: absolute;
+          box-sizing: content-box;
+          -ms-transform: rotate(0.00deg);
+        -webkit-transform: rotate(0.00deg);
+        transform: rotate(0.00deg);
+        -ms-transform-origin: center;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+          opacity: 1;
+          cursor: default;
+          margin-top: 0.00px;
+          margin-right: 0.00px;
+          margin-bottom: 0.00px;
+          margin-left: 0.00px;
+          padding-top: 0.00px;
+          padding-right: 0.00px;
+          padding-bottom: 0.00px;
+          padding-left: 0.00px;
+          background-color: rgba(255, 255, 255, 0);
+          text-align: right;
+          letter-spacing: 0.00px;
+          color: rgba(255, 255, 255, 1);
+          -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+          font-size: 16.00px;
+          font-weight: 400;
+        font-style: normal;
+          font-family: 'Samim FD-WOL', Arial;
+          text-decoration: none;
+          box-shadow: none;
+          overflow-x: none;
+        
+          white-space: pre;
+          width: 9.00px;
+        height: 25.00px;
+        left: 307.00px;
+        top: 21.49px;
+        z-index: 10;
+        }
+        .rectangle3p {
+          position: absolute;
+            box-sizing: content-box;
+            -ms-transform: rotate(0.00deg);
+          -webkit-transform: rotate(0.00deg);
+          transform: rotate(0.00deg);
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 0.9700000286102295;
+            cursor: pointer;
+         
+            background-color: rgba(171, 196, 255, 1);
+            border-bottom-color: rgba(112, 112, 112, 1);
+            border-bottom-style: none;
+            border-bottom-width: 1.00px;
+            border-left-color: rgba(112, 112, 112, 1);
+            border-left-style: none;
+            border-left-width: 1.00px;
+            border-right-color: rgba(112, 112, 112, 1);
+            border-right-style: none;
+            border-right-width: 1.00px;
+            border-top-color: rgba(112, 112, 112, 1);
+            border-top-style: none;
+            border-top-width: 1.00px;
+            border-top-left-radius: 13.00px;
+            border-top-right-radius: 13.00px;
+            border-bottom-left-radius: 13.00px;
+            border-bottom-right-radius: 13.00px;
+            box-shadow: none;
+            
+        
+            width: 177.00px;
+          height: 52.00px;
+          left: 54.97px;
+          top: 28.96px;
+        z-index: 9;
+        }
+         .rectangle3p  p{
+          position: absolute;
+          color: white;
+          font-size: 16.00px;
+          font-weight: 400;
+        font-style: normal;
+          font-family: 'Samim FD-WOL', Arial;
+          text-decoration: none;
+          text-align: center;
+          top:15px;
+          left: 19px;
+        }
+        .rectangle3p:hover {
+          background-color: #7ea5ff;
+          box-shadow: 9px 6px 33px -5px #ABABAB;
+        transition: box-shadow 0s ease-in 0s;
+        transform: scale(1.02);
+        }
+        .path58 {
+          position: absolute;
+            box-sizing: content-box;
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 1;
+            cursor: default;
+            fill: transparent;
+            stroke: rgba(180, 180, 180, 1);
+                stroke-width: 3.00px;
+                stroke-linecap: butt;
+            width: 6.00px;
+          height: 63.06px;
+          left: 250.01px;
+          top: 20.97px;
+        }
+        .rectangle48 {
+          position: absolute;
+             -ms-transform: rotate(0.00deg);
+           -webkit-transform: rotate(0.00deg);
+           transform: rotate(0.00deg);
+           -ms-transform-origin: center;
+           -webkit-transform-origin: center;
+           transform-origin: center;
+             opacity: 1;
+             cursor: default;
+           
+             background-color: rgba(255, 255, 255, 1);
+             border-bottom-color: rgba(112, 112, 112, 1);
+             border-bottom-style: none;
+             border-bottom-width: 1.00px;
+             border-left-color: rgba(112, 112, 112, 1);
+             border-left-style: none;
+             border-left-width: 1.00px;
+             border-right-color: rgba(112, 112, 112, 1);
+             border-right-style: none;
+             border-right-width: 1.00px;
+             border-top-color: rgba(112, 112, 112, 1);
+             border-top-style: none;
+             border-top-width: 1.00px;
+             border-top-left-radius: 0.00px;
+             border-top-right-radius: 0.00px;
+             border-bottom-left-radius: 0.00px;
+             border-bottom-right-radius: 0.00px;
+             -webkit-filter: drop-shadow(0px 8px 18px rgba(0, 0, 0, 0.10980392156862745));
+           filter: drop-shadow(0px 8px 18px rgba(0, 0, 0, 0.10980392156862745));
+             width:99%;
+           height: 55.00px;
+           left: 0.00px;
+           top: 104.00px;
+          z-index: 11;
+        }
+        .sticky {
+         position: fixed;
+         top: 0;
+         width: 100%;
+        }
+        .sticky + .content {
+         padding-top: 102px;
+        }
+        .rectangle48 .listView {
+          position: fixed;
+            box-sizing: content-box;
+            -ms-transform: rotate(0.00deg);
+          -webkit-transform: rotate(0.00deg);
+          transform: rotate(0.00deg);
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 1;
+            cursor: default;
+            margin-top: 0.00px;
+            margin-right: 0.00px;
+            margin-bottom: 0.00px;
+            margin-left: 0.00px;
+            padding-top: 0.00px;
+            padding-right: 0.00px;
+            padding-bottom: 0.00px;
+            padding-left: 0.00px;
+            fill: rgba(91, 91, 91, 1);
+            box-shadow: none;
+            width: 17.86px;
+          height: 14.88px;
+         margin-left: 10px;
+          top: 5px;
+        z-index: 12;
+        transition: 0.4s;
+        }
+        .rectangle48 .listView:hover{
+        transform: scaleX(1.2);
+        transition: 0.4s;
+        }
+        .rectangle48 .x59cb8c90 {
+          position: fixed;
+            box-sizing: content-box;
+            -ms-transform: rotate(0.00deg);
+          -webkit-transform: rotate(0.00deg);
+          transform: rotate(0.00deg);
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 1;
+            cursor: pointer;
+            margin-top: 0.00px;
+            margin-right: 0.00px;
+            margin-bottom: 0.00px;
+            margin-left: 0.00px;
+            padding-top: 0.00px;
+            padding-right: 0.00px;
+            padding-bottom: 0.00px;
+            padding-left: 0.00px;
+            background-color: rgba(255, 255, 255, 0);
+            text-align: right;
+            letter-spacing: 0.00px;
+            color: rgba(91, 91, 91, 1);
+            -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+            font-size: 17.00px;
+            font-weight: 400;
+          font-style: normal;
+            font-family: 'Samim FD-WOL', Arial;
+            text-decoration: none;
+            box-shadow: none;
+               
+            white-space: pre;
+            width: 119.00px;
+          height: 26.00px;
+          right: 5%;
+          top: 15px;
+          z-index: 12;
+        }
+        .rectangle48 .x59cb8c90:hover{
+          font-weight: 700;
+        }
+        #costTag {
+          position: fixed;
+            box-sizing: content-box;
+            -ms-transform: rotate(0.00deg);
+          -webkit-transform: rotate(0.00deg);
+          transform: rotate(0.00deg);
+          -ms-transform-origin: center;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+            opacity: 1;
+            cursor: default;
+            margin-top: 0.00px;
+            margin-right: 0.00px;
+            margin-bottom: 0.00px;
+            margin-left: 0.00px;
+            padding-top: 0.00px;
+            padding-right: 0.00px;
+            padding-bottom: 0.00px;
+            padding-left: 0.00px;
+            fill: rgba(91, 91, 91, 1);
+            box-shadow: none;
+            width: 18.14px;
+          height: 14.88px;
+          left: 170.00px;
+          top: 6px;
+          z-index: 12;
+          transition: 0.4s ;
+       }
+      .rectangle48 .xc44b908e:hover #costTag{
+        transform:rotate(25deg);
+        transition: 0.4s ;
+        fill: #252525;
+       }
+       .rectangle48 .xc44b908e {
+        position: fixed;
+          box-sizing: content-box;
+          -ms-transform: rotate(0.00deg);
+        -webkit-transform: rotate(0.00deg);
+        transform: rotate(0.00deg);
+        -ms-transform-origin: center;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+          opacity: 1;
+          cursor: pointer;
+          margin-top: 0.00px;
+          margin-right: 0.00px;
+          margin-bottom: 0.00px;
+          margin-left: 0.00px;
+          padding-top: 0.00px;
+          padding-right: 0.00px;
+          padding-bottom: 0.00px;
+          padding-left: 0.00px;
+          background-color: rgba(255, 255, 255, 0);
+          text-align: right;
+          letter-spacing: 0.00px;
+          color: rgba(91, 91, 91, 1);
+          -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+          font-size: 17.00px;
+          font-weight: 400;
+        font-style: normal;
+          font-family: 'Samim FD-WOL', Arial;
+          text-decoration: none;
+          box-shadow: none;
+             
+          white-space: pre;
+          width: 163.00px;
+        height: 26.00px;
+        left: 922.00px;
+        top: 14px;
+     z-index: 12;
+     }
+     .rectangle48 .xc44b908e:hover {
+      font-weight: bold;}
+     
+      .rectangle48 .xc44b908e:hover #costTag{
+       transform:rotate(25deg);
+       transition: 0.4s ;
+       fill: #252525;
+      }
+      .rectangle48 .x637c402d {
+        position: fixed;
+          box-sizing: content-box;
+          -ms-transform: rotate(0.00deg);
+        -webkit-transform: rotate(0.00deg);
+        transform: rotate(0.00deg);
+        -ms-transform-origin: center;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+          opacity: 1;
+          cursor: pointer;
+          margin-top: 0.00px;
+          margin-right: 0.00px;
+          margin-bottom: 0.00px;
+          margin-left: 0.00px;
+          padding-top: 0.00px;
+          padding-right: 0.00px;
+          padding-bottom: 0.00px;
+          padding-left: 0.00px;
+          background-color: rgba(255, 255, 255, 0);
+          text-align: right;
+          letter-spacing: 0.00px;
+          color: rgba(91, 91, 91, 1);
+          -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+          font-size: 17.00px;
+          font-weight: 400;
+        font-style: normal;
+          font-family: 'Samim FD-WOL', Arial;
+          text-decoration: none;
+          box-shadow: none;
+             
+          white-space: pre;
+          width: 100.00px;
+        height: 26.00px;
+        left: 731.00px;
+        top: 14px;
+     z-index: 12;
+     }
+     .rectangle48 .x637c402d:hover {
+       font-weight: bold;
+      }
+      .rectangle48 .x637c402d:hover #shoppingTrolley{
+         transform:translateX(6px);
+      transition: 0.4s ;
+      fill: #252525;
+     }
+     #shoppingTrolley {
+      position: fixed;
+        box-sizing: content-box;
+        -ms-transform: rotate(0.00deg);
+      -webkit-transform: rotate(0.00deg);
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        margin-top: 0.00px;
+        margin-right: 0.00px;
+        margin-bottom: 0.00px;
+        margin-left: 0.00px;
+        padding-top: 0.00px;
+        padding-right: 0.00px;
+        padding-bottom: 0.00px;
+        padding-left: 0.00px;
+        fill: rgba(91, 91, 91, 1);
+        box-shadow: none;
+        width: 22.00px;
+      height: 19.25px;
+      left: 110px;
+      top: 5px;
+   z-index: 12;
+   transition: 0.4s ;
+   }
+   .rectangle48 .searchbox01{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: rgb(80, 80, 80);
+    background: #e4e4e4;
+    border: none;
+  top: 7px;
+  left: 330px;
+  place-items:calc(3) ;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 14.00px;
+        font-weight: 400;
+      font-style: normal;
+        font-family: Samim, Arial;
+        text-decoration: none;
+        transition: 0.2s ease-in;
+        z-index: 14;
+        color: rgb(150, 150, 150);
+  }
+  .rectangle48 .searchbox01:focus{
+    width: 450px;
+    transform: scale(1.03);
+    z-index: 14;
+    box-shadow: 0px 28px 27px -19px #A3A1A1;
+  transition:width 0.3s ease-in .3s ;
+  outline:none!important;
+  }
+  .searchbox002{
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("assets/icons8-search-64.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: pointer;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      border-bottom-color: rgba(112, 112, 112, 1);
+      border-bottom-style: none;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(112, 112, 112, 1);
+      border-left-style: none;
+      border-left-width: 1.00px;
+      border-right-color: rgba(112, 112, 112, 1);
+      border-right-style: none;
+      border-right-width: 1.00px;
+      border-top-color: rgba(112, 112, 112, 1);
+      border-top-style: none;
+      border-top-width: 1.00px;
+      border-top-left-radius: 0.00px;
+      border-top-right-radius: 0.00px;
+      border-bottom-left-radius: 0.00px;
+      border-bottom-right-radius: 0.00px;
+      box-shadow: none;
+      width: 36.00px;
+    height: 36.00px;
+    top: 9px;
+    left: 339px;
+    z-index: 15;
+  }
+
+  .searchbox009{
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 36.00px;
+  height: 36.00px;
+  top: 0px;
+  left: 0px;
+  z-index: 15;
+  }
+  .rectangle48 .xe9235500 {
+    position: fixed;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 2.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 13.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      box-shadow: none;
+         border: none;
+         outline: none;
+         direction: rtl;
+  
+      width: 199.00px;
+    height: 20.00px;
+    left: 59.00px;
+    top: 16px;
+ z-index: 13;
+ }
+ .rectangle48 .pinLocation {
+  position: fixed;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(239, 65, 54, 1);
+    box-shadow: none;
+    width: 10.45px;
+  height: 13.92px;
+  left: 36.55px;
+  top: 18px;
+z-index: 12;
+}
+#dropdownlocation1{
+
+  position:absolute !important;
+  top: 5px !important;
+  left: -42px !important;
+  width: 260px !important;
+  height: 200px !important;
+  overflow-y: scroll;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+ 
+ }
+ #dropdownlocation1::-webkit-scrollbar{
+  width: 11px;
+  height: 11px;
+  }
+  ::-webkit-scrollbar-thumb{
+  background: #949494;
+  border-radius: 11px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+  background: #F7F7F7;
+  }
+  ::-webkit-scrollbar-track{
+  background: #595959;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+  }
+  .dropdown-menu{
+    direction: rtl;
+    text-align: right;
+    position: absolute;
+    top: 10px!important;
+    left:-2% !important;
+    width: 200px;
+    height: 372px;
+    border-radius: 18px !important;
+    background-color: #303030 !important;
+    box-shadow: 10px 10px 25px -9px #A3A1A1 !important;
+  }
+  .dropdown-menu .dropdown-item {
+    padding-top: 7px;
+    position: relative;
+    top:-8px !important;
+    margin-top: 0;
+  
+    justify-items: center;
+    font-size: 17.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Samim FD-WOL', Arial;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    border-radius: 8px;
+    color: white !important;
+  
+  }
+  .dropdown-menu .dropdown-item:hover{
+  
+    background-color: rgb(235, 235, 235);
+    text-decoration: none;
+    color: #303030 !important;
+    
+  }
+  .dropdown-menu .dropdown-item:focus {
+   transform:scaleX(0.2);
+   transition: linear 0.1s ;
+  color:#303030;
+  background-color: #303030 !important;
+  }
+  .rectangle48 .xe9235500 {
+    position: fixed;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: text;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 2.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 13.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      box-shadow: none;
+         border: none;
+         outline: none;
+         direction: rtl;
+  
+      width: 199.00px;
+    height: 20.00px;
+    left: 59.00px;
+    top: 16px;
+ z-index: 13;
+ }
+ .rectangle48 .rectangle50 {
+  position: fixed;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(229, 229, 229, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 17.00px;
+    border-top-right-radius: 17.00px;
+    border-bottom-left-radius: 17.00px;
+    border-bottom-right-radius: 17.00px;
+    box-shadow: none;
+    width: 255.00px;
+    height: 34.00px;
+    left: 20px;
+    top: 10px;
+    z-index: 12;
+}
+     /* etmam header site qesmate aval */
+
+/* farayand kharid mahsolat */
+
+.buy {
+    position: relative;
+    float: left;
+    text-align: right;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      cursor: default;
+      margin-top: 295.00px;
+      padding: 0.00px;
+      background-color: rgb(233, 233, 233);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 15.00px;
+      -webkit-filter: drop-shadow(6px 7px 6px rgba(125, 125, 125, 1));
+    filter: drop-shadow(6px 7px 6px rgb(202, 202, 202));
+      width: 378.00px;
+    left: 31.00px;
+
+}
+.priceOfBuy{
+  text-align: right;
+  position: relative;
+  width: 378.00px;
+  height: 25.00px;
+  margin-top: 25.00px;
+  z-index: 2;
+}
+.price-product {
+  position: relative;
+      box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    direction: rtl;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(45, 45, 45, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 16.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 0.00px;
+  height: 25.00px;
+  left: 340.00px;
+  top: 0.00px;
+  z-index: 2;
+
+}
+.price {
+  position: relative;
+
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    direction: ltr;
+    line-height: 35.00px;
+    letter-spacing: 1.00px;
+    color: rgba(45, 45, 45, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 16.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 0.00px;
+  height: 25.00px;
+  top: 0.00px;
+  z-index: 2;
+left: 70px;
+
+}
+.toman {
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(45, 45, 45, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 16.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 35.00px;
+  height: 25.00px;
+  left: 20.00px;
+  top: 0.00px;
+  z-index: 2;
+
+}
+.line {
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 10.00px;
+    padding: 0.00px;
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+        stroke-width: 1.00px;
+        stroke-linecap: butt;
+    width: 325.04px;
+  height: 2.00px;
+  right:27.00px;
+  z-index: 2;
+}
+.totalPrice{
+  text-align: right;
+  position: relative;
+  width: 378.00px;
+  height: 25.00px;
+  margin-top: 5.00px;
+  z-index: 2;
+}
+.total {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(48, 48, 48, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 18.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 110.00px;
+  height: 28.00px;
+  left: 240px;
+  z-index: 2;
+
+
+}
+.total-price{
+  position: absolute;
+  text-align: left;
+  float: left;
+  direction: ltr;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 2.00px;
+    color: rgba(48, 48, 48, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 18.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 62.00px;
+  height: 28.00px;
+  left: 85px;
+  z-index: 2;
+
+
+}
+.toman2 {
+  position: absolute;
+  float: right;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(45, 45, 45, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 16.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 35.00px;
+  height: 25.00px;
+  left: 45.00px;
+  top: 0.00px;
+  z-index: 2;
+
+}
+.buy-it {
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 15.00px;
+    margin-bottom: 15.00px;
+    padding: 0.00px;
+    background-color: rgba(239, 57, 78, 1);
+    color: blanchedalmond;
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-width: 1.00px;
+    font-size: 18.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: W_koodak, Arial;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 304.00px;
+  height: 51.00px;
+  right: 38.00px;
+  z-index: 2;
+  transition: 0.5s;
+}
+.buy-it:focus{
+  outline: none;
+}
+.buy-it:hover{
+  box-shadow: 0px 0px 20px -7px #000000;
+  transition: 0.5s;
+}
+
+/* /////////////////////////farayand kharid mahsolat//////////////////////////////////////// */
+
+/* commet ha v nazarate mahsol */
+.comments{
+  position: relative;
+  text-align: right;
+  direction: rtl;
+  float: left;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 50.00px;
+    padding: 0.00px;
+    background-color: rgba(228, 228, 228, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-width: 1.00px;
+    width: 366.00px;
+  left: 44.00px;
+  border-radius: 10px;
+}
+.name-of-product {
+  position: relative;
+  text-align: center;
+  direction: rtl;
+  float: right;
+    opacity: 1;
+    cursor: default;
+    margin-top: 30.00px;
+    margin-left: 64.00px;
+    margin-right: 64.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    color: rgba(103, 103, 103, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    white-space: pre-wrap;
+    font-size: 24.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    width: 238.00px;
+    
+  z-index: 2;
+
+}
+.TheComments{
+  position: relative;
+  text-align: right;
+  direction: rtl;
+  float: right;
+    box-sizing: border-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 10.00px;
+    margin-bottom: 10.00px;
+    margin-left: 18.00px;
+    margin-right: 18.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: solid;
+    border-width: 1.00px;
+    border-radius: 10.00px;
+    width: 330.00px;
+  z-index: 2;
+  transition: 0.5s;
+}
+.TheComments:hover{
+  box-shadow: 0px 0px 20px -7px #000000;
+  transition: 0.5s;
+}
+.likeORdislike {
+  text-align: right;
+  direction: rtl;
+  float: left;
+  display: block;
+  position: relative;
+  box-sizing: content-box;
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  background-color: #48c400;
+  cursor: default;
+  margin-top: 5.00px;
+  margin-left: 10.00px;
+  padding: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+z-index: 2;
+width: 26px;
+height: 26px;
+z-index: 2;
+border-radius: 20px;
+
+}
+.likeORdislike i{
+  color: white;
+  margin-right: 5px;
+}
+.name-of-customer {
+  text-align: right;
+  direction: rtl;
+  float: right;
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 2.00px;
+    margin-right: 20.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(55, 55, 55, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 16.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 200.00px;
+  height: 25.00px;
+  z-index: 2;
+
+}
+.comment-title {
+  text-align: right;
+  direction: rtl;
+  float: right;
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 17.00px;
+    margin-left: 188;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(55, 55, 55, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 14.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 250.00px;
+  height: 22.00px;
+  z-index: 2;
+
+}
+.that-comment {
+  text-align: right;
+  direction: rtl;
+  float: right;
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 2.00px;
+    margin-right: 20.00px;
+    margin-left: 96.00px;
+    margin-bottom: 15px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(55, 55, 55, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 14.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre-wrap;
+    width: 250.00px;
+  z-index: 2;
+
+}
+.iconOFcomment {
+  text-align: right;
+  direction: rtl;
+  float: right;
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin: 0.00px;
+  padding: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: rgb(248, 215, 31);
+  width: 26.00px;
+  border: none;
+height: 26.00px;
+z-index: 2;
+bottom: 8px;
+left: 10px;
+border-radius: 20px;
+transition: 0.3s;
+}
+.iconOFcomment:focus{
+  outline: none;
+}
+.iconOFcomment:hover{
+  box-shadow: 0px 0px 13px -2px #000000;
+  transition: 0.3s;
+}
+.iconOFcomment i{
+  color: white;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+/* ///////////////////////////////////commet ha v nazarate mahsol//////////////////////////////// */
+
+/* card mahsolate mortabet */
+.rectangle91 {
+    position: relative;
+      opacity: 1;
+      cursor: default;
+      margin-top: 50.00px;
+      margin-bottom: 50.00px;
+      margin-left: 0.00px;
+      padding: 0.00px;
+      background-color: rgb(255, 152, 35);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 884.00px;
+    height: 386.00px;
+    border-radius: 8px;
+
+}
+.scrollerd {
+  position: absolute;
+  width: 664.00px;
+  height: 386.00px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0 auto;
+  left: 30px;
+  z-index: 10;
+}
+
+.containerrd {
+  position: relative;
+  /*important for the .position() method */
+  width: 100000.00px;
+  height: 386.00px;
+}
+
+.containerrd div {
+  position: relative;
+  border-radius: 8px;
+  width: 292.00px;
+  height: 336.00px;
+  float: left;
+  margin: 20px;
+  background: white;
+  transition: 0.3s;
+}
+
+.containerrd div:hover {
+  box-shadow: 0px 0px 20px -7px #000000;
+  transition: box-shadow 0.3s ease-in 0s;
+}
+
+#leftddd {
+  position: absolute;
+  -ms-transform: rotate(180.00deg);
+  -webkit-transform: rotate(180.00deg);
+  transform: rotate(180.00deg);
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+#leftddd2 {
+  position: absolute;
+  -ms-transform: rotate(180.00deg);
+  -webkit-transform: rotate(180.00deg);
+  transform: rotate(180.00deg);
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+.left-button-card01{
+    top: 175px;
+  left: 15px;
+  z-index: 10;
+}
+
+#rightddd {
+  position: absolute;
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+#rightddd2 {
+  position: absolute;
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+.right-button-card01{
+    top: 175px;
+  left: 680px;
+  z-index: 10;
+}
+
+#rightddd:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+#rightddd2:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+
+#leftddd:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+#leftddd2:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+
+.image-card {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: none;
+  border-width: 1.00px;
+  width: 250.00px;
+  height: 200.00px;
+  top: 18.00px;
+  right: 21.00px;
+
+}
+
+.name-products {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 0.24px;
+  color: rgba(39, 39, 39, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Samim, Arial;
+  text-decoration: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 185.00px;
+  height: 50.00px;
+  left: 53.50px;
+  top: 225.00px;
+
+}
+
+.old-price {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 0.21px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 14.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Samim, Arial;
+  text-decoration: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 94.00px;
+  height: 22.00px;
+  left: 33.18px;
+  top: 264.00px;
+
+}
+
+.special-price {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 0.21px;
+  color: rgba(255, 97, 97, 1);
+  -webkit-text-stroke: unset;
+  font-size: 14.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Samim, Arial;
+  text-decoration: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 118.00px;
+  height: 44.00px;
+  left: 5.00px;
+  top: 286.00px;
+
+}
+.title-of-card{
+  float: right;
+  position: absolute;
+  text-align: center;
+  font-size: 22.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Samim, Arial;
+    margin-top: -380px;
+    margin-left: 740px;
+    line-height: 45px;
+    width: 80px;
+    z-index: 2;
+    color: rgb(255, 243, 225);
+
+}
+/* ////////////////////card mahsolate mortabet///////////////////////////////////////////////// */
+
+.peigiri .likeButtonfbe87ecd {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 33.47px;
+    height: 33.47px;
+    left: 72.00px;
+    top: 768.53px;
+
+}
+
+.x612f46be {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: 0.00px;
+      padding: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      line-height: 35.00px;
+      letter-spacing: 0.00px;
+      color: rgba(8, 128, 142, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 28.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 162.00px;
+    height: 43.00px;
+    left: 45vw;
+    top: 201.00px;
+
+}
+
+
+.peigiri .x82914890 {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      line-height: 35.00px;
+      letter-spacing: 0.00px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 18.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 64.00px;
+    height: 28.00px;
+    left: 496.00px;
+    top: 586.50px;
+
+}
+
+/* mahsolate sabade kharid */
+ .all-products{
+  position: relative;
+  width: 884.00px;
+  z-index: 2;
+  margin-top: 300px;
+}
+
+.rectangle66 {
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 15.00px;
+    padding: 0.00px;
+    background-color: rgba(242, 242, 242, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-width: 1.00px;
+    -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.25882352941176473));
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.25882352941176473));
+  border-radius: 8px;
+    width: 884.00px;
+  height: 187.00px;
+  left: 0.00px;
+  top: 0.00px;
+  z-index: 2;
+
+}
+.image-product {
+  position: absolute;
+    box-sizing: border-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: solid;
+    border-width: 1.00px;
+    width: 172.00px;
+  height: 158.00px;
+  left: 682.00px;
+  top: 15.00px;
+
+}
+.image-product img{
+  position: relative;
+  text-align: center;
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
+}
+.name-product {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(16, 191, 212, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 22.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 185.00px;
+  height: 34.00px;
+  left: 460.00px;
+  top: 15.50px;
+
+}
+.disctiption-product {
+  position: relative;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 35.00px;
+    letter-spacing: 0.00px;
+    color: rgba(155, 155, 155, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 18.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 606.00px;
+  height: 28.00px;
+  left: 50.00px;
+  top: 60.50px;
+
+}
+.delete {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    float: left;
+    text-align: right;
+    cursor: default;
+    margin: 0.00px;
+    padding-right: 5.00px;
+    padding-top: 5.00px;
+    font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    font-size: 14.00px;
+    font-weight: 700;
+    background-color: rgb(255, 205, 205);
+    border-color: rgba(112, 112, 112, 1);
+    color: rgb(136, 136, 136);
+    border-style: none;
+    border-width: 1.00px;
+    border-radius: 2px;
+    width: 62.00px;
+  height: 25.00px;
+  left: 550.00px;
+  top: 150.00px;
+  transition: 0.5s;
+}
+.delete:focus{
+  outline: none;
+}
+.delete:hover{
+  background-color: rgb(255, 137, 137);
+  color: rgb(88, 88, 88);
+  box-shadow: 0px 0px 20px -7px #000000;
+  transition: 0.5s;
+}
+.delete i {
+
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin: 0.00px;
+  padding: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 15.69px;
+height: 18.35px;
+left: 5.00px;
+top: 6.00px;
+
+}
+.submit-comment {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    color: blanchedalmond;
+    font-size: 18.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    background-color: rgba(72, 72, 72, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-radius: 5px;
+    border-width: 1.00px;
+    width: 131.00px;
+  height: 50.00px;
+  left: 18.00px;
+  top: 127.00px;
+  transition: 0.5s
+}
+.submit-comment:focus{
+  outline: none;
+}
+.submit-comment:hover{
+  box-shadow: 0px 0px 20px -7px #000000;
+  background-color: rgb(46, 46, 46);
+  transition: 0.5s
+}
+.negative {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    font-size: 19px;
+    color: #b60600;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(194, 194, 194, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-width: 1.00px;
+    width:  36.00px;
+  height: 26.00px;
+  left: 390.00px;
+  top: 153.00px;
+
+}
+.negative:focus{
+  outline: none;
+}
+.positive {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    font-size: 19px;
+    color: #48c500;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(194, 194, 194, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-width: 1.00px;
+    width: 36.00px;
+  height: 26.00px;
+  left: 465.00px;
+  top: 153.00px;
+
+}
+.positive:focus{
+  outline: none;
+}
+.num-product {
+  position: absolute;
+  text-align: center;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: text;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(217, 217, 217, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-width: 1.00px;
+    width: 42.00px;
+  height: 26.00px;
+  left: 423.00px;
+  top: 153.00px;
+
+}
+.num-product:focus{
+  outline: none;
+}
+
+/* /////////////////mahsolate sabade kharid////////////////////// */
+

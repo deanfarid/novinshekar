@@ -1,0 +1,5563 @@
+
+
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        overflow-x: hidden;
+        font-family: 'Open Sans', serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        -webkit-font-smoothing: antialiased;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+      }
+
+
+      .mahsool1 {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: none;
+      overflow-y:none;
+      background-color: rgba(255, 255, 255, 1);
+      width:100%;
+    height: 3112.00px;
+    left: 0px;
+    top: 0px;
+
+}
+a:link{
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+.rectangle48 {
+  position: absolute;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: default;
+   
+     background-color: rgba(255, 255, 255, 1);
+     border-bottom-color: rgba(112, 112, 112, 1);
+     border-bottom-style: none;
+     border-bottom-width: 1.00px;
+     border-left-color: rgba(112, 112, 112, 1);
+     border-left-style: none;
+     border-left-width: 1.00px;
+     border-right-color: rgba(112, 112, 112, 1);
+     border-right-style: none;
+     border-right-width: 1.00px;
+     border-top-color: rgba(112, 112, 112, 1);
+     border-top-style: none;
+     border-top-width: 1.00px;
+     border-top-left-radius: 0.00px;
+     border-top-right-radius: 0.00px;
+     border-bottom-left-radius: 0.00px;
+     border-bottom-right-radius: 0.00px;
+     -webkit-filter: drop-shadow(0px 8px 18px rgba(0, 0, 0, 0.10980392156862745));
+   filter: drop-shadow(0px 8px 18px rgba(0, 0, 0, 0.10980392156862745));
+     width:99%;
+   height: 55.00px;
+   left: 0.00px;
+   top: 104.00px;
+  z-index: 11;
+}
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+.sticky + .content {
+ padding-top: 102px;
+}
+
+
+.rectangle48 .xc44b908e {
+   position: fixed;
+     box-sizing: content-box;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: pointer;
+     margin-top: 0.00px;
+     margin-right: 0.00px;
+     margin-bottom: 0.00px;
+     margin-left: 0.00px;
+     padding-top: 0.00px;
+     padding-right: 0.00px;
+     padding-bottom: 0.00px;
+     padding-left: 0.00px;
+     background-color: rgba(255, 255, 255, 0);
+     text-align: right;
+     letter-spacing: 0.00px;
+     color: rgba(91, 91, 91, 1);
+     -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+     font-size: 17.00px;
+     font-weight: 400;
+   font-style: normal;
+     font-family: 'Samim FD-WOL', Arial;
+     text-decoration: none;
+     box-shadow: none;
+        
+     white-space: pre;
+     width: 163.00px;
+   height: 26.00px;
+   left: 922.00px;
+   top: 14px;
+z-index: 12;
+}
+.rectangle48 .xc44b908e:hover {
+ font-weight: bold;}
+
+ .rectangle48 .xc44b908e:hover #costTag{
+  transform:rotate(25deg);
+  transition: 0.4s ;
+  fill: #252525;
+ }
+
+.rectangle48 .x637c402d {
+   position: fixed;
+     box-sizing: content-box;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: pointer;
+     margin-top: 0.00px;
+     margin-right: 0.00px;
+     margin-bottom: 0.00px;
+     margin-left: 0.00px;
+     padding-top: 0.00px;
+     padding-right: 0.00px;
+     padding-bottom: 0.00px;
+     padding-left: 0.00px;
+     background-color: rgba(255, 255, 255, 0);
+     text-align: right;
+     letter-spacing: 0.00px;
+     color: rgba(91, 91, 91, 1);
+     -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+     font-size: 17.00px;
+     font-weight: 400;
+   font-style: normal;
+     font-family: 'Samim FD-WOL', Arial;
+     text-decoration: none;
+     box-shadow: none;
+        
+     white-space: pre;
+     width: 100.00px;
+   height: 26.00px;
+   left: 731.00px;
+   top: 14px;
+z-index: 12;
+}
+.rectangle48 .x637c402d:hover {
+  font-weight: bold;
+ }
+ .rectangle48 .x637c402d:hover #shoppingTrolley{
+    transform:translateX(6px);
+ transition: 0.4s ;
+ fill: #252525;
+}
+#costTag {
+   position: fixed;
+     box-sizing: content-box;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: default;
+     margin-top: 0.00px;
+     margin-right: 0.00px;
+     margin-bottom: 0.00px;
+     margin-left: 0.00px;
+     padding-top: 0.00px;
+     padding-right: 0.00px;
+     padding-bottom: 0.00px;
+     padding-left: 0.00px;
+     fill: rgba(91, 91, 91, 1);
+     box-shadow: none;
+     width: 18.14px;
+   height: 14.88px;
+   left: 170.00px;
+   top: 6px;
+   z-index: 12;
+   transition: 0.4s ;
+}
+
+
+#shoppingTrolley {
+   position: fixed;
+     box-sizing: content-box;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: default;
+     margin-top: 0.00px;
+     margin-right: 0.00px;
+     margin-bottom: 0.00px;
+     margin-left: 0.00px;
+     padding-top: 0.00px;
+     padding-right: 0.00px;
+     padding-bottom: 0.00px;
+     padding-left: 0.00px;
+     fill: rgba(91, 91, 91, 1);
+     box-shadow: none;
+     width: 22.00px;
+   height: 19.25px;
+   left: 110px;
+   top: 5px;
+z-index: 12;
+transition: 0.4s ;
+}
+
+
+
+.rectangle48 .rectangle50 {
+   position: fixed;
+
+   
+     box-sizing: content-box;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: default;
+     margin-top: 0.00px;
+     margin-right: 0.00px;
+     margin-bottom: 0.00px;
+     margin-left: 0.00px;
+     padding-top: 0.00px;
+     padding-right: 0.00px;
+     padding-bottom: 0.00px;
+     padding-left: 0.00px;
+     background-color: rgba(229, 229, 229, 1);
+     border-bottom-color: rgba(112, 112, 112, 1);
+     border-bottom-style: none;
+     border-bottom-width: 1.00px;
+     border-left-color: rgba(112, 112, 112, 1);
+     border-left-style: none;
+     border-left-width: 1.00px;
+     border-right-color: rgba(112, 112, 112, 1);
+     border-right-style: none;
+     border-right-width: 1.00px;
+     border-top-color: rgba(112, 112, 112, 1);
+     border-top-style: none;
+     border-top-width: 1.00px;
+     border-top-left-radius: 17.00px;
+     border-top-right-radius: 17.00px;
+     border-bottom-left-radius: 17.00px;
+     border-bottom-right-radius: 17.00px;
+     box-shadow: none;
+     width: 255.00px;
+     height: 34.00px;
+     left: 20px;
+     top: 10px;
+     z-index: 12;
+}
+
+.rectangle48 .xe9235500 {
+   position: fixed;
+     box-sizing: content-box;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: text;
+     margin-top: 0.00px;
+     margin-right: 0.00px;
+     margin-bottom: 0.00px;
+     margin-left: 0.00px;
+     padding-top: 2.00px;
+     padding-right: 0.00px;
+     padding-bottom: 0.00px;
+     padding-left: 0.00px;
+     background-color: rgba(255, 255, 255, 0);
+     text-align: right;
+     letter-spacing: 0.00px;
+     color: rgba(161, 161, 161, 1);
+     -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+     font-size: 13.00px;
+     font-weight: 400;
+   font-style: normal;
+     font-family: 'Samim FD-WOL', Arial;
+     text-decoration: none;
+     box-shadow: none;
+        border: none;
+        outline: none;
+        direction: rtl;
+ 
+     width: 199.00px;
+   height: 20.00px;
+   left: 59.00px;
+   top: 16px;
+z-index: 13;
+}
+
+#dropdownlocation1{
+ position:absolute !important;
+ top: 5px !important;
+ left: -42px !important;
+ width: 260px !important;
+ height: 200px !important;
+ overflow-y: scroll;
+ border-top-left-radius: 0px !important;
+ border-bottom-left-radius: 0px !important;
+
+}
+#dropdownlocation1::-webkit-scrollbar{
+ width: 11px;
+ height: 11px;
+ }
+ ::-webkit-scrollbar-thumb{
+ background: #949494;
+ border-radius: 11px;
+ }
+ ::-webkit-scrollbar-thumb:hover{
+ background: #F7F7F7;
+ }
+ ::-webkit-scrollbar-track{
+ background: #595959;
+ border-radius: 0px;
+ box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+ }
+
+.rectangle48 .pinLocation {
+   position: fixed;
+     box-sizing: content-box;
+     -ms-transform: rotate(0.00deg);
+   -webkit-transform: rotate(0.00deg);
+   transform: rotate(0.00deg);
+   -ms-transform-origin: center;
+   -webkit-transform-origin: center;
+   transform-origin: center;
+     opacity: 1;
+     cursor: default;
+     margin-top: 0.00px;
+     margin-right: 0.00px;
+     margin-bottom: 0.00px;
+     margin-left: 0.00px;
+     padding-top: 0.00px;
+     padding-right: 0.00px;
+     padding-bottom: 0.00px;
+     padding-left: 0.00px;
+     fill: rgba(239, 65, 54, 1);
+     box-shadow: none;
+     width: 10.45px;
+   height: 13.92px;
+   left: 36.55px;
+   top: 18px;
+z-index: 12;
+}
+
+
+
+.mahsool1 .rectangle54 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 0.7599999904632568;
+      cursor: default;
+      background-color: rgba(225, 51, 51, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 95%;
+    height: 390.00px;
+    left: 32.00px;
+    top: 359.00px;
+
+}
+.rectangle48 .xc44b908e {
+  position: fixed;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    letter-spacing: 0.00px;
+    color: rgba(91, 91, 91, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 17.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Samim FD-WOL', Arial;
+    text-decoration: none;
+    box-shadow: none;
+       
+    white-space: pre;
+    width: 163.00px;
+  height: 26.00px;
+  left: 922.00px;
+  top: 14px;
+z-index: 12;
+}
+.rectangle48 .xc44b908e:hover {
+font-weight: bold;
+}
+
+.mahsool1 .rectangle76 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 0.7599999904632568;
+      cursor: default;
+      background-color: rgb(197, 178, 3);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width:96%;
+    height: 370px;
+    left:40px;
+    top: 2199.00px;
+
+}
+
+.mahsool1 .rectangle37 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 1366.00px;
+    height: 493.00px;
+    left: 0.00px;
+    top: 2619.00px;
+
+}
+
+.mahsool1 .pic01 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 0.8899999856948853;
+    cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width:100%;
+    height: 178.00px;
+    left: 0.00px;
+    top: 160.00px;
+    z-index: 5;
+
+}
+
+.x6689c7a8 {
+  text-align: center;
+    position: absolute;
+      box-sizing: content-box;
+      -webkit-transform-origin: 50% 50%;
+      -moz-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      -o-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      opacity: 1;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: unset;
+      font-size: 32.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 196.00px;
+    height: 62.00px;
+    left: 45%;
+    top: 216.00px;
+    transition: all 0.1s;
+    z-index: 5;
+
+}
+.x6689c7a8:hover{
+  font-size: 22px;
+  transform: translateY(-10px);
+  transform: translateX(-15px);
+  color: #a8f7f7;
+  transition: all 0.1s;
+}
+
+
+
+.mahsool1 .x75ce7c6f {
+  z-index: 11;
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(270.00deg);
+    -webkit-transform: rotate(270.00deg);
+    transform: rotate(270.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(91, 91, 91, 1);
+      -webkit-text-stroke: unset;
+      font-size: 24.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_kufi, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 190.00px;
+    height: 47.00px;
+    left: 1215.50px;
+    top: 536.50px;
+    z-index: 10;
+
+}
+
+
+
+.mahsool1 .angleRightSvgrepoCom3 {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(180.00deg);
+    -webkit-transform: rotate(180.00deg);
+    transform: rotate(180.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(255, 255, 255, 1);
+      box-shadow: none;
+      width: 20.00px;
+    height: 30.99px;
+    left: 86.00px;
+    top: 2373.50px;
+
+}
+
+.mahsool1 .rectangle13 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 33.00px;
+      width: 1285.00px;
+    height: 1332.00px;
+    left: 32.00px;
+    top: 831.00px;
+
+}
+
+.mahsool1 .xe283e873 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(96, 96, 96, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 207.00px;
+    height: 35.00px;
+    left: 1074.00px;
+    top: 780.00px;
+
+}
+
+.mahsool1 .xebd0b4aa {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(96, 96, 96, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 109.00px;
+    height: 35.00px;
+    left: 956.00px;
+    top: 779.00px;
+
+}
+
+.mahsool1 .path6 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: transparent;
+      stroke: rgba(185, 185, 185, 1);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      width: 1328.00px;
+    height: 2.11px;
+    left: -10.00px;
+    top: 895.04px;
+
+}
+
+.mahsool1 .path8 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(255, 255, 255, 1);
+      box-shadow: none;
+      width: 320.00px;
+    height: 409.00px;
+    left: 997.00px;
+    top: 896.00px;
+
+}
+
+.mahsool1 .path9 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(255, 255, 255, 1);
+      box-shadow: none;
+      width: 320.00px;
+    height: 409.00px;
+    left: 997.00px;
+    top: 1305.00px;
+
+}
+
+.mahsool1 .path10 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(255, 255, 255, 1);
+      box-shadow: none;
+      width: 320.00px;
+    height: 409.00px;
+    left: 997.00px;
+    top: 1714.00px;
+
+}
+
+
+.mahsool1 .ascendingFilter {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 30.91px;
+    height: 32.52px;
+    left: 1247.50px;
+    top: 851.00px;
+    transition: linear 0.2s;
+
+}
+.mahsool1 .ascendingFilter:hover{
+  transform: scaleY(1.2);
+  transition:linear 0.2s;
+}
+
+.mahsool1 .ascendingFilter .path7 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(91, 91, 91, 1);
+      box-shadow: none;
+      width: 30.91px;
+    height: 32.52px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+.path7 path{
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+    transition: ease-out 1s;
+}
+.path7 :hover path{
+transform: scale(1.5 1.5);
+transition: ease-out 1s;
+}
+
+.mahsool1 .x7fc4f5a0 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(91, 91, 91, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: none;
+      overflow-y: none;
+      width: 149.00px;
+    height: 25.00px;
+    left: 1081.00px;
+    top: 848.00px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mahsool1 .rectangle26 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(10, 10, 10, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      width: 75.00px;
+    height: 37.00px;
+    left: 602.50px;
+    top: 844.50px;
+
+}
+
+.mahsool1 .rectangle27 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(10, 10, 10, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      width: 79.00px;
+    height: 37.00px;
+    left: 708.50px;
+    top: 844.50px;
+
+}
+
+.mahsool1 .rectangle28 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(10, 10, 10, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      width: 95.00px;
+    height: 37.00px;
+    left: 818.50px;
+    top: 844.50px;
+
+}
+
+.mahsool1 .rectangle29 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(10, 10, 10, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      width: 99.00px;
+    height: 37.00px;
+    left: 944.50px;
+    top: 844.50px;
+
+}
+
+
+
+.mahsool1 .rectangle30 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(10, 10, 10, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      width: 88.00px;
+    height: 37.00px;
+    left: 483.50px;
+    top: 844.50px;
+
+}
+
+.mahsool1 .rectangle31 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(10, 10, 10, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      width: 74.00px;
+    height: 37.00px;
+    left: 378.50px;
+    top: 844.50px;
+
+}
+.mahsool1 .rectangle332 {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(10, 10, 10, 1);
+    border-style: solid;
+    border-width: 1.00px;
+    width: 74.00px;
+  height: 37.00px;
+  left: 270.50px;
+  top: 844.50px;
+
+}
+
+
+.mahsool1 .xdca5b896 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 0.00px;
+    height: 0.00px;
+    left: 13.00px;
+    top: 7.00px;
+
+}
+
+.mahsool1 .xfdf035c1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 0.00px;
+    height: 0.00px;
+    left: 14.00px;
+    top: 7.00px;
+
+}
+
+.mahsool1 .xdc513416 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 0.00px;
+    height: 0.00px;
+    left: 13.00px;
+    top: 7.00px;
+
+}
+
+.mahsool1 .x72b63841 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 0.00px;
+    height: 0.00px;
+    left: 16.00px;
+    top: 7.00px;
+
+}
+
+.mahsool1 .x74208968 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 0.00px;
+    height: 0.00px;
+    left: 13.00px;
+    top: 7.00px;
+
+}
+
+.mahsool1 .x72de76d9 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 0.00px;
+    height: 0.00px;
+    left: 13.00px;
+    top: 7.00px;
+
+}
+.mahsool1 .x72de76ddd {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    text-align: right;
+    letter-spacing: 0.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: unset;
+    font-size: 14.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: W_koodak, Arial;
+    text-decoration: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 0.00px;
+  height: 0.00px;
+  left: 11.00px;
+  top: 7.00px;
+
+}
+
+.mahsool1 .doubleArrowLeftbcf85f9d {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 9.15px;
+    height: 9.32px;
+    left: 542.45px;
+    top: 2140.72px;
+
+}
+
+.mahsool1 .doubleArrowLeftbcf85f9d .path126ca4e5de {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(91, 91, 91, 1);
+      box-shadow: none;
+      width: 9.15px;
+    height: 9.32px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+
+.mahsool1 .xE313l11d9b0953 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.27px;
+      color: rgba(39, 39, 39, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 197.00px;
+    height: 56.00px;
+    left: 1058.50px;
+    top: 1985.20px;
+
+}
+
+.mahsool1 .x250000b8f5a7c9 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.21px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 94.00px;
+    height: 22.00px;
+    left: 1024.22px;
+    top: 2041.20px;
+
+}
+
+.mahsool1 .x15000048172ba1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.21px;
+      color: rgba(255, 97, 97, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 118.00px;
+    height: 44.00px;
+    left: 1004.91px;
+    top: 2063.20px;
+
+}
+
+
+.mahsool1 .xE313l1176a1456 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.27px;
+      color: rgba(39, 39, 39, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 197.00px;
+    height: 56.00px;
+    left: 1058.50px;
+    top: 1985.20px;
+
+}
+
+.mahsool1 .x250000982b25b2 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.21px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 94.00px;
+    height: 22.00px;
+    left: 1024.22px;
+    top: 2041.20px;
+
+}
+
+.mahsool1 .x150000963ad6a6 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.21px;
+      color: rgba(255, 97, 97, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 118.00px;
+    height: 44.00px;
+    left: 1004.91px;
+    top: 2063.20px;
+
+}
+
+/* css of cards in midlle of page */
+
+
+
+
+
+
+
+
+
+.mahsool1 .xc7d77fac {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.36px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 24.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 102.00px;
+    height: 47.00px;
+    left: 1201.00px;
+    top: 2639.00px;
+
+}
+
+
+
+
+
+.mahsool1 .x21bc20c9 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 67.00px;
+    height: 28.00px;
+    left: 776.00px;
+    top: 2648.00px;
+
+}
+
+
+
+
+.mahsool1 .xf37ca6a7 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 115.00px;
+    height: 28.00px;
+    left: 314.00px;
+    top: 2648.00px;
+
+}
+
+
+
+
+
+.mahsool1 .path13 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: transparent;
+      stroke: rgba(112, 112, 112, 1);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      width: 1225.12px;
+    height: 3.38px;
+    left: 116.13px;
+    top: 2697.03px;
+
+}
+
+.mahsool1 .x7326af5d {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.39px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 26.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 66.00px;
+    height: 41.00px;
+    left: 1262.00px;
+    top: 2718.00px;
+
+}
+
+.mahsool1 .x54439702 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.39px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 26.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 87.00px;
+    height: 41.00px;
+    left: 762.00px;
+    top: 2718.00px;
+
+}
+
+.mahsool1 .x7aa11db7 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 208.00px;
+    height: 28.00px;
+    left: 1124.00px;
+    top: 2769.00px;
+
+}
+
+.mahsool1 .x7126e48d {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 208.00px;
+    height: 28.00px;
+    left: 641.00px;
+    top: 2769.00px;
+
+}
+
+.mahsool1 .x8b4d3eab {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 131.00px;
+    height: 28.00px;
+    left: 1201.00px;
+    top: 2825.00px;
+
+}
+
+.mahsool1 .x78af65a0 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 201.00px;
+    height: 56.00px;
+    left: 648.00px;
+    top: 2825.00px;
+
+}
+
+.mahsool1 .x78af65a0 .x78af65a0-0 {
+    color: rgba(81, 81, 81, 1);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18.00px;
+    font-family: 'Vazir FD', Arial;
+    letter-spacing: 0.27;
+    text-decoration: none;
+}
+
+.mahsool1 .x78af65a0 .x78af65a0-15 {
+    color: rgba(50, 111, 252, 1);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18.00px;
+    font-family: 'Vazir FD', Arial;
+    letter-spacing: 0.27;
+    text-decoration: none;
+}
+
+.mahsool1 .x78af65a0 .x78af65a0-25 {
+    color: rgba(171, 196, 255, 1);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18.00px;
+    font-family: 'Vazir FD', Arial;
+    letter-spacing: 0.27;
+    text-decoration: none;
+}
+
+.mahsool1 .x78af65a0 .x78af65a0-26 {
+    color: rgba(81, 81, 81, 1);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18.00px;
+    font-family: 'Vazir FD', Arial;
+    letter-spacing: 0.27;
+    text-decoration: none;
+}
+
+.mahsool1 .x340b5710 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 147.00px;
+    height: 28.00px;
+    left: 1185.00px;
+    top: 2882.00px;
+
+}
+
+.mahsool1 .x238d882a {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 147.00px;
+    height: 28.00px;
+    left: 1189.00px;
+    top: 2938.00px;
+
+}
+
+.mahsool1 .x306f4ee5 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 212.00px;
+    height: 28.00px;
+    left: 1124.00px;
+    top: 2994.00px;
+
+}
+
+.mahsool1 .x44553638 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 147.00px;
+    height: 28.00px;
+    left: 927.00px;
+    top: 2769.00px;
+
+}
+
+.mahsool1 .x31f66b48 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 147.00px;
+    height: 28.00px;
+    left: 927.00px;
+    top: 2826.00px;
+
+}
+
+.mahsool1 .xbf618cbb {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 147.00px;
+    height: 28.00px;
+    left: 927.00px;
+    top: 2938.00px;
+
+}
+
+.mahsool1 .xd35fee51 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 100;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 147.00px;
+    height: 28.00px;
+    left: 927.00px;
+    top: 2881.00px;
+
+}
+
+.mahsool1 .path14 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: transparent;
+      stroke: rgba(112, 112, 112, 1);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      box-shadow: none;
+      width: 2.00px;
+    height: 324.80px;
+    left: 599.00px;
+    top: 2717.00px;
+
+}
+
+.mahsool1 .rectangle35 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(236, 252, 255, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 25.00px;
+      -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1607843137254902));
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1607843137254902));
+      width: 428.00px;
+    height: 191.00px;
+    left: 152.00px;
+    top: 2721.00px;
+
+}
+
+.mahsool1 .x8ada4237 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.24px;
+      color: rgba(72, 72, 72, 1);
+      -webkit-text-stroke: unset;
+      font-size: 16.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: 'Samim FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 118.00px;
+    height: 25.00px;
+    left: 424.00px;
+    top: 2735.00px;
+
+}
+
+.mahsool1 .rectangle36 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("assets/rectangle36.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 15.00px;
+      width: 318.00px;
+    height: 56.00px;
+    left: 202.00px;
+    top: 2781.00px;
+
+}
+
+
+
+.mahsool1 .xde077a7f {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.21px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: unset;
+      font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Vazir FD', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 216.00px;
+    height: 22.00px;
+    left: 236.00px;
+    top: 2798.00px;
+
+}
+
+.mahsool1 .telegram {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 38.00px;
+    height: 38.00px;
+    left: 250.00px;
+    top: 2860.00px;
+
+}
+
+
+
+
+.mahsool1 .x443cb405 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.40px;
+      color: rgba(25, 25, 25, 1);
+      -webkit-text-stroke: unset;
+      font-size: 16.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 1063.00px;
+    height: 25.00px;
+    left: 283.00px;
+    top: 3073.00px;
+
+}
+
+.mahsool1 .x443cb405 .x443cb405-0 {
+    color: rgba(22, 22, 22, 1);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16.00px;
+    font-family: Samim, Arial;
+    letter-spacing: 0.4;
+    text-decoration: none;
+}
+
+.mahsool1 .x443cb405 .x443cb405-127 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16.00px;
+    font-family: Samim, Arial;
+    letter-spacing: 0.4;
+    text-decoration: none;
+}
+
+.mahsool1 .x443cb405 .x443cb405-135 {
+    color: rgba(81, 81, 81, 1);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16.00px;
+    font-family: Samim, Arial;
+    letter-spacing: 0.4;
+    text-decoration: none;
+}
+
+.mahsool1 .x443cb405 .x443cb405-136 {
+    color: rgba(25, 25, 25, 1);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16.00px;
+    font-family: Samim, Arial;
+    letter-spacing: 0.4;
+    text-decoration: none;
+}
+
+.mahsool1 .rectangle38 {
+    position: absolute;
+      box-sizing: border-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(12, 12, 12, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      border-radius: 8.00px;
+      width: 125.00px;
+    height: 43.00px;
+    left: 67.00px;
+    top: 845.00px;
+
+}
+
+.mahsool1 .x1a0144ae {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.24px;
+      color: rgba(7, 7, 7, 1);
+      -webkit-text-stroke: unset;
+      font-size: 16.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_koodak, Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 0.00px;
+    height: 0.00px;
+    left: 13.00px;
+    top: 7.00px;
+
+}
+
+.mahsool1 .filterRemove {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 0.00px;
+    height: 0.00px;
+    left: 90.00px;
+    top: 12.00px;
+
+}
+
+.mahsool1 .filterRemove .path17 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(7, 7, 7, 1);
+      box-shadow: none;
+      width: 18.12px;
+    height: 16.32px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+
+.mahsool1 .rectangle39 {
+  z-index: 10;
+    position: absolute;
+      opacity: 0.8500000238418579;
+      background-color: rgba(225, 51, 51, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 8.00px;
+      width: 128.00px;
+    height: 52.00px;
+
+
+}
+
+.mahsool1 .x14d2524e {
+  z-index: 13;
+    position: absolute;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 0.27px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: W_farnaz, Arial;
+      width: 87.00px;
+    height: 26.00px;
+    left: 17.00px;
+    top: 13.00px;
+
+}
+
+
+.mahsool1 .pic03 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 215.00px;
+    height: 215.00px;
+    left:75%;
+    top: 514.00px;
+    transition: 0.5s;
+
+}
+.mahsool1 .gift:hover{
+  transform: scale(1.1, 1.1) rotate(15deg); 
+  transition: 0.5s;
+}
+.mahsool1 .pic03:hover{
+  transform: scale(1.1, 1.1) rotate(15deg); 
+  transition: 0.5s;
+}
+
+.mahsool1 .gift {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 215.00px;
+    height: 215.00px;
+    left: 80%;
+    top: 2354.00px;
+    transition: 0.5s;
+
+}
+
+.mahsool1 .x2c648847 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      line-height: 80.00px;
+      letter-spacing: 0.00px;
+      color: rgba(243, 243, 243, 1);
+      -webkit-text-stroke: unset;
+      font-size: 32.00px;
+      font-weight: 200;
+    font-style: normal;
+      font-family: 'B Titr', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 140.00px;
+    height: 136.00px;
+    left: 75%;
+    top: 359.50px;
+
+}
+
+.mahsool1 .x7cdfe02d {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      line-height: 80.00px;
+      letter-spacing: 0.00px;
+      color: rgb(158, 75, 75);
+      -webkit-text-stroke: unset;
+      font-size: 32.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: 'B Titr', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      width: 140.00px;
+    height: 136.00px;
+    left:83.5%;
+    top: 2199.50px;
+
+}
+
+
+
+.mahsool1 .rectangle3 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      -webkit-filter: drop-shadow(0px 8px 18px rgba(0, 0, 0, 0.10980392156862745));
+    filter: drop-shadow(0px 8px 18px rgba(0, 0, 0, 0.10980392156862745));
+      width: 1366.00px;
+    height: 55.00px;
+    left: 0.00px;
+    top: 103.00px;
+
+}
+.x4bbe581d {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align:center;
+    letter-spacing: 0.00px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 16.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Samim FD-WOL', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: none;
+    z-index: 10;
+    white-space: pre;
+    width: 140.00px;
+  height: 25.00px;
+  left: 73.97px;
+  top: 42.96px;
+
+}
+
+.rectangle3:focus {
+  outline: none;
+}
+
+.rectangle3:hover {
+  background-color: #7ea5ff;
+  box-shadow: 9px 6px 33px -5px #ABABAB;
+transition: box-shadow 0s ease-in 0s;
+transform: scale(1.02);
+}
+
+.dropdown-menu{
+  direction: rtl;
+  text-align: right;
+  position: absolute;
+  top: 10px!important;
+  left:-2% !important;
+  width: 200px;
+  height: 372px;
+  border-radius: 18px !important;
+  background-color: #303030 !important;
+  box-shadow: 10px 10px 25px -9px #A3A1A1 !important;
+  
+
+
+
+}
+.rectangle48 .searchbox01{
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: rgb(80, 80, 80);
+  background: #e4e4e4;
+  border: none;
+top: 7px;
+left: 330px;
+place-items:calc(3) ;
+text-align: right;
+padding-right: 20px;
+font-size: 14.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      transition: 0.2s ease-in;
+      z-index: 14;
+      color: rgb(150, 150, 150);
+}
+.rectangle48 .searchbox01:focus{
+  width: 450px;
+  transform: scale(1.03);
+  z-index: 14;
+  box-shadow: 0px 28px 27px -19px #A3A1A1;
+transition:width 0.3s ease-in .3s ;
+outline:none!important;
+}
+.xec516b58 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    letter-spacing: 0.00px;
+    color: rgba(112, 112, 112, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 22.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Samim FD-WOL', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: none;
+  border: none;
+  outline: none;
+    white-space: pre;
+    width: 82.00px;
+  height: 34.00px;
+  left: 613.94px;
+  top: 35.00px;
+z-index: 10;
+}
+.xec516b58:focus{
+  outline: #7ea5ff;
+}
+.xec516b58:hover {
+  color: #7ea5ff;
+  font-weight: 700;
+  top: 33.00px;
+  }
+.searchbox002{
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 36.00px;
+  height: 36.00px;
+  top: 9px;
+  left: 339px;
+  z-index: 15;
+
+
+
+}
+.searchbox002:focus{
+  outline: none;
+}
+
+.searchbox009{
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 36.00px;
+height: 36.00px;
+top: 0px;
+left: 0px;
+z-index: 15;
+}
+#watapp2 {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: default;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: none;
+    border-width: 1.00px;
+    top: 173px;
+    width: 36.00px;
+  height: 36.00px;
+  left: 335px;
+
+
+}
+.dropdown-menu .dropdown-item {
+  padding-top: 7px;
+  position: relative;
+  top:-8px !important;
+  margin-top: 0;
+
+  justify-items: center;
+  font-size: 17.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: 'Samim FD-WOL', Arial;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  border-radius: 8px;
+  color: white !important;
+
+}
+.dropdown-menu .dropdown-item:hover{
+
+  background-color: rgb(235, 235, 235);
+  text-decoration: none;
+  color: #303030 !important;
+  
+}
+.dropdown-menu .dropdown-item:focus {
+ transform:scaleX(0.2);
+ transition: linear 0.1s ;
+color:#303030;
+background-color: #303030 !important;
+}
+.container{
+  max-width:200px;
+  background:rgba(0, 0, 0, 0.75);
+  margin:40px auto;
+  padding:10px 0px 20px 0px;
+  border:1px solid #111;
+  border-radius:4px;
+  box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+}
+.link{
+  font-size:16px;
+  font-weight:300;
+  text-align:center;
+  position:relative;
+  height:40px;
+  line-height:40px;
+  margin-top:10px;
+  overflow:hidden;
+  width:90%;
+  margin-left:5%;
+  cursor:pointer;
+}
+.link:after{
+  content: '';
+  position:absolute;
+  width:80%;
+  border-bottom:1px solid rgba(255, 255, 255, 0.5);
+  bottom:50%;
+  left:-100%;
+  transition-delay: all 0.5s;
+  transition: all 0.5s;
+}
+.link:hover:after,
+.link.hover:after{
+  left:100%;
+}
+.link .text{
+  font-size: 17.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: 'Samim FD-WOL', Arial;
+  text-align: center;
+  text-shadow:0px -40px 0px rgba(255, 255, 255, 1);
+  transition:all 0.75s;
+  transform:translateY(100%) translateZ(0);
+  transition-delay:all 0.25s;
+}
+.link:hover .text,
+.link.hover .text{
+  text-shadow:0px -40px 0px rgba(255, 255, 255, 0);
+  transform:translateY(0%) translateZ(0) scale(1.1);
+  font-weight:600;
+}
+.rectangle48 .x59cb8c90 {
+  position: fixed;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    letter-spacing: 0.00px;
+    color: rgba(91, 91, 91, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 17.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Samim FD-WOL', Arial;
+    text-decoration: none;
+    box-shadow: none;
+       
+    white-space: pre;
+    width: 119.00px;
+  height: 26.00px;
+  right: 5%;
+  top: 15px;
+  z-index: 12;
+}
+.rectangle48 .x59cb8c90:hover{
+  font-weight: 700;
+}
+.rectangle48 .listView {
+  position: fixed;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(91, 91, 91, 1);
+    box-shadow: none;
+    width: 17.86px;
+  height: 14.88px;
+ margin-left: 10px;
+  top: 5px;
+z-index: 12;
+transition: 0.4s;
+}
+.rectangle48 .listView:hover{
+transform: scaleX(1.2);
+transition: 0.4s;
+}
+
+.mahsool1 .x87adc55d {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(91, 91, 91, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 17.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 119.00px;
+    height: 26.00px;
+    left: 1163.00px;
+    top: 118.50px;
+
+}
+
+.mahsool1 .x8db16d9b {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(91, 91, 91, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 17.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 163.00px;
+    height: 26.00px;
+    left: 932.00px;
+    top: 117.00px;
+
+}
+
+.mahsool1 .xf7f61956 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(91, 91, 91, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 17.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 100.00px;
+    height: 26.00px;
+    left: 731.00px;
+    top: 117.00px;
+
+}
+
+.mahsool1 .costTag {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(91, 91, 91, 1);
+      width: 18.14px;
+    height: 14.88px;
+    left: 1105.00px;
+    top: 123.56px;
+
+}
+
+
+
+.mahsool1 .rectangle4 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(229, 229, 229, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      border-radius: 17.00px;
+      width: 255.00px;
+    height: 34.00px;
+    left: 20.00px;
+    top: 115.00px;
+
+}
+
+.mahsool1 .x15eb312d {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(161, 161, 161, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 13.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 199.00px;
+    height: 20.00px;
+    left: 59.00px;
+    top: 122.00px;
+
+}
+
+.mahsool1 .pinLocation {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(239, 65, 54, 1);
+      box-shadow: none;
+      width: 10.45px;
+    height: 13.92px;
+    left: 36.55px;
+    top: 125.04px;
+
+}
+
+.mahsool1 .rectangle1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 249, 250, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.1607843137254902));
+    filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.1607843137254902));
+      width: 1366.00px;
+    height: 104.00px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+.x203425c5 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    letter-spacing: 0.00px;
+    color: rgba(112, 112, 112, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 22.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Samim FD-WOL', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: none;
+  
+    white-space: pre;
+    width: 192.00px;
+  height: 34.00px;
+  left: 718.96px;
+  top: 35.00px;
+z-index: 10;
+}
+.x203425c5:hover{
+color: #7ea5ff;
+font-weight: 700;
+top: 33.00px;
+}
+.mahsool1 .x12ae3559 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 0.00px;
+  color: rgba(112, 112, 112, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 22.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: 'Samim FD-WOL', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 125.00px;
+height: 34.00px;
+left: 971.00px;
+top: 35.00px;
+z-index: 10;
+
+}
+.x12ae3559:hover{
+  color: #7ea5ff;
+  font-weight: 700;
+  top: 33.00px;
+  }
+
+.mahsool1 .path1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: transparent;
+      stroke: rgba(180, 180, 180, 1);
+          stroke-width: 2.00px;
+          stroke-linecap: butt;
+      width: 4.00px;
+    height: 47.96px;
+    left: 948.30px;
+    top: 25.02px;
+
+}
+
+.rectangle3 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 0.9700000286102295;
+    cursor: pointer;
+    color: white;
+ 
+    background-color: rgba(171, 196, 255, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 13.00px;
+    border-top-right-radius: 13.00px;
+    border-bottom-left-radius: 13.00px;
+    border-bottom-right-radius: 13.00px;
+    box-shadow: none;
+    
+
+    width: 177.00px;
+  height: 52.00px;
+  left: 54.97px;
+  top: 28.96px;
+z-index: 9;
+}
+ .rectangle3  p{
+  position: absolute;
+  color: white;
+  font-size: 16.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: 'Samim FD-WOL', Arial;
+  text-decoration: none;
+  text-align: center;
+  top:15px;
+  left: 19px;
+}
+.rectangle3:hover {
+  background-color: #7ea5ff;
+  box-shadow: 9px 6px 33px -5px #ABABAB;
+transition: box-shadow 0s ease-in 0s;
+transform: scale(1.02);
+}
+
+
+
+
+.mahsool1 .rectangle40 {
+    position: absolute;
+      box-sizing: border-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      border-radius: 20.00px 0.00px 0.00px 20.00px;
+      width: 253.00px;
+    height: 46.00px;
+    left: 338.00px;
+    top: 30.00px;
+
+}
+
+
+
+.mahsool1 .searchLine {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 22.80px;
+    height: 23.38px;
+    left: 357.00px;
+    top: 41.31px;
+
+}
+
+.mahsool1 .searchLine .path18 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(174, 174, 174, 1);
+      box-shadow: none;
+      width: 22.80px;
+    height: 23.38px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+
+
+
+.mahsool1 .icon01 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      border-color: rgba(112, 112, 112, 1);
+      border-style: none;
+      border-width: 1.00px;
+      width: 203.00px;
+    height: 104.00px;
+    right: 3%;
+    top: -1.00px;
+
+}
+
+.x6764ea72 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    letter-spacing: 0.00px;
+    color: rgba(112, 112, 112, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 22.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Samim FD-WOL', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: none;
+  
+    white-space: pre;
+    width: 156.00px;
+  height: 34.00px;
+  left: 434.92px;
+  top: 33.46px;
+  z-index: 10;
+  border: none;
+  outline: none;
+}
+.x6764ea72:hover{
+color: #7ea5ff;
+font-weight: 700;
+top: 31.46px;
+}
+.x6764ea72:focus{
+  border: none;
+  outline: none;
+}
+.shoppingBagSvgrepoCom {
+
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: none;
+
+  background-color: transparent;
+  width: 32.00px;
+height: 40.42px;
+left: 274.99px;
+top: 34.78px;
+z-index: 10;
+}
+
+.shoppingBagSvgrepoCom .path3 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(112, 112, 112, 1);
+    box-shadow: none;
+    width: 32.00px;
+  height: 40.42px;
+  left: 0.00px;
+  top: 0.00px;
+  transition: 0.3s ease-in-out 0s;
+  z-index: 10;
+}
+.path3:hover{
+  transform: rotate(10.00deg);
+  transform: scale(1.1)  rotate(10.00deg);
+fill: #7ea5ff;
+transition: 0.3s ease-in-out 0s;
+}
+.ellipse1 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(248, 58, 58, 1);
+    box-shadow: none;
+    width: 21.00px;
+  height: 21.00px;
+  left: 301.00px;
+  top: 21.49px;
+z-index: 10;
+}
+.x2 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 16.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: 'Samim FD-WOL', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 9.00px;
+height: 25.00px;
+left: 307.00px;
+top: 21.49px;
+z-index: 10;
+}
+.mahsool1 .x {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.00px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 16.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Samim FD-WOL', Arial;
+      text-decoration: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 140.00px;
+    height: 25.00px;
+    left: 73.99px;
+    top: 40.00px;
+
+}
+
+.mahsool1 .path58 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: transparent;
+      stroke: rgba(180, 180, 180, 1);
+          stroke-width: 3.00px;
+          stroke-linecap: butt;
+      width: 6.00px;
+    height: 63.06px;
+    left: 250.01px;
+    top: 20.97px;
+
+}
+
+.mahsool1 .shoppingBagSvgrepoCom {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 32.00px;
+    height: 40.42px;
+    left: 275.00px;
+    top: 30.24px;
+
+}
+
+.mahsool1 .shoppingBagSvgrepoCom .path3 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(112, 112, 112, 1);
+      box-shadow: none;
+      width: 32.00px;
+    height: 40.42px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+
+.mahsool1 .ellipse13 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(248, 58, 58, 1);
+      box-shadow: none;
+      width: 21.00px;
+    height: 21.00px;
+    left: 301.01px;
+    top: 16.95px;
+
+}
+
+
+
+.mahsool1 .doubleArrowLeft {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    transform: rotate(180deg);
+      opacity: 1;
+      cursor: default;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 9.15px;
+    height: 9.32px;
+    left: 784.59px;
+    top: 2140.72px;
+
+}
+
+.mahsool1 .doubleArrowLeft .path12 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      fill: rgba(91, 91, 91, 1);
+      width: 9.15px;
+    height: 9.32px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+/* az inja start mikhore */
+
+.mahsool1 .x247 {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: pointer;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      box-shadow: none;
+         
+      white-space: pre;
+      width: 125.00px;
+    height: 28.00px;
+    left: 558.00px;
+    top: 2590px;
+
+}
+.mahsool1 .x247:hover{
+  color: #7ea5ff;
+}
+    .mahsool1 .x24 {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: pointer;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: right;
+      letter-spacing: 0.27px;
+      color: rgba(81, 81, 81, 1);
+      -webkit-text-stroke: unset;
+      font-size: 18.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Samim, Arial;
+      text-decoration: none;
+      box-shadow: none;
+         
+      white-space: pre;
+      width: 197.00px;
+    height: 28.00px;
+    left: 972.00px;
+    top: 2590.00px;
+
+}
+.mahsool1 .x24:hover{
+  color: #7ea5ff;
+}
+.maskGroup1 {
+display: block;
+position: absolute;
+box-sizing: content-box;
+-ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 1;
+cursor: default;
+margin-top: 0.00px;
+margin-right: 0.00px;
+margin-bottom: 0.00px;
+margin-left: 0.00px;
+padding-top: 0.00px;
+padding-right: 0.00px;
+padding-bottom: 0.00px;
+padding-left: 0.00px;
+overflow-x: none;
+
+background-color: transparent;
+width: 68.00px;
+height: 34.00px;
+left: 893.00px;
+top: 2590.00px;
+
+}
+ .x909178e4 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.33px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 22.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: W_koodak, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 102.00px;
+height: 42.00px;
+left: 1201.00px;
+top: 2590.00px;
+
+}
+.mahsool1 .x8d618601 {
+position: absolute;
+   box-sizing: content-box;
+   -ms-transform: rotate(0.00deg);
+ -webkit-transform: rotate(0.00deg);
+ transform: rotate(0.00deg);
+ -ms-transform-origin: center;
+ -webkit-transform-origin: center;
+ transform-origin: center;
+   opacity: 1;
+   cursor: pointer;
+   margin-top: 0.00px;
+   margin-right: 0.00px;
+   margin-bottom: 0.00px;
+   margin-left: 0.00px;
+   padding-top: 0.00px;
+   padding-right: 0.00px;
+   padding-bottom: 0.00px;
+   padding-left: 0.00px;
+   background-color: rgba(255, 255, 255, 0);
+   text-align: right;
+   letter-spacing: 0.24px;
+   color: rgba(81, 81, 81, 1);
+   -webkit-text-stroke: unset;
+   font-size: 16.00px;
+   font-weight: 400;
+ font-style: normal;
+   font-family: Samim, Arial;
+   text-decoration: none;
+   box-shadow: none;
+   overflow-x: none;
+ 
+   white-space: pre;
+   width: 67.00px;
+ height: 25.00px;
+ left: 776.00px;
+ top: 2590.00px;
+
+}
+.mahsool1 .x8d618601:hover {
+color:  #7ea5ff;
+}
+.emailSymbol {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  fill: rgba(81, 81, 81, 1);
+  stroke: rgba(112, 112, 112, 1);
+      stroke-width: 0.50px;
+      stroke-linecap: butt;
+  box-shadow: none;
+  width: 37.31px;
+height: 38.85px;
+left: 728.19px;
+top: 2590.50px;
+
+}
+.x24HoursPhoneSupport {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  fill: rgba(81, 81, 81, 1);
+  box-shadow: none;
+  width: 40.90px;
+height: 37.85px;
+left: 506.10px;
+top: 2590px;
+
+}
+.mahsool1 .x7ae6d724 {
+position: absolute;
+box-sizing: content-box;
+-ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+opacity: 1;
+cursor: pointer;
+margin-top: 0.00px;
+margin-right: 0.00px;
+margin-bottom: 0.00px;
+margin-left: 0.00px;
+padding-top: 0.00px;
+padding-right: 0.00px;
+padding-bottom: 0.00px;
+padding-left: 0.00px;
+background-color: rgba(255, 255, 255, 0);
+text-align: right;
+letter-spacing: 0.24px;
+color: rgba(81, 81, 81, 1);
+-webkit-text-stroke: unset;
+font-size: 16.00px;
+font-weight: 400;
+font-style: normal;
+font-family: Samim, Arial;
+text-decoration: none;
+box-shadow: none;
+overflow-x: none;
+
+white-space: pre;
+width: 125.00px;
+height: 25.00px;
+  left: 314.00px;
+  top: 2590.00px;
+
+}
+.mahsool1 .x7ae6d724:hover{
+color:#7ea5ff ;
+}
+.questionMarkRoundLine {
+
+display: block;
+position: absolute;
+box-sizing: content-box;
+-ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+opacity: 1;
+cursor: default;
+margin-top: 0.00px;
+margin-right: 0.00px;
+margin-bottom: 0.00px;
+margin-left: 0.00px;
+padding-top: 0.00px;
+padding-right: 0.00px;
+padding-bottom: 0.00px;
+padding-left: 0.00px;
+overflow-x: none;
+
+background-color: transparent;
+width: 39.00px;
+height: 39.00px;
+left: 264.00px;
+top: 2590px;
+
+}
+
+.questionMarkRoundLine .path15 {
+position: absolute;
+box-sizing: content-box;
+-ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+opacity: 1;
+cursor: default;
+margin-top: 0.00px;
+margin-right: 0.00px;
+margin-bottom: 0.00px;
+margin-left: 0.00px;
+padding-top: 0.00px;
+padding-right: 0.00px;
+padding-bottom: 0.00px;
+padding-left: 0.00px;
+fill: rgba(81, 81, 81, 1);
+box-shadow: none;
+width: 39.00px;
+height: 39.00px;
+left: 0.00px;
+top:0.00px;
+
+}
+.mahsool1 .path16 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  fill: transparent;
+  stroke: rgba(112, 112, 112, 1);
+      stroke-width: 1.00px;
+      stroke-linecap: butt;
+  box-shadow: none;
+  width: 1225.12px;
+height: 3.38px;
+left: 100.13px;
+top: 2635px;
+
+}
+.mahsool1 .x5a460618 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 24.00px;
+  font-weight: 700;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 66.00px;
+height: 38.00px;
+left: 1235.00px;
+top: 2650.00px;
+
+}
+.mahsool1 .xa4db5308 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 24.00px;
+  font-weight: 700;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 87.00px;
+height: 38.00px;
+left: 762.00px;
+top: 2645.00px;
+
+}
+.mahsool1 .x1d24f97d {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 208.00px;
+height: 25.00px;
+left: 1104.00px;
+top: 2700.00px;
+
+}
+.mahsool1 .x1d24f97d p{
+
+position:absolute;
+top:-15px;
+right: 10px;
+}
+.mahsool1 .x1d24f97d p:hover{
+color: #7ea5ff;
+}
+.mahsool1 .x2e280756 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 208.00px;
+height: 25.00px;
+left: 641.00px;
+top: 2700.00px;
+
+}
+.mahsool1 .x2e280756 p:hover{
+color: #7ea5ff;
+}
+.mahsool1 .x2e280756 p{
+position: absolute;
+top: -10px;
+right: 0px;
+}
+.mahsool1 .x83d85dd2 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgb(219, 36, 36);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 131.00px;
+height: 25.00px;
+left: 1.00px;
+top: 2.00px;
+
+}
+.mahsool1 .x83d85dd2:hover p{
+color: #7ea5ff;
+}
+.mahsool1 .x83d85dd2 p{
+position: absolute;
+top:-20px;
+}
+.mahsool1 .x3582cb82 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+
+  width: 201.00px;
+height: 50.00px;
+left: 648.00px;
+top: 2735.00px;
+
+}
+.mahsool1 .x3582cb82 p:hover{
+color: #7ea5ff;
+}
+.mahsool1 .xabe58fbc {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 147.00px;
+height: 25.00px;
+left: 1185.00px;
+top: 2750.00px;
+
+}
+.mahsool1 .xabe58fbc:hover p{
+color: #7ea5ff;
+}
+.mahsool1 .xabe58fbc p{
+position: absolute;
+top: -20px;
+right: 20px;
+}
+.mahsool1 .xecd04de6 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 147.00px;
+height: 25.00px;
+left: 1189.00px;
+top: 2800.00px;
+
+}
+.mahsool1 .xecd04de6:hover p
+{
+color: #7ea5ff;
+}
+.mahsool1 .xecd04de6 p{
+position: absolute;
+top: -20px;
+right: 20px;
+}
+.mahsool1 .xab329060 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+
+  width: 212.00px;
+height: 25.00px;
+left: 1124.00px;
+top: 2880.00px;
+
+}
+.mahsool1 .xab329060:hover p{
+color: #7ea5ff;
+}
+.mahsool1 .xab329060 p{
+position:absolute;
+top: -20px;
+right: 20px;
+}
+.mahsool1 .x26426755 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 147.00px;
+height: 25.00px;
+left: 927.00px;
+top: 2700.00px;
+
+}
+.mahsool1 .x26426755:hover p{
+color:#7ea5ff;
+}
+.mahsool1 .x26426755 p{
+position: absolute;
+top: -20px;
+right: 20px;
+}
+.mahsool1 .xbe842b18 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 147.00px;
+height: 25.00px;
+left: 927.00px;
+top: 2760.00px;
+
+}
+.mahsool1 .xbe842b18 p:hover{
+color: #7ea5ff;
+}
+.mahsool1 .xbe842b18 p{
+position: absolute;
+top: -30px;
+right: 20px;
+}
+.mahsool1 .xc7831847 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 147.00px;
+height: 25.00px;
+left: 927.00px;
+top: 2880.00px;
+
+}
+.mahsool1 .xc7831847 p:hover{
+color: #7ea5ff;
+}
+.mahsool1 .xc7831847 p{
+  cursor: pointer;
+position: absolute;
+top: -30px;
+right: 20px;
+}
+.mahsool1 .xc6e165a7 {
+
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 100;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 147.00px;
+height: 25.00px;
+left: 927.00px;
+top: 2780.00px;
+
+}
+.mahsool1 .xc6e165a7 p:hover{
+color:#7ea5ff
+}
+.mahsool1 .xc6e165a7 p{
+position: absolute;
+top: 0px;
+right: 20px;
+}
+.mahsool1 .path17 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  fill: transparent;
+  stroke: rgba(112, 112, 112, 1);
+      stroke-width: 1.00px;
+      stroke-linecap: butt;
+  box-shadow: none;
+  width: 2.00px;
+height: 324.80px;
+left: 599.00px;
+top: 2636.00px;
+
+}
+
+.x68cc9e65 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.24px;
+  color: rgba(156, 156, 156, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 700;
+font-style: normal;
+  font-family: 'Samim FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+  white-space: pre;
+  width: 118.00px;
+height: 25.00px;
+left: 424.00px;
+top: 2690.00px;
+
+}
+
+
+.mahsool1 .x066d7809 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 0.21px;
+  color: rgb(126, 36, 36);
+  -webkit-text-stroke: unset;
+  font-size: 14.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: 'Vazir FD', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: none;
+
+
+  width: 216.00px;
+height: 22.00px;
+left: 240.00px;
+top: 2739.00px;
+z-index: 3;
+
+}
+/* bama hamrah bashid */
+.mahsool1 .pic32 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 25.00px;
+    border-top-right-radius: 25.00px;
+    border-bottom-left-radius: 25.00px;
+    border-bottom-right-radius: 25.00px;
+    -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1607843137254902));
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1607843137254902));
+    width: 428.00px;
+  height: 191.00px;
+  left: 100.00px;
+  top: 2690.00px;
+  z-index: 0;
+
+}
+.mahsool1 .x68cc9e65 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    letter-spacing: 0.24px;
+    color: rgba(156, 156, 156, 1);
+    -webkit-text-stroke: unset;
+    font-size: 16.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: 'Samim FD', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: none;
+  
+    white-space: pre;
+    width: 118.00px;
+  height: 25.00px;
+  left: 384.00px;
+  top: 2705.00px;
+z-index: 1;
+}
+.mahsool1 .pic33 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 15.00px;
+    border-top-right-radius: 15.00px;
+    border-bottom-left-radius: 15.00px;
+    border-bottom-right-radius: 15.00px;
+    box-shadow: none;
+    width: 318.00px;
+  height: 56.00px;
+  left: 152.00px;
+  top: 2755.00px;
+  z-index: 2;
+
+
+}
+.mahsool1 .blackInstagram {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(255, 255, 255, 1);
+    box-shadow: none;
+    width: 25.51px;
+  height: 25.50px;
+  left: 410.50px;
+  top: 2772.00px;
+  z-index: 3;
+
+}
+.mahsool1 .x066d7809 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    letter-spacing: 0.21px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: unset;
+    font-size: 14.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Vazir FD', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: none;
+  
+
+    width: 216.00px;
+  height: 22.00px;
+  left: 180.00px;
+  top: 2775.00px;
+  z-index: 3;
+
+}
+.mahsool1 .telegram {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 42.00px;
+  height: 42.00px;
+  left: 243.00px;
+  top: 2810.00px;
+
+}
+.mahsool1 .icon02 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 33.00px;
+  height: 33.00px;
+  left: 356.00px;
+  top: 2815.00px;
+
+}
+
+
+.mahsool1 .telegram {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 42.00px;
+height: 42.00px;
+left: 160.00px;
+top: 2820.00px;
+
+}
+.mahsool1 .icon02 {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 33.00px;
+height: 33.00px;
+left: 300.00px;
+top: 2825.00px;
+
+}
+.mahsool1 .twitterApp {
+position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  background-image: url("assets/twitterApp.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 34.00px;
+height: 33.00px;
+left: 425.00px;
+top: 2825.00px;
+
+}
+.mahsool1 .rectangle67 .xf80d1547 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    line-height: 84.00px;
+    letter-spacing: 0.00px;
+    color: rgba(91, 91, 91, 1);
+    -webkit-text-stroke: unset;
+    font-size: 19.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Samim, Arial;
+    text-decoration: none;
+    box-shadow: none;
+       
+    white-space: pre;
+    width: 112.00px;
+  height: 29.00px;
+  top: -18px;
+  left:30%;
+ 
+
+}
+/* menu buttons */
+
+.menu11 {
+  font-weight: 100;
+  background: #d1d1d1;
+  width: 240px;
+  height: 400px;
+  padding-left: 50px;
+  top: 355px;
+  position: absolute;
+  z-index: 10;
+  -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  right: -130px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  color: rgb(68, 68, 68);
+}
+.menu11:hover, .menu11:focus {
+  transform: translate3d(-130px, 0, 0);
+  animation-timing-function: 1s ease-in;
+}
+.menu11 .title11 {
+  top: 48%;
+  position: absolute;
+font-family: W_hesam;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: rotate(270deg);
+  left:0px;
+
+  font-weight: 500;
+  font-size: 18PX;
+}
+.menu11 .nav11 {
+  width:150px ;
+  direction: rtl;
+
+  position: absolute;
+  top: 35%;
+right:-12.5%;
+list-style-type: none;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-weight: 100;
+  font-family: W_sina;
+  font-size: 18px;
+}
+.menu11 .nav11 li {
+  
+  padding-top:70px;
+
+}
+.menu11 .nav11 li a {
+  text-align: right;
+  direction: rtl;
+  display: block;
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  position:absolute;
+  left: -10px !important;
+}
+.menu11 .nav11 li a:hover {
+  color: rgb(111, 126, 155);
+  letter-spacing: 2px;
+}
+/* tahe menue buttons */
+
+#right:hover i{
+  transform: scale(1.2);
+  color: #303030;
+  transition: all  0.2s;
+}
+#right2:hover i{
+  transform: scale(1.2);
+  color: #303030;
+  transition: all  0.2s;
+}
+#left:hover i{
+  transform: scale(1.2);
+  color: #303030;
+  transition: all  0.2s;
+}
+#left2:hover i{
+  transform: scale(1.2);
+  color: #303030;
+  transition: all  0.2s;
+}
+
+
+/* css of card 1 & 2 */
+.scrollerd {
+  position: absolute;
+  width: 997.00px;
+  height: 386.00px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0 auto;
+  left: 190px;
+  top: 850px;
+  z-index: 10;
+}
+.conected-product-card01{
+  left: 100px;
+  top: 366px;
+  z-index: 10;
+}
+.conected-product-card02{
+  left: 100px;
+  top: 2195px;
+  z-index: 10;
+}
+
+.containerrd {
+  position: relative;
+  /*important for the .position() method */
+  width: 100000.00px;
+  height: 386.00px;
+}
+
+.containerrd div {
+  position: relative;
+  border-radius: 8px;
+  width: 292.00px;
+  height: 336.00px;
+  float: left;
+  margin: 20px;
+  background: white;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+.containerrd div:hover {
+  box-shadow: 0px 0px 20px -7px #000000;
+  transition: box-shadow 0.3s ease-in 0s;
+}
+
+#leftddd {
+  position: absolute;
+  -ms-transform: rotate(180.00deg);
+  -webkit-transform: rotate(180.00deg);
+  transform: rotate(180.00deg);
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+#leftddd2 {
+  position: absolute;
+  -ms-transform: rotate(180.00deg);
+  -webkit-transform: rotate(180.00deg);
+  transform: rotate(180.00deg);
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+.left-button-card01{
+    top: 540px;
+  left: 80px;
+  z-index: 10;
+}
+.left-button-card02{
+  top: 2375px;
+left: 80px;
+z-index: 10;
+}
+
+#rightddd {
+  position: absolute;
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+#rightddd2 {
+  position: absolute;
+  color: rgb(65, 65, 65);
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+
+}
+.right-button-card01{
+    top: 540px;
+  left: 1090px;
+  z-index: 10;
+}
+.right-button-card02{
+  top: 2375px;
+left: 1090px;
+z-index: 10;
+}
+
+#rightddd:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+#rightddd2:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+
+#leftddd:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+#leftddd2:focus {
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+
+.image-card {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: none;
+  border-width: 1.00px;
+  width: 250.00px;
+  height: 200.00px;
+  top: 18.00px;
+  right: 21.00px;
+
+}
+
+.name-product {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 0.24px;
+  color: rgba(39, 39, 39, 1);
+  -webkit-text-stroke: unset;
+  font-size: 16.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Samim, Arial;
+  text-decoration: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 185.00px;
+  height: 50.00px;
+  left: 53.50px;
+  top: 225.00px;
+
+}
+
+.old-price {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 0.21px;
+  color: rgba(81, 81, 81, 1);
+  -webkit-text-stroke: unset;
+  font-size: 14.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Samim, Arial;
+  text-decoration: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 94.00px;
+  height: 22.00px;
+  left: 33.18px;
+  top: 264.00px;
+
+}
+
+.special-price {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 0.21px;
+  color: rgba(255, 97, 97, 1);
+  -webkit-text-stroke: unset;
+  font-size: 14.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Samim, Arial;
+  text-decoration: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 118.00px;
+  height: 44.00px;
+  left: 5.00px;
+  top: 286.00px;
+
+}
+
+
+
+
+
+
+
+
+
+/* middle card */
+.scrollerd-middle {
+  position: absolute;
+  width: 1280.00px;
+  height: 1280.00px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0 auto;
+  left: 190px;
+  top: 850px;
+  z-index: 10;
+}
+.containerrd-middle {
+  position: relative;
+  /*important for the .position() method */
+  width: 1280.00px;
+  height: 1280.00;
+}
+
+.containerrd-middle div {
+  position: relative;
+  border-radius: 8px;
+  width: 292.00px;
+  height: 336.00px;
+  float: left;
+  margin: 14px;
+  background: white;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+.containerrd-middle div:hover {
+  box-shadow: 0px 0px 20px -7px #000000;
+  transition: box-shadow 0.3s ease-in 0s;
+}
+.conected-product-middle{
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.middle-bigcard{
+  display: block;
+  background-color: rgb(255, 161, 161);
+      position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      overflow-x: none;
+      overflow-y: none;
+      border-radius: 10px;
+      width: 1280.00px;
+      height: 1280.00px;
+      top:  895.76px;
+      left: 30px;
+}
+
+/* buttons-of-middlecard */
+.buttons-of-middlecard{
+  position: relative;
+  top: 1210.00px;
+  left: 557.00px;
+  z-index: 11;
+}
+.page-link{
+  color: #000000!important; 
+}
+.buttons-of-middlecard:focus{
+  outline: none !important;
+}
+
+
+/*eeeennnnddddd css of cards in midlle of page */

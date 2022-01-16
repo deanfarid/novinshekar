@@ -1,0 +1,136 @@
+
+
+{% for tag in tags %}
+    {% if 'تور' in tag.title  %}
+        #{{tag.slug}}</br>
+    {% endif %}
+{% endfor %}
+</br>
+
+///////////////////////////////////////</br>
+{% for tag in tags %}
+    {% if 'چوب' in tag.title  %}
+        #{{tag.slug}}</br>
+    {% endif %}
+{% endfor %}
+///////////////////////////////////////</br>
+{% for tag in tags %}
+    {% if 'wood' in tag.title  %}
+        #{{tag.slug}}</br>
+    {% endif %}
+{% endfor %}
+
+
+
+
+
+<!-- </br>
+<form action="" method="post">
+{% csrf_token %}
+<  {{ form.status }}>
+<input type="submit" > -->
+<!-- {% for f in form %}
+    <option value="{{f.id}}"
+        {% if org == current_f %}selected="selected"{% endif %}>
+            {{f}}
+{% endfor %}
+</form>
+    </option> -->
+<!-- </form> -->
+
+
+
+    <form method="get">
+        {{ filter.form.as_p }}
+        <input type="submit" />
+    </form>
+    {% for pro in products %}
+
+            {{pro.name}}</br>
+            {{pro.descriptions}}</br>
+        {% if pro.price_discounted %}
+            {{pro.price_discounted}}</br>
+        {% endif %}
+            {{pro.price}}</br>
+            {{pro.rate}}</br>
+            {{pro.likes.all.count}}</br>
+            {{pro.dislikes.all.count}}</br>
+
+
+    </br>
+    {% endfor %}</br>
+    {%for fil in f%}
+        {{fil}}
+    {%endfor%}
+    {% if form.status == '0'%}
+        sdasds
+        {% for Asc in AscendingPrice  %}
+                    {{Asc.name}}</br>
+                    {{Asc.descriptions}}</br>
+                    {{Asc.price}}</br>
+                    {{Asc.rate}}</br>
+        {% endfor %}
+    {% endif %}
+    {% if form.status == '1'%}
+    55555
+        {% for Dec in DescendingPrice  %}
+            {{Dec.name}}</br>
+            {{Dec.descriptions}}</br>
+            {{Dec.price}}</br>
+            {{Dec.rate}}</br>
+        {% endfor %}
+
+    {% else %}
+
+    <!-- {% for pro in products %}
+
+            {{pro.name}}</br>
+            {{pro.descriptions}}</br>
+            {{pro.price}}</br>
+            {{pro.rate}}</br>
+    </br>
+    {% endfor %}</br> -->
+
+    {% endif %}
+
+<label for="price">Price</label>
+<select>
+<option disabled="True" selected>قیمت</option>
+{% for f in form.status %}
+    <option>{{f}}</option>
+{% endfor %}
+</select>
+<input type="submit" value="click">
+
+{% if f.status.selected == '1' %}
+    سیشس
+
+{% endif %}
+
+
+</br>
+
+{% for cm in comments %}
+    {{cm.author}}" <br>"
+    {{cm.content}}" <br>"
+    {{cm.parent}}" <br>"
+    {{cm.reply_count}}" <br>"
+
+{% endfor %}
+
+<!-- {% for dec in DescendingPrice %}
+
+<option value="{{dec}}"> {{dec}}</option>
+
+{% endfor %} -->
+
+{% if new_comment %}
+  <h2>Your comment has been added.</h2>
+{% else %}
+  <h2>Add a new comment</h2>
+  <form action="" method="post">
+    {{ commentform.as_p }}
+    {% csrf_token %}
+    <p><input type="submit" value="Add comment"></p>
+  </form>
+{% endif %}
